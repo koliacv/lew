@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "originalBank": 500,
-  "currentBank": 514,
+  "currentBank": 634,
   "fullCoverageVerified": false,
   "allFilesIndexed": true,
   "allContentClinicallyReviewed": false,
@@ -20,7 +20,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 10,
-      "clinicalReview": "selected-questions-reviewed"
+      "clinicalReview": "selected-questions-reviewed",
+      "generated": 15
     },
     {
       "id": 2,
@@ -35,7 +36,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 2
     },
     {
       "id": 3,
@@ -50,7 +52,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 1,
-      "clinicalReview": "selected-questions-reviewed"
+      "clinicalReview": "selected-questions-reviewed",
+      "generated": 3
     },
     {
       "id": 4,
@@ -65,7 +68,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 25
     },
     {
       "id": 5,
@@ -80,7 +84,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 2,
-      "clinicalReview": "selected-questions-reviewed"
+      "clinicalReview": "selected-questions-reviewed",
+      "generated": 4
     },
     {
       "id": 6,
@@ -95,7 +100,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 10
     },
     {
       "id": 7,
@@ -110,7 +116,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 1,
-      "clinicalReview": "selected-questions-reviewed"
+      "clinicalReview": "selected-questions-reviewed",
+      "generated": 10
     },
     {
       "id": 8,
@@ -125,7 +132,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 15
     },
     {
       "id": 9,
@@ -138,7 +146,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 10
     },
     {
       "id": 10,
@@ -153,7 +162,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 25
     },
     {
       "id": 11,
@@ -168,7 +178,8 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "not-complete"
+      "clinicalReview": "not-complete",
+      "generated": 1
     }
   ],
   "units": 2075,
@@ -239,6 +250,28 @@
       "finding": "У № 72 наведено 47,XXX як каріотип Тернера. Класичний варіант — 45,X; можливі мозаїчні й структурні варіанти. Ізольований 47,XXX не можна завчати як класичний каріотип Тернера.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11759048/",
       "reference": "Міжнародні рекомендації щодо синдрому Тернера, 2024"
+    },
+    {
+      "id": "balthazar-ctsi",
+      "sources": [
+        6
+      ],
+      "locator": "skale_i_klasyfikacje.docx, akapit 96–102",
+      "title": "Balthazar E не визначають лише за плевральним випотом",
+      "finding": "У нотатці випіт у плеврі помилково прирівняно до Balthazar E. Класична оцінка E стосується множинних перипанкреатичних скупчень рідини або газу; частку некрозу оцінюють окремо в CTSI.",
+      "url": "https://www.cghjournal.org/article/S0016-5085%2807%2900591-4/fulltext",
+      "reference": "AGA: technical review on acute pancreatitis"
+    },
+    {
+      "id": "clerambault",
+      "sources": [
+        4
+      ],
+      "locator": "Choroby_Zespoły.docx, akapit 211",
+      "title": "Еротоманія не означає просто підвищений статевий потяг",
+      "finding": "Синдром де Клерамбо — маревне переконання, що інша людина закохана в пацієнта. У новому завданні виправлено спрощення з вихідної нотатки.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7585286/",
+      "reference": "De Clérambault’s syndrome: clinical case"
     }
   ],
   "duplicateCheck": {
@@ -249,5 +282,1105 @@
     "docxNumberedRecords": 181,
     "sharedNormalizedPrefixes": 177,
     "method": "First 80 alphanumeric characters of each numbered DOCX heading searched in normalized PDF text; indicates overlap, not complete document identity."
-  }
+  },
+  "generatedIds": [
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    571,
+    572,
+    573,
+    574,
+    575,
+    576,
+    577,
+    578,
+    579,
+    580,
+    581,
+    582,
+    583,
+    584,
+    585,
+    586,
+    587,
+    588,
+    589,
+    590,
+    591,
+    592,
+    593,
+    594,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634
+  ],
+  "generationMethod": "120 newly authored learning questions linked to specific material locations. Clinical context and distractors were written explicitly; incomplete recalled questions were not presented as verbatim or predicted examination items. Selected corrections cross-checked against the linked clinical references. No claim of exhaustive coverage or independent medical peer review.",
+  "generatedObjectives": [
+    {
+      "id": 515,
+      "objective": "duhring-celiac",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 21
+      }
+    },
+    {
+      "id": 516,
+      "objective": "tay-sachs-enzyme",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 54
+      }
+    },
+    {
+      "id": 517,
+      "objective": "was-small-platelets",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 166
+      }
+    },
+    {
+      "id": 518,
+      "objective": "alagille-bile-paucity",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 195
+      }
+    },
+    {
+      "id": 519,
+      "objective": "williams-deletion",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 148
+      }
+    },
+    {
+      "id": 520,
+      "objective": "swyer-uterus",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 183
+      }
+    },
+    {
+      "id": 521,
+      "objective": "cais-differential",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 181
+      }
+    },
+    {
+      "id": 522,
+      "objective": "sturge-weber",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 191
+      }
+    },
+    {
+      "id": 523,
+      "objective": "klippel-trenaunay",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 193
+      }
+    },
+    {
+      "id": 524,
+      "objective": "bannayan-pten",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 73
+      }
+    },
+    {
+      "id": 525,
+      "objective": "carney-ppnad",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 40
+      }
+    },
+    {
+      "id": 526,
+      "objective": "prader-willi-course",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 177
+      }
+    },
+    {
+      "id": 527,
+      "objective": "wilson-copper",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 185
+      }
+    },
+    {
+      "id": 528,
+      "objective": "volkmann-contracture",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 116
+      }
+    },
+    {
+      "id": 529,
+      "objective": "crps-pattern",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 134
+      }
+    },
+    {
+      "id": 530,
+      "objective": "lambert-eaton-target",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 260
+      }
+    },
+    {
+      "id": 531,
+      "objective": "pancoast-brachial",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 264
+      }
+    },
+    {
+      "id": 532,
+      "objective": "horner-triad",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 253
+      }
+    },
+    {
+      "id": 533,
+      "objective": "menetrier-protein-loss",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 251
+      }
+    },
+    {
+      "id": 534,
+      "objective": "klatskin-location",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 249
+      }
+    },
+    {
+      "id": 535,
+      "objective": "cotard-delusion",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 209
+      }
+    },
+    {
+      "id": 536,
+      "objective": "capgras-delusion",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 223
+      }
+    },
+    {
+      "id": 537,
+      "objective": "ekbom-delusion",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 215
+      }
+    },
+    {
+      "id": 538,
+      "objective": "clerambault-erotomania",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 211
+      }
+    },
+    {
+      "id": 539,
+      "objective": "dlb-neuroleptic-sensitivity",
+      "materialId": 4,
+      "locator": {
+        "paragraph": 229
+      }
+    },
+    {
+      "id": 540,
+      "objective": "cord-vessel-count",
+      "materialId": 10,
+      "locator": {
+        "page": 54
+      }
+    },
+    {
+      "id": 541,
+      "objective": "cord-oxygen-flow",
+      "materialId": 10,
+      "locator": {
+        "page": 55
+      }
+    },
+    {
+      "id": 542,
+      "objective": "hcg-corpus-luteum",
+      "materialId": 10,
+      "locator": {
+        "page": 57
+      }
+    },
+    {
+      "id": 543,
+      "objective": "pregnancy-frc",
+      "materialId": 10,
+      "locator": {
+        "page": 88
+      }
+    },
+    {
+      "id": 544,
+      "objective": "pregnancy-progesterone-ventilation",
+      "materialId": 10,
+      "locator": {
+        "page": 89
+      }
+    },
+    {
+      "id": 545,
+      "objective": "oligohydramnios-sdp",
+      "materialId": 10,
+      "locator": {
+        "page": 63
+      }
+    },
+    {
+      "id": 546,
+      "objective": "polyhydramnios-sdp",
+      "materialId": 10,
+      "locator": {
+        "page": 63
+      }
+    },
+    {
+      "id": 547,
+      "objective": "cord-prolapse-risk",
+      "materialId": 10,
+      "locator": {
+        "page": 587
+      }
+    },
+    {
+      "id": 548,
+      "objective": "previa-digital-exam",
+      "materialId": 10,
+      "locator": {
+        "page": 158
+      }
+    },
+    {
+      "id": 549,
+      "objective": "pas-risk-scar-previa",
+      "materialId": 10,
+      "locator": {
+        "page": 160
+      }
+    },
+    {
+      "id": 550,
+      "objective": "percreta-depth",
+      "materialId": 10,
+      "locator": {
+        "page": 160
+      }
+    },
+    {
+      "id": 551,
+      "objective": "vasa-previa-fetal-blood",
+      "materialId": 10,
+      "locator": {
+        "page": 165
+      }
+    },
+    {
+      "id": 552,
+      "objective": "uterine-rupture-scar",
+      "materialId": 10,
+      "locator": {
+        "page": 165
+      }
+    },
+    {
+      "id": 553,
+      "objective": "cervical-insufficiency-pattern",
+      "materialId": 10,
+      "locator": {
+        "page": 245
+      }
+    },
+    {
+      "id": 554,
+      "objective": "pprom-definition",
+      "materialId": 10,
+      "locator": {
+        "page": 250
+      }
+    },
+    {
+      "id": 555,
+      "objective": "pprom-speculum",
+      "materialId": 10,
+      "locator": {
+        "page": 251
+      }
+    },
+    {
+      "id": 556,
+      "objective": "cholestasis-bile-acids",
+      "materialId": 10,
+      "locator": {
+        "page": 297
+      }
+    },
+    {
+      "id": 557,
+      "objective": "pregnancy-asb-culture",
+      "materialId": 10,
+      "locator": {
+        "page": 307
+      }
+    },
+    {
+      "id": 558,
+      "objective": "fgr-reversed-flow",
+      "materialId": 10,
+      "locator": {
+        "page": 282
+      }
+    },
+    {
+      "id": 559,
+      "objective": "fetal-anemia-mca",
+      "materialId": 10,
+      "locator": {
+        "page": 152
+      }
+    },
+    {
+      "id": 560,
+      "objective": "antid-not-treatment",
+      "materialId": 10,
+      "locator": {
+        "page": 152
+      }
+    },
+    {
+      "id": 561,
+      "objective": "monoamniotic-cord-entanglement",
+      "materialId": 10,
+      "locator": {
+        "page": 184
+      }
+    },
+    {
+      "id": 562,
+      "objective": "mcroberts-position",
+      "materialId": 10,
+      "locator": {
+        "page": 582
+      }
+    },
+    {
+      "id": 563,
+      "objective": "cord-prolapse-unload",
+      "materialId": 10,
+      "locator": {
+        "page": 588
+      }
+    },
+    {
+      "id": 564,
+      "objective": "antenatal-steroids-purpose",
+      "materialId": 10,
+      "locator": {
+        "page": 144
+      }
+    },
+    {
+      "id": 565,
+      "objective": "mmrc-grade2",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: mMRC"
+      }
+    },
+    {
+      "id": 566,
+      "objective": "fontaine-iib",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Fontaine"
+      }
+    },
+    {
+      "id": 567,
+      "objective": "rutherford-rest-pain",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Rutherford"
+      }
+    },
+    {
+      "id": 568,
+      "objective": "geneva-wells-alternative",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Geneva"
+      }
+    },
+    {
+      "id": 569,
+      "objective": "hestia-purpose",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Hestia"
+      }
+    },
+    {
+      "id": 570,
+      "objective": "timi-ua-nstemi",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: TIMI"
+      }
+    },
+    {
+      "id": 571,
+      "objective": "duke-echo-major",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Duke (IZW)"
+      }
+    },
+    {
+      "id": 572,
+      "objective": "atlanta-persistent-failure",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Atlanta"
+      }
+    },
+    {
+      "id": 573,
+      "objective": "atlanta-transient-failure",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Atlanta"
+      }
+    },
+    {
+      "id": 574,
+      "objective": "balthazar-e-correction",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 96
+      }
+    },
+    {
+      "id": 575,
+      "objective": "ctsi-components",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 96
+      }
+    },
+    {
+      "id": 576,
+      "objective": "rockall-endoscopy",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 89
+      }
+    },
+    {
+      "id": 577,
+      "objective": "asa-ii-smoking",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: ASA"
+      }
+    },
+    {
+      "id": 578,
+      "objective": "asa-v-moribund",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: ASA"
+      }
+    },
+    {
+      "id": 579,
+      "objective": "binet-b-case",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Binet"
+      }
+    },
+    {
+      "id": 580,
+      "objective": "binet-c-cytopenia",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Binet"
+      }
+    },
+    {
+      "id": 581,
+      "objective": "iss-myeloma-case",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 183
+      }
+    },
+    {
+      "id": 582,
+      "objective": "vur-grade-iii",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 167
+      }
+    },
+    {
+      "id": 583,
+      "objective": "bosniak-iif-followup",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: Bosniak"
+      }
+    },
+    {
+      "id": 584,
+      "objective": "birads5-not-histology",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 325
+      }
+    },
+    {
+      "id": 585,
+      "objective": "gold-diagnosis-versus-grade",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 54
+      }
+    },
+    {
+      "id": 586,
+      "objective": "curb65-age-boundary",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 45
+      }
+    },
+    {
+      "id": 587,
+      "objective": "gbs-before-endoscopy",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 78
+      }
+    },
+    {
+      "id": 588,
+      "objective": "ipss-mds-not-prostate",
+      "materialId": 8,
+      "locator": {
+        "section": "tabela: IPSS (MDS)"
+      }
+    },
+    {
+      "id": 589,
+      "objective": "bismuth-injury-location",
+      "materialId": 6,
+      "locator": {
+        "paragraph": 131
+      }
+    },
+    {
+      "id": 590,
+      "objective": "diverticulitis-localization",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 4
+      }
+    },
+    {
+      "id": 591,
+      "objective": "pancreatitis-two-criteria",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 7
+      }
+    },
+    {
+      "id": 592,
+      "objective": "gout-flare-antiinflammatory",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 10
+      }
+    },
+    {
+      "id": 593,
+      "objective": "jones-fever-minor",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 12
+      }
+    },
+    {
+      "id": 594,
+      "objective": "pregnancy-hemodilution",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 17
+      }
+    },
+    {
+      "id": 595,
+      "objective": "pulmonary-edema-hypotension-nitrates",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 18
+      }
+    },
+    {
+      "id": 596,
+      "objective": "asthma-pregnancy-systemic-steroids",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 19
+      }
+    },
+    {
+      "id": 597,
+      "objective": "mcma-delivery-route",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 29
+      }
+    },
+    {
+      "id": 598,
+      "objective": "pancreatitis-common-causes",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 46
+      }
+    },
+    {
+      "id": 599,
+      "objective": "preeclampsia-aspirin-start",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 50
+      }
+    },
+    {
+      "id": 600,
+      "objective": "holliday-segar-26kg",
+      "materialId": 1,
+      "locator": {
+        "page": 1,
+        "number": 54
+      }
+    },
+    {
+      "id": 601,
+      "objective": "breast-milk-jaundice",
+      "materialId": 1,
+      "locator": {
+        "page": 2,
+        "number": 146
+      }
+    },
+    {
+      "id": 602,
+      "objective": "duct-dependent-prostaglandin",
+      "materialId": 1,
+      "locator": {
+        "page": 2,
+        "number": 151
+      }
+    },
+    {
+      "id": 603,
+      "objective": "sle-hydroxychloroquine",
+      "materialId": 1,
+      "locator": {
+        "page": 2,
+        "number": 160
+      }
+    },
+    {
+      "id": 604,
+      "objective": "hyperkalemia-calcium-role",
+      "materialId": 1,
+      "locator": {
+        "page": 3,
+        "number": 174
+      }
+    },
+    {
+      "id": 605,
+      "objective": "gist-common-site",
+      "materialId": 3,
+      "locator": {
+        "page": 1
+      }
+    },
+    {
+      "id": 606,
+      "objective": "tapp-versus-tep",
+      "materialId": 3,
+      "locator": {
+        "page": 1
+      }
+    },
+    {
+      "id": 607,
+      "objective": "whipple-spleen-preserved",
+      "materialId": 3,
+      "locator": {
+        "page": 2
+      }
+    },
+    {
+      "id": 608,
+      "objective": "water-deficit-calculation",
+      "materialId": 2,
+      "locator": {
+        "paragraph": 18
+      }
+    },
+    {
+      "id": 609,
+      "objective": "nephrotic-prednisone-units",
+      "materialId": 2,
+      "locator": {
+        "paragraph": 44
+      }
+    },
+    {
+      "id": 610,
+      "objective": "anti-ro-neonatal-block",
+      "materialId": 11,
+      "locator": {
+        "page": 3
+      }
+    },
+    {
+      "id": 611,
+      "objective": "inguinal-roof",
+      "materialId": 5,
+      "locator": {
+        "page": 1
+      }
+    },
+    {
+      "id": 612,
+      "objective": "moro-reflex",
+      "materialId": 5,
+      "locator": {
+        "page": 3
+      }
+    },
+    {
+      "id": 613,
+      "objective": "sydenham-post-strep",
+      "materialId": 5,
+      "locator": {
+        "page": 2
+      }
+    },
+    {
+      "id": 614,
+      "objective": "asymptomatic-gallstones",
+      "materialId": 5,
+      "locator": {
+        "page": 2
+      }
+    },
+    {
+      "id": 615,
+      "objective": "aki-creatinine-rise",
+      "materialId": 7,
+      "locator": {
+        "page": 13
+      }
+    },
+    {
+      "id": 616,
+      "objective": "aki-urine-calculation",
+      "materialId": 7,
+      "locator": {
+        "page": 13
+      }
+    },
+    {
+      "id": 617,
+      "objective": "postrenal-aki-obstruction",
+      "materialId": 7,
+      "locator": {
+        "page": 13
+      }
+    },
+    {
+      "id": 618,
+      "objective": "aki-polyuric-recovery",
+      "materialId": 7,
+      "locator": {
+        "page": 13
+      }
+    },
+    {
+      "id": 619,
+      "objective": "hypocalcemia-qt",
+      "materialId": 7,
+      "locator": {
+        "page": 38
+      }
+    },
+    {
+      "id": 620,
+      "objective": "qsofa-case-score",
+      "materialId": 7,
+      "locator": {
+        "page": 139
+      }
+    },
+    {
+      "id": 621,
+      "objective": "qsofa-not-exclusion",
+      "materialId": 7,
+      "locator": {
+        "page": 139
+      }
+    },
+    {
+      "id": 622,
+      "objective": "mrs-grade3",
+      "materialId": 7,
+      "locator": {
+        "page": 138
+      }
+    },
+    {
+      "id": 623,
+      "objective": "clavien-iiib",
+      "materialId": 7,
+      "locator": {
+        "page": 139
+      }
+    },
+    {
+      "id": 624,
+      "objective": "gcs3-not-brain-death",
+      "materialId": 7,
+      "locator": {
+        "page": 142
+      }
+    },
+    {
+      "id": 625,
+      "objective": "cullen-location",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Objaw Cullena"
+      }
+    },
+    {
+      "id": 626,
+      "objective": "grey-turner-location",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Objaw Grey-Turnera"
+      }
+    },
+    {
+      "id": 627,
+      "objective": "fox-location",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Objaw Fox’a"
+      }
+    },
+    {
+      "id": 628,
+      "objective": "virchow-node-left",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Węzeł Virchowa"
+      }
+    },
+    {
+      "id": 629,
+      "objective": "blumer-shelf",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Półka Blumera"
+      }
+    },
+    {
+      "id": 630,
+      "objective": "chelmonski-percussion",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Objaw Chełmońskiego"
+      }
+    },
+    {
+      "id": 631,
+      "objective": "mcburney-landmark",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Punkt McBurneya"
+      }
+    },
+    {
+      "id": 632,
+      "objective": "lanz-landmark",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Punkt Lanza"
+      }
+    },
+    {
+      "id": 633,
+      "objective": "homans-not-ruleout",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Objaw Homansa"
+      }
+    },
+    {
+      "id": 634,
+      "objective": "charcot-reynolds-difference",
+      "materialId": 9,
+      "locator": {
+        "section": "hasło: Triada Charcota"
+      }
+    }
+  ]
 }

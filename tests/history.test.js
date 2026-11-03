@@ -12,7 +12,7 @@ function seeded(seed = 173) {
 
 test('expanded bank retains ten topics with at least fifty questions each', () => {
   const topics = [...new Set(bank.map(q => q.topic))];
-  assert.equal(bank.length, 514);
+  assert.equal(bank.length, 634);
   assert.equal(topics.length, 10);
   for (const topic of topics) assert.ok(bank.filter(q => q.topic === topic).length >= 50);
   for (const q of bank.filter(q => q.id > 200)) assert.ok(q.sourceRef.trim());
@@ -48,8 +48,9 @@ test('two completed 200-question exams have no overlap and cover all topics', ()
   }
   history = recordSeen(history, second, 2000);
   const third = selectExamQuestions(bank, 200, history, seeded(3));
-  assert.equal(third.filter(id => !history[id]).length, bank.length - 400);
-  assert.equal(third.filter(id => first.includes(id)).length, 600 - bank.length);
+  const expectedNew=[...new Set(bank.map(q=>q.topic))].reduce((sum,topic)=>sum+Math.min(20,bank.filter(q=>q.topic===topic&&!history[q.id]).length),0);
+  assert.equal(third.filter(id => !history[id]).length, expectedNew);
+  assert.equal(third.filter(id => first.includes(id)).length, 200 - expectedNew);
   assert.equal(third.filter(id => second.includes(id)).length, 0);
 });
 

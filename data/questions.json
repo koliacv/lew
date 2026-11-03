@@ -11223,5 +11223,4268 @@
       "normalization": "whitespace-only",
       "officialKey": false
     }
+  },
+  {
+    "id": 515,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Pacjent z celiakią ma bardzo swędzące, zgrupowane pęcherzyki na łokciach i kolanach. Które rozpoznanie najlepiej łączy objawy skórne z jelitowymi?",
+    "opts": [
+      "Choroba Duhringa",
+      "Pęcherzyca zwykła",
+      "Rumień guzowaty",
+      "Łuszczyca krostkowa",
+      "Półpasiec"
+    ],
+    "pl": "Opryszczkowate zapalenie skóry jest skórną manifestacją celiakii. Świąd i symetryczne zmiany na powierzchniach wyprostnych są wskazówką; nazwa nie oznacza zakażenia herpes.",
+    "ua": "Герпетиформний дерматит — шкірний прояв целіакії. Підказка: сверблячі симетричні пухирці на розгинальних поверхнях; це не герпес.",
+    "steps": [
+      "Gluten",
+      "Swędzące łokcie",
+      "Duhring"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 21",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "duhring-celiac",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 21
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 516,
+    "topic": "Pediatria i neonatologia",
+    "q": "U niemowlęcia narasta regres rozwoju; na dnie oka stwierdzono plamkę wiśniową. Podejrzewa się chorobę Tay-Sachsa. Którego enzymu dotyczy klasyczny niedobór?",
+    "opts": [
+      "Heksozaminidazy A",
+      "Glukocerebrozydazy",
+      "Sfingomielinazy",
+      "Alfa-galaktozydazy A",
+      "Arylosulfatazy A"
+    ],
+    "pl": "Niedobór heksozaminidazy A prowadzi do gromadzenia gangliozydu GM2. Sama plamka wiśniowa nie jest swoista i wymaga potwierdzenia rozpoznania.",
+    "ua": "Дефіцит гексозамінідази A спричиняє накопичення GM2. Вишнева пляма сама по собі не є специфічною; діагноз підтверджують дослідженням.",
+    "steps": [
+      "Tay-Sachs",
+      "Heksozaminidaza A",
+      "GM2"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 54",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "tay-sachs-enzyme",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 54
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 517,
+    "topic": "Pediatria i neonatologia",
+    "q": "Chłopiec ma wyprysk, nawracające zakażenia i małopłytkowość z małymi płytkami. Który zespół jest najbardziej prawdopodobny?",
+    "opts": [
+      "Wiskotta-Aldricha",
+      "DiGeorge’a",
+      "Brutona",
+      "Chediaka-Higashiego",
+      "Przewlekła choroba ziarniniakowa"
+    ],
+    "pl": "Połączenie wyprysku, infekcji i małopłytkowości z małymi płytkami sugeruje zespół Wiskotta-Aldricha, związany z chromosomem X.",
+    "ua": "Екзема + інфекції + мало дрібних тромбоцитів — характерне поєднання при X-зчепленому синдромі Віскотта—Олдрича.",
+    "steps": [
+      "Wyprysk",
+      "Infekcje",
+      "Małe płytki"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 166",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "was-small-platelets",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 166
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: WAS-related disorders",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1178/"
+      }
+    ]
+  },
+  {
+    "id": 518,
+    "topic": "Pediatria i neonatologia",
+    "q": "U dziecka z cholestazą, kręgami motylowatymi i zwężeniem tętnic płucnych podejrzewa się zespół Alagille’a. Co jest typową zmianą w wątrobie?",
+    "opts": [
+      "Niedobór wewnątrzwątrobowych przewodów żółciowych",
+      "Izolowany defekt sprzęgania bilirubiny bez cholestazy",
+      "Całkowita atrezja zewnątrzwątrobowych dróg żółciowych jako cecha definiująca",
+      "Marskość wyłącznie wskutek gromadzenia żelaza",
+      "Wyłącznie nabyte zwężenie przewodu żółciowego wspólnego"
+    ],
+    "pl": "Alagille łączy cholestazę z niedoborem przewodów żółciowych i wadami innych narządów. Nie należy utożsamiać tego z samym zwężeniem dużego przewodu.",
+    "ua": "При синдромі Алажиля холестаз пов’язаний зі зменшенням кількості внутрішньопечінкових жовчних проток, а не лише зі звуженням великої протоки.",
+    "steps": [
+      "Cholestaza",
+      "Mało przewodów",
+      "Kręgi motylowate"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 195",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "alagille-bile-paucity",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 195
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: Alagille syndrome",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1273/"
+      }
+    ]
+  },
+  {
+    "id": 519,
+    "topic": "Pediatria i neonatologia",
+    "q": "Dziecko ma nadzastawkowe zwężenie aorty i cechy zespołu Williamsa. Jakiej zmiany genetycznej szukasz?",
+    "opts": [
+      "Mikrodelecji 7q11.23",
+      "Trisomii 21",
+      "Delecji 22q11.2",
+      "Monosomii X",
+      "Trisomii 18"
+    ],
+    "pl": "Zespół Williamsa jest związany z mikrodelecją 7q11.23 obejmującą m.in. gen elastyny. Nadzastawkowe zwężenie aorty jest ważną wskazówką.",
+    "ua": "Синдром Вільямса пов’язаний із мікроделецією 7q11.23, що охоплює ген еластину. Надклапанний стеноз аорти — важлива підказка.",
+    "steps": [
+      "Nad zastawką aorty",
+      "Elastyna",
+      "7q11.23"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 148",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "williams-deletion",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 148
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: Williams syndrome",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1249/"
+      }
+    ]
+  },
+  {
+    "id": 520,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Osoba z pierwotnym brakiem miesiączki ma kariotyp 46,XY, pasmowate gonady i obecną macicę. Co najbardziej pasuje?",
+    "opts": [
+      "Zespół Swyera",
+      "Całkowita niewrażliwość na androgeny",
+      "Zespół MRKH",
+      "Zespół Klinefeltera",
+      "Zespół policystycznych jajników"
+    ],
+    "pl": "W całkowitej dysgenezji gonad 46,XY nie powstają prawidłowo funkcjonujące jądra ani wystarczająca ilość AMH, dlatego macica może się rozwinąć.",
+    "ua": "При повній дисгенезії гонад 46,XY немає функціональних яєчок та достатньої продукції AMH, тому матка зберігається.",
+    "steps": [
+      "46,XY",
+      "Macica obecna",
+      "Swyer"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 183",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "swyer-uterus",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 183
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 521,
+    "topic": "Ginekologia i położnictwo",
+    "q": "U osoby z pierwotnym brakiem miesiączki stwierdzono 46,XY, brak macicy, rozwinięte piersi i skąpe owłosienie łonowe. Które rozpoznanie jest najbardziej prawdopodobne?",
+    "opts": [
+      "Całkowita niewrażliwość na androgeny",
+      "Zespół Swyera",
+      "Zespół Turnera",
+      "Zespół MRKH",
+      "Niedobór 21-hydroksylazy u osoby 46,XX"
+    ],
+    "pl": "W CAIS jądra produkują AMH, więc macica się nie rozwija. Niewrażliwość na androgeny tłumaczy skąpe owłosienie; MRKH ma zwykle kariotyp 46,XX.",
+    "ua": "При CAIS яєчка продукують AMH, тому матка не формується. Слабке оволосіння пов’язане з нечутливістю до андрогенів; при MRKH зазвичай 46,XX.",
+    "steps": [
+      "46,XY",
+      "Brak macicy",
+      "Skąpe owłosienie"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 181",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cais-differential",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 181
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: androgen insensitivity",
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1429/"
+      }
+    ]
+  },
+  {
+    "id": 522,
+    "topic": "Psychiatria i neurologia",
+    "q": "Dziecko z naczyniakiem płaskim twarzy ma napady padaczkowe i jaskrę. Obrazowanie wykazuje malformację naczyniową opon miękkich. Jaki zespół sugeruje ten obraz?",
+    "opts": [
+      "Sturge’a-Webera",
+      "Klippela-Trénaunaya",
+      "Wiskotta-Aldricha",
+      "Alporta",
+      "Pradera-Williego"
+    ],
+    "pl": "Znamię naczyniowe twarzy z zajęciem opon miękkich i jaskrą tworzy charakterystyczne skojarzenie Sturge’a-Webera.",
+    "ua": "Судинна пляма обличчя, ангіоматоз м’яких мозкових оболонок та глаукома характерні для синдрому Стерджа—Вебера.",
+    "steps": [
+      "Twarz",
+      "Opony",
+      "Jaskra"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 191",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "sturge-weber",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 191
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 523,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Wrodzona malformacja naczyń włosowatych, nieprawidłowości żylne i przerost jednej kończyny najbardziej sugerują:",
+    "opts": [
+      "Zespół Klippela-Trénaunaya",
+      "Zespół Sturge’a-Webera",
+      "Zespół Marfana",
+      "Choroba Takayasu",
+      "Zakrzepica żył głębokich bez wady wrodzonej"
+    ],
+    "pl": "Klippel-Trénaunay obejmuje malformacje naczyń i przerost tkanek kończyny. To inny wzorzec niż twarz, opony i jaskra w Sturge’u-Weberze.",
+    "ua": "Синдром Кліппеля—Треноне поєднує судинні мальформації та надмірний ріст кінцівки. Це відрізняється від ураження обличчя й мозкових оболонок при Стерджа—Вебера.",
+    "steps": [
+      "Naczynia",
+      "Żyły",
+      "Większa kończyna"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 193",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "klippel-trenaunay",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 193
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 524,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Makrocefalia, tłuszczaki, polipy hamartomatyczne i plamki barwnikowe na żołędzi sugerują fenotyp Bannayana-Rileya-Ruvalcaby. Z jakim genem jest związany?",
+    "opts": [
+      "PTEN",
+      "FBN1",
+      "APC",
+      "RET",
+      "WT1"
+    ],
+    "pl": "Ten fenotyp należy do zespołów guzów hamartomatycznych związanych z PTEN. APC kojarzy się z polipowatością gruczolakowatą.",
+    "ua": "Цей фенотип належить до PTEN-асоційованих гамартомних синдромів. APC пов’язаний з аденоматозним поліпозом.",
+    "steps": [
+      "Makrocefalia",
+      "Hamartoma",
+      "PTEN"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 73",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "bannayan-pten",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 73
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: PTEN hamartoma tumor syndrome",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1488/"
+      }
+    ]
+  },
+  {
+    "id": 525,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Pacjent ma plamy soczewicowate, śluzaka serca i ACTH-niezależny hiperkortyzolizm z drobnoguzkową pigmentowaną chorobą nadnerczy. Jaki zespół podejrzewasz?",
+    "opts": [
+      "Zespół Carneya",
+      "MEN 2A",
+      "MEN 1",
+      "Zespół Gardnera",
+      "Zespół von Hippla-Lindaua"
+    ],
+    "pl": "Zespół Carneya łączy zmiany barwnikowe, śluzaki i nadczynność gruczołów. PPNAD może powodować Cushinga niezależnego od ACTH.",
+    "ua": "Комплекс Карні поєднує пігментні плями, міксоми та ендокринну гіперфункцію. Пігментована вузликова хвороба наднирників може спричиняти ACTH-незалежний Кушинг.",
+    "steps": [
+      "Plamki",
+      "Śluzak",
+      "Nadnercza"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 40",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "carney-ppnad",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 40
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GeneReviews: Carney complex",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1286/"
+      }
+    ]
+  },
+  {
+    "id": 526,
+    "topic": "Pediatria i neonatologia",
+    "q": "Niemowlę było wiotkie i słabo ssało; w kolejnych latach rozwinęły się hiperfagia i otyłość. Który zespół najlepiej pasuje do tej zmiany obrazu?",
+    "opts": [
+      "Pradera-Williego",
+      "Williamsa",
+      "Turnera",
+      "Alporta",
+      "DiGeorge’a"
+    ],
+    "pl": "Prader-Willi może zmieniać obraz z hipotonii i trudności karmienia w niemowlęctwie na hiperfagię i otyłość w dzieciństwie.",
+    "ua": "При синдромі Прадера—Віллі рання гіпотонія та труднощі годування з віком змінюються гіперфагією й ожирінням.",
+    "steps": [
+      "Wiotkie niemowlę",
+      "Później głód",
+      "Prader-Willi"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 177",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "prader-willi-course",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 177
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 527,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Młody dorosły z chorobą wątroby, zaburzeniami ruchowymi i pierścieniem Kaysera-Fleischera wymaga diagnostyki zaburzenia gospodarki:",
+    "opts": [
+      "Miedzią",
+      "Żelazem",
+      "Cynkiem",
+      "Selenem",
+      "Manganem"
+    ],
+    "pl": "Choroba Wilsona powoduje zaburzone wydalanie miedzi z żółcią. Pierścień i objawy neurologiczne są wskazówkami; pojedyncze oznaczenie ceruloplazminy nie wystarcza do wykluczenia choroby.",
+    "ua": "При хворобі Вільсона порушене виділення міді з жовчю. Кільце та неврологічні прояви підказують діагноз; один результат церулоплазміну його не виключає.",
+    "steps": [
+      "Młody pacjent",
+      "Wątroba i mózg",
+      "Miedź"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 185",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "wilson-copper",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 185
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 528,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Po przeoczonym niedokrwieniu mięśni przedramienia powstał utrwalony przykurcz zgięciowy ręki. Jak nazywa się to późne następstwo?",
+    "opts": [
+      "Przykurcz Volkmanna",
+      "Zespół de Quervaina",
+      "Przykurcz Dupuytrena",
+      "Zespół cieśni nadgarstka",
+      "Palec trzaskający"
+    ],
+    "pl": "Przykurcz Volkmanna wynika z niedokrwiennego uszkodzenia i włóknienia mięśni, np. po zespole ciasnoty przedziałów.",
+    "ua": "Контрактура Фолькмана — наслідок ішемічного ушкодження та фіброзу м’язів, зокрема після компартмент-синдрому.",
+    "steps": [
+      "Niedokrwienie",
+      "Włóknienie",
+      "Przykurcz"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 116",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "volkmann-contracture",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 116
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 529,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Po wygojonym złamaniu ból kończyny jest nieproporcjonalny do urazu; występują allodynia, obrzęk i zmiany temperatury skóry. Jaki zespół trzeba rozważyć?",
+    "opts": [
+      "Złożony regionalny zespół bólowy (CRPS)",
+      "Przykurcz Dupuytrena bez zaburzeń czucia",
+      "Zespół cieśni nadgarstka ograniczony do nerwu pośrodkowego",
+      "Izolowana artroza bez zmian naczynioruchowych",
+      "Miastenia z męczliwością mięśni"
+    ],
+    "pl": "CRPS obejmuje ból regionalny oraz objawy czuciowe, naczynioruchowe i inne. Dawne określenie to zespół Sudecka; rozpoznanie wymaga wykluczenia lepszego wyjaśnienia.",
+    "ua": "CRPS поєднує непропорційний регіональний біль із сенсорними та вегетативними змінами. Стара назва — синдром Зудека; потрібно виключити інші причини.",
+    "steps": [
+      "Uraz",
+      "Ból ponad miarę",
+      "Zmiana temperatury"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 134",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "crps-pattern",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 134
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 530,
+    "topic": "Psychiatria i neurologia",
+    "q": "U palacza z rakiem drobnokomórkowym płuca osłabienie proksymalne chwilowo zmniejsza się po wysiłku, a odruchy są osłabione. Przeciwciała najczęściej dotyczą:",
+    "opts": [
+      "Presynaptycznych kanałów wapniowych",
+      "Postsynaptycznych receptorów acetylocholiny",
+      "Receptorów TSH",
+      "Błony podstawnej kłębuszków",
+      "Transglutaminazy tkankowej"
+    ],
+    "pl": "Zespół Lamberta-Eatona zaburza presynaptyczne uwalnianie acetylocholiny przez przeciwciała przeciw kanałom wapniowym. Przejściowa poprawa po aktywacji odróżnia go od typowej miastenii.",
+    "ua": "При синдромі Ламберта—Ітона антитіла до пресинаптичних кальцієвих каналів знижують виділення ацетилхоліну. Після короткого навантаження сила може тимчасово покращуватися.",
+    "steps": [
+      "Przed synapsą",
+      "Kanał Ca",
+      "Chwilowa poprawa"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 260",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "lambert-eaton-target",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 260
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 531,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Guz szczytu płuca wywołuje ból barku promieniujący po przyśrodkowej stronie ramienia oraz osłabienie ręki. Zajęcie której struktury najlepiej tłumaczy te objawy?",
+    "opts": [
+      "Dolnej części splotu ramiennego",
+      "Nerwu przeponowego wyłącznie",
+      "Nerwu twarzowego",
+      "Górnego odcinka nerwu wzrokowego",
+      "Splotu lędźwiowego"
+    ],
+    "pl": "Guz Pancoasta może naciekać dolne korzenie/splot ramienny (C8–T1). Zajęcie drogi współczulnej może dodatkowo dać zespół Hornera.",
+    "ua": "Пухлина Панкоста може уражати нижню частину плечового сплетення C8–T1. Додаткове ураження симпатичного шляху спричиняє синдром Горнера.",
+    "steps": [
+      "Szczyt płuca",
+      "C8–T1",
+      "Bark i ręka"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 264",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pancoast-brachial",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 264
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 532,
+    "topic": "Psychiatria i neurologia",
+    "q": "Który zestaw objawów po jednej stronie jest typowy dla zespołu Hornera?",
+    "opts": [
+      "Zwężenie źrenicy, opadanie powieki, zmniejszone pocenie",
+      "Poszerzenie źrenicy, wytrzeszcz, łzawienie",
+      "Oczopląs, głuchota, ataksja",
+      "Opadanie powieki, rozszerzenie źrenicy, zez rozbieżny",
+      "Ślepota, ból oka, obrzęk tarczy"
+    ],
+    "pl": "Horner wynika z uszkodzenia drogi współczulnej. Anhydroza zależy od poziomu uszkodzenia; zespół nie oznacza automatycznie nowotworu.",
+    "ua": "Горнер виникає при ураженні симпатичного шляху: міоз, птоз, іноді ангідроз залежно від рівня ураження. Це не автоматичний діагноз пухлини.",
+    "steps": [
+      "Współczulny wyłączony",
+      "Mała źrenica",
+      "Opadnięta powieka"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 253",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "horner-triad",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 253
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 533,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Olbrzymie fałdy żołądka współistnieją z utratą białka i hipoalbuminemią. Które rozpoznanie jest najbardziej typowe?",
+    "opts": [
+      "Choroba Ménétriera",
+      "Choroba Gilberta",
+      "Zespół Mallory’ego-Weissa",
+      "Zespół Mirizziego",
+      "Choroba Hirschsprunga"
+    ],
+    "pl": "Choroba Ménétriera to gastropatia przerostowa, która może powodować utratę białka. Zespół Zollingera-Ellisona odróżnia m.in. nadmierne wydzielanie kwasu.",
+    "ua": "Хвороба Менетріє — гіпертрофічна гастропатія з можливістю втрати білка. Для Золлінгера—Еллісона характерна гіперсекреція кислоти.",
+    "steps": [
+      "Duże fałdy",
+      "Utrata białka",
+      "Ménétrier"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 251",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "menetrier-protein-loss",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 251
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 534,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Rak dróg żółciowych obejmuje miejsce połączenia prawego i lewego przewodu wątrobowego. Jak brzmi klasyczne określenie tej lokalizacji?",
+    "opts": [
+      "Guz Klatskina",
+      "Guz Krukenberga",
+      "Guz Wilmsa",
+      "Guz Pancoasta",
+      "Insulinoma"
+    ],
+    "pl": "Guz Klatskina to okołownękowy rak dróg żółciowych, w okolicy połączenia przewodów wątrobowych.",
+    "ua": "Пухлина Клацкіна — перихілярна холангіокарцинома в ділянці з’єднання печінкових проток.",
+    "steps": [
+      "Prawy przewód",
+      "Lewy przewód",
+      "Wnęka wątroby"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 249",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "klatskin-location",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 249
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 535,
+    "topic": "Psychiatria i neurologia",
+    "q": "Pacjent jest niezachwianie przekonany, że już nie żyje, a jego narządy przestały istnieć. Jak określa się taki zespół urojeń?",
+    "opts": [
+      "Zespół Cotarda",
+      "Zespół Capgrasa",
+      "Zespół Otella",
+      "Zespół Ekboma",
+      "Zespół Gansera"
+    ],
+    "pl": "To urojenia nihilistyczne typowe dla zespołu Cotarda. Nazwa opisuje treść objawów, a nie jedną wyłączną chorobę podstawową.",
+    "ua": "Це нігілістичні марення, характерні для синдрому Котара. Назва описує зміст симптомів, а не єдину можливу основну хворобу.",
+    "steps": [
+      "Nie żyję",
+      "Nie mam narządów",
+      "Cotard"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 209",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cotard-delusion",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 209
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 536,
+    "topic": "Psychiatria i neurologia",
+    "q": "Pacjent rozpoznaje wygląd żony, ale twierdzi, że została zastąpiona identycznie wyglądającą obcą osobą. Jaki to zespół?",
+    "opts": [
+      "Capgrasa",
+      "Cotarda",
+      "Otella",
+      "Korsakowa",
+      "Kleinego-Levina"
+    ],
+    "pl": "Capgras to urojeniowa identyfikacja bliskiej osoby jako sobowtóra. Nie jest tym samym co zaburzenie rozpoznawania twarzy.",
+    "ua": "При синдромі Капгра людина переконана, що близького замінив двійник. Це відрізняється від нездатності впізнавати обличчя.",
+    "steps": [
+      "Znana twarz",
+      "Rzekomy sobowtór",
+      "Capgras"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 223",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "capgras-delusion",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 223
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 537,
+    "topic": "Psychiatria i neurologia",
+    "q": "Mimo braku dowodów infestacji i odpowiedniej diagnostyki pacjent pozostaje przekonany, że pod skórą żyją pasożyty. Jak nazywa się ten zespół?",
+    "opts": [
+      "Ekboma",
+      "Capgrasa",
+      "Cotarda",
+      "Gansera",
+      "Otella"
+    ],
+    "pl": "Zespół Ekboma oznacza urojenia pasożytnicze. Zanim rozpozna się urojenie, trzeba ocenić przyczyny dermatologiczne, substancje i choroby somatyczne.",
+    "ua": "Синдром Екбома — марення паразитарного зараження. Спочатку оцінюють дерматологічні, соматичні та речовинно-індуковані причини.",
+    "steps": [
+      "Przekonanie o pasożytach",
+      "Brak potwierdzenia",
+      "Ekbom"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 215",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "ekbom-delusion",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 215
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 538,
+    "topic": "Psychiatria i neurologia",
+    "q": "Pacjentka jest niewzruszenie przekonana, że znany aktor jest w niej zakochany i wysyła jej znaki, mimo że nie mieli kontaktu. Co opisuje zespół de Clérambaulta?",
+    "opts": [
+      "Urojenie bycia kochaną przez inną osobę",
+      "Wyłącznie zwiększony popęd seksualny",
+      "Urojenie niewierności partnera",
+      "Przekonanie o śmierci własnych narządów",
+      "Natrętne myśli z zachowanym krytycyzmem"
+    ],
+    "pl": "Erotomania to urojenie, że druga osoba kocha pacjenta. Nie oznacza po prostu dużego libido — takie uproszczenie w notatce źródłowej jest mylące.",
+    "ua": "Еротоманія — марення, що інша людина закохана в пацієнта. Це не просто посилене лібідо; таке спрощення у вихідному конспекті хибне.",
+    "steps": [
+      "On mnie kocha",
+      "Niezachwiane przekonanie",
+      "Erotomania"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 211",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "clerambault-erotomania",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 211
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Opis kliniczny: zespół de Clérambaulta",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7585286/"
+      }
+    ]
+  },
+  {
+    "id": 539,
+    "topic": "Psychiatria i neurologia",
+    "q": "Otępieniu towarzyszą wyraźne fluktuacje uwagi, nawracające uformowane omamy wzrokowe i parkinsonizm. Jaka cecha leczenia wymaga szczególnej uwagi?",
+    "opts": [
+      "Ryzyko ciężkiej nadwrażliwości na leki przeciwpsychotyczne",
+      "Konieczność dużych dawek haloperidolu u każdego chorego",
+      "Brak ryzyka działań pozapiramidowych",
+      "Obowiązkowa benzodiazepina przez całe życie",
+      "Pewne wyleczenie po jednej dawce lewodopy"
+    ],
+    "pl": "Obraz sugeruje otępienie z ciałami Lewy’ego. Leki przeciwpsychotyczne mogą wywołać szczególnie ciężkie reakcje; dobór leczenia wymaga ostrożnej oceny.",
+    "ua": "Картина підказує деменцію з тільцями Леві. Антипсихотики можуть спричинити тяжкі реакції, тому лікування добирають обережно.",
+    "steps": [
+      "Fluktuacje",
+      "Omamy wzrokowe",
+      "Wrażliwość na neuroleptyki"
+    ],
+    "src": 2,
+    "sourceRef": "akapit 229",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "dlb-neuroleptic-sensitivity",
+      "materialId": 4,
+      "file": "Choroby_Zespoły.docx",
+      "sha256": "6ac004091bb8979cc6c912231131afbaa915d0bd8227ee6f1a34450d1490611a",
+      "locator": {
+        "paragraph": 229
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 540,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W prawidłowej pępowinie stwierdza się:",
+    "opts": [
+      "Dwie tętnice i jedną żyłę",
+      "Jedną tętnicę i dwie żyły",
+      "Dwie tętnice i dwie żyły",
+      "Jedną tętnicę i jedną żyłę",
+      "Trzy tętnice bez żyły"
+    ],
+    "pl": "Prawidłowa pępowina jest trójnaczyniowa: dwie tętnice odprowadzają krew od płodu, a jedna żyła doprowadza ją z łożyska.",
+    "ua": "У нормі пуповина містить три судини: дві артерії несуть кров від плода, одна вена — від плаценти до плода.",
+    "steps": [
+      "2 tętnice od płodu",
+      "1 żyła do płodu",
+      "3 naczynia"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 54",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cord-vessel-count",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 54
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 541,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Które naczynie doprowadza do płodu krew najlepiej utlenowaną z łożyska?",
+    "opts": [
+      "Żyła pępkowa",
+      "Prawa tętnica pępkowa",
+      "Lewa tętnica pępkowa",
+      "Żyła główna górna",
+      "Pień płucny"
+    ],
+    "pl": "Nazwy tętnica i żyła opisują kierunek względem serca, nie zawartość tlenu. Żyła pępkowa prowadzi utlenowaną krew od łożyska.",
+    "ua": "Назви артерія й вена визначають напрямок щодо серця, а не вміст кисню. Пупкова вена несе оксигеновану кров від плаценти.",
+    "steps": [
+      "Łożysko daje tlen",
+      "Żyła wraca",
+      "Do płodu"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 55",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cord-oxygen-flow",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 55
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 542,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Jaka jest ważna funkcja hCG we wczesnej ciąży, zanim łożysko przejmie wystarczającą produkcję progesteronu?",
+    "opts": [
+      "Podtrzymanie czynności ciałka żółtego",
+      "Wywołanie luteolizy",
+      "Zahamowanie syntezy progesteronu",
+      "Wywołanie miesiączki",
+      "Zahamowanie implantacji"
+    ],
+    "pl": "hCG podtrzymuje ciałko żółte, a przez to wczesną produkcję progesteronu niezbędną do utrzymania endometrium.",
+    "ua": "hCG підтримує жовте тіло й ранню секрецію прогестерону, необхідну для збереження ендометрію.",
+    "steps": [
+      "hCG",
+      "Ciałko żółte",
+      "Progesteron"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 57",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "hcg-corpus-luteum",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 57
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 543,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Która zmiana oddechowa jest fizjologiczna w zaawansowanej ciąży?",
+    "opts": [
+      "Zmniejszenie czynnościowej pojemności zalegającej (FRC)",
+      "Podwojenie FRC",
+      "Znaczny spadek objętości oddechowej",
+      "Utrwalona kwasica oddechowa",
+      "Brak zmian położenia przepony"
+    ],
+    "pl": "Uniesienie przepony zmniejsza FRC. Jednocześnie objętość oddechowa i wentylacja minutowa rosną, więc zapas tlenu podczas bezdechu jest mniejszy.",
+    "ua": "Підняття діафрагми зменшує FRC. Дихальний об’єм і хвилинна вентиляція зростають, але запас кисню під час апное менший.",
+    "steps": [
+      "Przepona w górę",
+      "FRC w dół",
+      "Mniejszy zapas"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 88",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pregnancy-frc",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 88
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 544,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Progesteron zwiększa napęd oddechowy w ciąży. Jakiej tendencji w gazometrii należy oczekiwać?",
+    "opts": [
+      "Niższego PaCO₂ z łagodną zasadowicą oddechową",
+      "Wyższego PaCO₂ z kwasicą oddechową",
+      "Ciężkiej kwasicy metabolicznej u każdej ciężarnej",
+      "Zawsze pH poniżej 7,0",
+      "Braku wpływu na CO₂"
+    ],
+    "pl": "Fizjologiczna hiperwentylacja obniża PaCO₂. Nerki częściowo kompensują zmianę, zmniejszając stężenie wodorowęglanów.",
+    "ua": "Фізіологічна гіпервентиляція знижує PaCO₂. Нирки частково компенсують зміни, знижуючи концентрацію бікарбонату.",
+    "steps": [
+      "Progesteron",
+      "Większa wentylacja",
+      "Mniej CO₂"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 89",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pregnancy-progesterone-ventilation",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 89
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 545,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Najgłębsza pionowa kieszeń płynu owodniowego w ciąży pojedynczej ma 1,5 cm. Jak interpretujesz ten pomiar?",
+    "opts": [
+      "Małowodzie",
+      "Prawidłowa objętość płynu",
+      "Łagodne wielowodzie",
+      "Ciężkie wielowodzie",
+      "Sam pomiar rozpoznaje TTTS"
+    ],
+    "pl": "Kieszeń poniżej 2 cm odpowiada małowodziu. Wynik wymaga oceny przyczyny i stanu płodu, a nie automatycznego przypisania jednego rozpoznania etiologicznego.",
+    "ua": "Найглибша вертикальна кишеня менш як 2 см відповідає маловоддю. Далі оцінюють причину та стан плода.",
+    "steps": [
+      "Kieszeń 1,5 cm",
+      "Poniżej 2",
+      "Małowodzie"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 63",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "oligohydramnios-sdp",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 63
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 546,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W ciąży pojedynczej najgłębsza pionowa kieszeń płynu wynosi 9 cm. Które określenie jest właściwe?",
+    "opts": [
+      "Wielowodzie",
+      "Małowodzie",
+      "Bezwodzie",
+      "Prawidłowy wynik wykluczający patologię",
+      "Rozpoznana niedokrwistość płodu"
+    ],
+    "pl": "Według SMFM kieszeń co najmniej 8 cm spełnia kryterium wielowodzia. Pomiar sam nie ustala przyczyny.",
+    "ua": "За SMFM кишеня від 8 см відповідає багатоводдю. Сам вимір не визначає його причину.",
+    "steps": [
+      "9 cm",
+      "Próg 8 cm",
+      "Wielowodzie"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 63",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "polyhydramnios-sdp",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 63
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "SMFM Consult #46",
+        "url": "https://publications.smfm.org/publications/263-society-for-maternal-fetal-medicine-consult-series-46/"
+      }
+    ]
+  },
+  {
+    "id": 547,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Dlaczego amniotomia przy wysoko stojącej, nieustalonej główce wymaga szczególnej ostrożności?",
+    "opts": [
+      "Może sprzyjać wypadnięciu pępowiny",
+      "Zawsze powoduje łożysko przodujące",
+      "Wywołuje wadę cewy nerwowej",
+      "Uniemożliwia ocenę tętna płodu na stałe",
+      "Zawsze zapobiega zakażeniu"
+    ],
+    "pl": "Gdy część przodująca nie zamyka wchodu miednicy, odpływ płynu może umożliwić zsunięcie pępowiny poniżej niej.",
+    "ua": "Коли голівка не фіксована у вході в таз, відходження вод може сприяти зісковзуванню пуповини нижче передлеглої частини.",
+    "steps": [
+      "Główka wysoko",
+      "Odpływ wód",
+      "Miejsce dla pępowiny"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 587",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cord-prolapse-risk",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 587
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 548,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Ciężarna w III trymestrze ma bezbolesne krwawienie. Lokalizacja łożyska nie jest znana. Czego należy unikać do wykluczenia łożyska przodującego?",
+    "opts": [
+      "Badania szyjki palcem przez pochwę",
+      "USG przezpochwowego wykonywanego zgodnie z zasadami",
+      "Oceny czynności serca płodu",
+      "Oceny parametrów życiowych matki",
+      "Przygotowania dostępu dożylnego"
+    ],
+    "pl": "Badanie palcem może sprowokować masywne krwawienie przy łożysku przodującym. Lokalizację ustala się obrazowo; USG przezpochwowe wykonywane właściwie jest przydatne.",
+    "ua": "Пальцеве вагінальне дослідження при передлежанні плаценти може посилити кровотечу. Локалізацію уточнюють УЗД; коректне трансвагінальне УЗД є придатним.",
+    "steps": [
+      "Bezbolesna krew",
+      "Sprawdź łożysko",
+      "Bez badania palcem"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 158",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "previa-digital-exam",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 158
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 549,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Które połączenie szczególnie zwiększa podejrzenie spektrum nieprawidłowego wrastania łożyska (PAS)?",
+    "opts": [
+      "Łożysko przodujące i wcześniejsze cięcia cesarskie",
+      "Łożysko na tylnej ścianie i brak operacji macicy",
+      "Pierwsza ciąża i prawidłowo położone łożysko",
+      "Sama niedokrwistość z niedoboru żelaza",
+      "Samo bezobjawowe nosicielstwo GBS"
+    ],
+    "pl": "Blizna po cięciu cesarskim i nisko zlokalizowane łożysko tworzą ważne skojarzenie ryzyka PAS.",
+    "ua": "Рубець після кесаревого розтину разом із передлежанням плаценти суттєво підвищує підозру на PAS.",
+    "steps": [
+      "Blizna",
+      "Łożysko nad blizną",
+      "PAS"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 160",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pas-risk-scar-previa",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 160
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 550,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Kosmki łożyska przechodzą przez całą grubość ściany macicy i naciekają pęcherz. Który termin opisuje głębokość nacieku?",
+    "opts": [
+      "Placenta percreta",
+      "Placenta accreta bez nacieku mięśnia",
+      "Placenta increta ograniczona do mięśnia",
+      "Łożysko błoniaste",
+      "Łożysko dwupłatowe"
+    ],
+    "pl": "Percreta oznacza przerastanie przez mięśniówkę i surowicówkę, niekiedy do sąsiednich narządów. Increta dotyczy nacieku mięśniówki.",
+    "ua": "Percreta означає проростання крізь міометрій і серозу, іноді в сусідні органи. Increta обмежується міометрієм.",
+    "steps": [
+      "Accreta przylega",
+      "Increta w mięśniu",
+      "Percreta przez ścianę"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 160",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "percreta-depth",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 160
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 551,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Po pęknięciu błon płodowych pojawia się krwawienie i nagła bradykardia płodu przy względnie stabilnym stanie matki. Podejrzewa się naczynia przodujące. Czyja krew może być tracona?",
+    "opts": [
+      "Płodu, z nieosłoniętych naczyń przebiegających w błonach",
+      "Wyłącznie matki z żylaków odbytu",
+      "Wyłącznie matki z szyjki",
+      "Wyłącznie matki z tętnicy jajnikowej",
+      "Żadna — to zawsze barwnik smółkowy"
+    ],
+    "pl": "W vasa praevia pękają naczynia płodowe. Nawet niewielka widoczna utrata może być bardzo groźna dla płodu.",
+    "ua": "При vasa praevia розриваються судини плода. Навіть невелика видима крововтрата для нього може бути критичною.",
+    "steps": [
+      "Pękają błony",
+      "Krew płodu",
+      "Bradykardia"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 165",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "vasa-previa-fetal-blood",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 165
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 552,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W trakcie porodu po wcześniejszym cięciu cesarskim występują nagłe zaburzenia tętna płodu, ból i utrata ustalenia części przodującej. Jakie powikłanie trzeba pilnie wykluczyć?",
+    "opts": [
+      "Pęknięcie macicy",
+      "Fizjologiczne skurcze przepowiadające",
+      "Łagodny ból więzadeł obłych",
+      "Izolowana niewydolność cieśniowo-szyjkowa",
+      "Niepowikłany odpływ płynu owodniowego"
+    ],
+    "pl": "Blizna macicy stanowi czynnik ryzyka pęknięcia. Nieprawidłowe tętno płodu i zmiana położenia części przodującej są alarmujące.",
+    "ua": "Рубець матки підвищує ризик розриву. Порушення серцебиття плода та втрата фіксації передлеглої частини — тривожні ознаки.",
+    "steps": [
+      "Blizna",
+      "Nagłe pogorszenie",
+      "Pęknięcie"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 165",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "uterine-rupture-scar",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 165
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 553,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W II trymestrze dochodzi do postępującego rozwierania szyjki i uwypuklenia błon bez regularnych bolesnych skurczów. Co najbardziej pasuje?",
+    "opts": [
+      "Niewydolność cieśniowo-szyjkowa",
+      "Rzucawka",
+      "Łożysko przodujące jako jedyna możliwość",
+      "Zespół HELLP",
+      "Choroba trofoblastyczna"
+    ],
+    "pl": "Bezbolesne rozwieranie w II trymestrze jest klasycznym obrazem niewydolności szyjki. Konieczne jest również wykluczenie infekcji i czynności porodowej.",
+    "ua": "Безболісне розкриття шийки у II триместрі характерне для цервікальної недостатності. Також виключають інфекцію та пологову діяльність.",
+    "steps": [
+      "II trymestr",
+      "Szyjka się otwiera",
+      "Bez regularnych skurczów"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 245",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cervical-insufficiency-pattern",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 245
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 554,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W 31. tygodniu odpłynął płyn owodniowy, a regularne skurcze jeszcze się nie rozpoczęły. Jak określisz tę sytuację?",
+    "opts": [
+      "PPROM — pęknięcie błon przed porodem i przed 37. tygodniem",
+      "PROM w ciąży donoszonej",
+      "Pęknięcie błon podczas porodu o czasie",
+      "Poród przedwczesny z zachowanymi błonami",
+      "Niewydolność szyjki bez pęknięcia błon"
+    ],
+    "pl": "PPROM łączy dwa warunki: pęknięcie błon przed rozpoczęciem porodu oraz przed ukończeniem 37 tygodni.",
+    "ua": "PPROM означає розрив оболонок до початку пологів та до завершення 37 тижнів.",
+    "steps": [
+      "Błony pękły",
+      "Porodu jeszcze nie ma",
+      "Przed 37 tygodniem"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 250",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pprom-definition",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 250
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 555,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Pacjentka w 30. tygodniu zgłasza sączenie płynu z pochwy. Które badanie pomaga bezpośrednio potwierdzić odpływanie płynu owodniowego?",
+    "opts": [
+      "Badanie we wzierniku z oceną wypływania płynu",
+      "Rutynowe wielokrotne badanie szyjki palcem",
+      "Sam pomiar wysokości dna macicy",
+      "Samo KTG bez oceny płynu",
+      "Wyłącznie pojedynczy prawidłowy pomiar AFI"
+    ],
+    "pl": "We wzierniku można zobaczyć wypływanie lub gromadzenie płynu. Przy niejasnym wyniku stosuje się dalszą diagnostykę; prawidłowa ilość płynu w USG nie wyklucza drobnego przecieku.",
+    "ua": "Огляд у дзеркалах дозволяє побачити витікання чи накопичення вод. За сумнівів потрібні додаткові тести; нормальний об’єм вод на УЗД не виключає малого витоку.",
+    "steps": [
+      "Sączenie",
+      "Wziernik",
+      "Zobacz wypływ"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 251",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pprom-speculum",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 251
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG25: diagnostyka PPROM",
+        "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+      }
+    ]
+  },
+  {
+    "id": 556,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Ciężarna ma nasilony świąd dłoni i stóp bez pierwotnej wysypki. Jakie oznaczenie ma szczególne znaczenie przy podejrzeniu cholestazy ciężarnych?",
+    "opts": [
+      "Stężenie kwasów żółciowych w surowicy",
+      "Wyłącznie bilirubina niesprzężona",
+      "Wyłącznie fosfataza alkaliczna",
+      "Wyłącznie amylaza w surowicy",
+      "Wyłącznie stężenie albuminy"
+    ],
+    "pl": "Świąd bez pierwotnej wysypki sugeruje cholestazę; oznacza się kwasy żółciowe i próby wątrobowe. Przy utrzymywaniu się świądu początkowo prawidłowe wyniki mogą wymagać powtórzenia.",
+    "ua": "Свербіж без первинного висипу підказує холестаз. Досліджують жовчні кислоти та печінкові проби; за збереження симптомів нормальні початкові показники можуть потребувати повторення.",
+    "steps": [
+      "Swędzą dłonie",
+      "Bez wysypki",
+      "Kwasy żółciowe"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 297",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cholestasis-bile-acids",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 297
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 557,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Ciężarna nie ma dyzurii ani gorączki. Jakie badanie służy do wykrywania bezobjawowego bakteriomoczu?",
+    "opts": [
+      "Posiew moczu",
+      "Wyłącznie pasek testowy bez posiewu",
+      "Posiew krwi u każdej bezobjawowej ciężarnej",
+      "Wyłącznie stężenie kreatyniny",
+      "USG pęcherza jako test wykrywający bakterie"
+    ],
+    "pl": "Posiew pozwala wykryć bakteriurię mimo braku dolegliwości oraz ustalić wrażliwość drobnoustroju. Sam brak objawów nie wyklucza znaczenia wyniku w ciąży.",
+    "ua": "Посів сечі виявляє бактеріурію без симптомів і визначає чутливість збудника. Відсутність скарг не робить такий результат неважливим у вагітності.",
+    "steps": [
+      "Brak objawów",
+      "Posiew moczu",
+      "Bakteriomocz"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 307",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pregnancy-asb-culture",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 307
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 558,
+    "topic": "Ginekologia i położnictwo",
+    "q": "U płodu z ograniczeniem wzrastania stwierdzono odwrócony przepływ końcoworozkurczowy w tętnicy pępowinowej. Co oznacza taki wynik?",
+    "opts": [
+      "Poważną nieprawidłowość wymagającą pilnej oceny specjalistycznej",
+      "Prawidłową adaptację niewymagającą kontroli",
+      "Pewne rozpoznanie aneuploidii",
+      "Wyłącznie błąd pomiaru masy",
+      "Pewne zakażenie wirusem różyczki"
+    ],
+    "pl": "Odwrócony przepływ rozkurczowy świadczy o dużym oporze w krążeniu łożyskowym. W FGR wymaga intensywnego nadzoru i oceny terminu ukończenia ciąży.",
+    "ua": "Зворотний кінцеводіастолічний потік свідчить про значний опір плацентарного кровообігу. При затримці росту потрібні інтенсивний нагляд та оцінка терміну розродження.",
+    "steps": [
+      "Mały płód",
+      "Przepływ wstecz",
+      "Pilny nadzór"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 282",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "fgr-reversed-flow",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 282
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "SMFM Consult #52: FGR",
+        "url": "https://publications.smfm.org/publications/289-society-for-maternal-fetal-medicine-consult-series-52/"
+      }
+    ]
+  },
+  {
+    "id": 559,
+    "topic": "Ginekologia i położnictwo",
+    "q": "U płodu zagrożonego niedokrwistością MCA-PSV wynosi 1,7 MoM. Jak interpretujesz ten wynik?",
+    "opts": [
+      "Podejrzenie istotnej niedokrwistości wymagające oceny w ośrodku referencyjnym",
+      "Wynik wykluczający ciężką niedokrwistość",
+      "Typowy dowód policytemii",
+      "Samodzielne rozpoznanie obrzęku płodu",
+      "Kryterium rozpoznania makrosomii"
+    ],
+    "pl": "Podwyższona szczytowa prędkość skurczowa w tętnicy środkowej mózgu, ponad 1,5 MoM, wskazuje na ryzyko znacznej niedokrwistości; nie zastępuje całej oceny klinicznej.",
+    "ua": "Пікова систолічна швидкість у середній мозковій артерії понад 1,5 MoM вказує на ризик значної анемії та потребує спеціалізованої оцінки.",
+    "steps": [
+      "MCA",
+      "Ponad 1,5 MoM",
+      "Podejrzenie anemii"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 152",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "fetal-anemia-mca",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 152
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "SMFM: fetus at risk for anemia",
+        "url": "https://assets.noviams.com/novi-file-uploads/smfm/Publications_and_Guidelines/Clinical_Guidelines/CG_8_fetal_anemia.pdf"
+      }
+    ]
+  },
+  {
+    "id": 560,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Ciężarna RhD-ujemna ma już potwierdzone odpornościowe przeciwciała anty-D. Czy profilaktyczna immunoglobulina anty-D usuwa istniejącą alloimmunizację?",
+    "opts": [
+      "Nie — zapobiega uczuleniu, ale go nie cofa",
+      "Tak — natychmiast usuwa wszystkie przeciwciała",
+      "Tak — leczy każdą niedokrwistość płodu",
+      "Tak — zmienia grupę krwi płodu",
+      "Tak — zastępuje nadzór płodu"
+    ],
+    "pl": "Anty-D stosuje się profilaktycznie u nieuczulonych osób RhD-ujemnych zgodnie ze wskazaniami. Obecna alloimmunizacja wymaga odrębnego nadzoru.",
+    "ua": "Анти-D застосовують для профілактики сенсибілізації у несенсибілізованих RhD-негативних вагітних. Уже наявна алоімунізація потребує окремого нагляду.",
+    "steps": [
+      "Profilaktyka przed uczuleniem",
+      "Nie usuwa przeciwciał",
+      "Nadzór płodu"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 152",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "antid-not-treatment",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 152
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 561,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Które powikłanie jest szczególnie charakterystyczne dla ciąży bliźniaczej jednoowodniowej?",
+    "opts": [
+      "Splątanie lub kolizja pępowin",
+      "Konflikt RhD jako nieuniknione następstwo jednej owodni",
+      "Oddzielenie dwóch całkowicie niezależnych łożysk jako cecha definiująca",
+      "Rozwój TTTS wyłącznie w ciążach dwukosmówkowych",
+      "Obowiązkowa różna płeć płodów"
+    ],
+    "pl": "Oba płody przebywają w jednej jamie owodniowej, bez przegrody oddzielającej pępowiny.",
+    "ua": "Обидва плоди перебувають в одній амніотичній порожнині без перегородки між пуповинами, що створює ризик їх переплутування.",
+    "steps": [
+      "Jedna jama",
+      "Dwie pępowiny",
+      "Splątanie"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 184",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "monoamniotic-cord-entanglement",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 184
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 562,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Po rozpoznaniu dystocji barkowej wezwano pomoc. Na czym polega manewr McRobertsa?",
+    "opts": [
+      "Silnym zgięciu ud ciężarnej ku brzuchowi",
+      "Silnym ucisku na dno macicy",
+      "Obrocie płodu na główkę przed porodem",
+      "Pociąganiu za pępowinę",
+      "Ręcznym wydobyciu łożyska"
+    ],
+    "pl": "Zgięcie ud zmienia ustawienie miednicy i pomaga uwolnić bark. Ucisk na dno macicy jest niewłaściwy; ucisk nadłonowy to inny manewr.",
+    "ua": "Згинання стегон до живота змінює положення таза й допомагає вивільнити плечико. Тиск на дно матки не застосовують; надлобковий тиск — інший прийом.",
+    "steps": [
+      "Uda do brzucha",
+      "Zmiana ustawienia miednicy",
+      "McRoberts"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 582",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "mcroberts-position",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 582
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Wytyczne DGGG/OEGGG/SGGG: dystocja barkowa",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11802195/"
+      }
+    ]
+  },
+  {
+    "id": 563,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Po odpłynięciu wód wyczuwalna jest pępowina przed główką i występuje bradykardia płodu. Co jest właściwe podczas organizowania pilnego porodu?",
+    "opts": [
+      "Odciążenie pępowiny przez uniesienie części przodującej",
+      "Czekanie godzinę na samoistną poprawę",
+      "Uciskanie pępowiny, by sprawdzić przepływ",
+      "Silny ucisk na dno macicy",
+      "Podanie wyłącznie doustnego żelaza"
+    ],
+    "pl": "Ucisk pępowiny ogranicza dopływ krwi. Wzywa się pomoc i organizuje pilny poród, jednocześnie odciążając pępowinę; nie należy niepotrzebnie nią manipulować.",
+    "ua": "Стиснення пуповини обмежує кровотік. Викликають допомогу, готують термінове розродження й піднімають передлеглу частину для зменшення тиску.",
+    "steps": [
+      "Pępowina uciśnięta",
+      "Unieś główkę",
+      "Pilny poród"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 588",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cord-prolapse-unload",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 588
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "RCOG: umbilical cord prolapse",
+        "url": "https://www.rcog.org.uk/media/3wykswng/gtg-50-umbilicalcordprolapse-2014.pdf"
+      }
+    ]
+  },
+  {
+    "id": 564,
+    "topic": "Ginekologia i położnictwo",
+    "q": "W 28. tygodniu przewiduje się poród w najbliższych dniach. Jaki jest główny cel podania matce antenatalnego kursu glikokortykosteroidów?",
+    "opts": [
+      "Zmniejszenie ryzyka powikłań wcześniactwa, w tym zaburzeń oddychania",
+      "Antybiotykoterapia zakażenia wewnątrzowodniowego",
+      "Bezpośrednia tokoliza jako jedyny mechanizm",
+      "Leczenie alloimmunizacji anty-D",
+      "Korekcja wad anatomicznych płuc"
+    ],
+    "pl": "Betametazon lub deksametazon przyspieszają dojrzewanie narządów płodu i zmniejszają wybrane powikłania wcześniactwa. Nie są antybiotykiem ani gwarancją zatrzymania porodu.",
+    "ua": "Бетаметазон або дексаметазон прискорюють дозрівання органів плода й знижують ризик ускладнень недоношеності. Це не антибіотики й не гарантія зупинки пологів.",
+    "steps": [
+      "Ryzyko wcześniactwa",
+      "Steroid przed porodem",
+      "Dojrzewanie płuc"
+    ],
+    "src": 10,
+    "sourceRef": "s. PDF 144",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "antenatal-steroids-purpose",
+      "materialId": 10,
+      "file": "Położnictwo - Tom 1 - G. Bręborowicz (2020).pdf",
+      "sha256": "fb20d3d502b312f2e9456892e515497f65bb9bd2027a704eed057bb52f5630b2",
+      "locator": {
+        "page": 144
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG25: antenatal corticosteroids",
+        "url": "https://www.nice.org.uk/guidance/ng25/chapter/Recommendations"
+      }
+    ]
+  },
+  {
+    "id": 565,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Z powodu duszności pacjent idzie po płaskim wolniej od rówieśników i czasem zatrzymuje się przy własnym tempie. Jaki stopień mMRC najlepiej pasuje?",
+    "opts": [
+      "2",
+      "0",
+      "1",
+      "3",
+      "4"
+    ],
+    "pl": "mMRC 2 opisuje wolniejszy marsz niż rówieśnicy lub zatrzymywanie się przy własnym tempie. Stopień 3 dotyczy zatrzymywania się po około 100 m lub kilku minutach.",
+    "ua": "mMRC 2: людина йде повільніше за однолітків або зупиняється при власному темпі. mMRC 3 — зупинка приблизно через 100 м чи кілька хвилин.",
+    "steps": [
+      "Rówieśnicy szybciej",
+      "Własne tempo",
+      "mMRC 2"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: mMRC",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "mmrc-grade2",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: mMRC"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "GOLD: skala mMRC",
+        "url": "https://goldcopd.org/wp-content/uploads/2020/03/GOLD-2020-POCKET-GUIDE-ver1.0_FINAL-WMV.pdf"
+      }
+    ]
+  },
+  {
+    "id": 566,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Chory z miażdżycą kończyn dolnych odczuwa chromanie po 80 m, bez bólu spoczynkowego i martwicy. Który stopień Fontaine’a?",
+    "opts": [
+      "IIb",
+      "I",
+      "IIa",
+      "III",
+      "IV"
+    ],
+    "pl": "II to chromanie; granica między IIa a IIb wynosi 200 m. Ból spoczynkowy oznacza III, a owrzodzenie lub martwica IV.",
+    "ua": "II — переміжна кульгавість; межа IIa/IIb становить 200 м. Біль у спокої — III, виразка чи некроз — IV.",
+    "steps": [
+      "80 m",
+      "Mniej niż 200",
+      "Fontaine IIb"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Fontaine",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "fontaine-iib",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Fontaine"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 567,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "W przewlekłym niedokrwieniu kończyny występuje ból spoczynkowy, bez utraty tkanek. Która kategoria Rutherforda opisuje ten etap?",
+    "opts": [
+      "4",
+      "0",
+      "1",
+      "3",
+      "6"
+    ],
+    "pl": "W klasyfikacji przewlekłego PAD kategoria 4 oznacza ból spoczynkowy; 5–6 dotyczą utraty tkanek. Nie należy mylić jej z klasyfikacją ostrego niedokrwienia.",
+    "ua": "У класифікації хронічного PAD категорія 4 означає біль у спокої, 5–6 — втрату тканин. Не плутати зі шкалою гострої ішемії.",
+    "steps": [
+      "Przewlekłe PAD",
+      "Ból w spoczynku",
+      "Rutherford 4"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Rutherford",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "rutherford-rest-pain",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Rutherford"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 568,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Która skala, obok Wellsa, służy do oceny klinicznego prawdopodobieństwa zatorowości płucnej przed badaniem obrazowym?",
+    "opts": [
+      "Zrewidowana skala genewska",
+      "Skala Bishopa",
+      "Skala Binet",
+      "Skala Forresta",
+      "Skala Tannera"
+    ],
+    "pl": "Skala genewska ocenia prawdopodobieństwo ZP. PESI służy innemu zadaniu: rokowaniu u pacjenta z rozpoznaną zatorowością.",
+    "ua": "Женевська шкала оцінює ймовірність ТЕЛА. PESI має іншу мету — оцінює прогноз при вже встановленій ТЕЛА.",
+    "steps": [
+      "Przed rozpoznaniem",
+      "Geneva i Wells",
+      "Prawdopodobieństwo"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Geneva",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "geneva-wells-alternative",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Geneva"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 569,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Do czego służą kryteria Hestia u chorego z potwierdzoną zatorowością płucną?",
+    "opts": [
+      "Wspierają wybór pacjentów do leczenia ambulatoryjnego",
+      "Potwierdzają rozpoznanie ZP bez obrazowania",
+      "Obliczają kliniczne prawdopodobieństwo DVT",
+      "Rozstrzygają wskazania do trombolizy wyłącznie z wieku",
+      "Mierzą rozległość skrzeplin w angiografii TK"
+    ],
+    "pl": "Hestia sprawdza przeciwwskazania do leczenia poza szpitalem, m.in. niestabilność i potrzeby medyczne. Ujemna lista nie zastępuje oceny klinicznej i warunków opieki.",
+    "ua": "Hestia перевіряє перешкоди для амбулаторного лікування ТЕЛА, зокрема нестабільність і медичні потреби. Вона не замінює клінічну оцінку та оцінку умов догляду.",
+    "steps": [
+      "ZP potwierdzona",
+      "Czy można do domu",
+      "Hestia"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Hestia",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "hestia-purpose",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Hestia"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 570,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Klasyczny siedmiopunktowy TIMI risk score dla UA/NSTEMI służy przede wszystkim do:",
+    "opts": [
+      "Stratyfikacji ryzyka zdarzeń w ostrym zespole wieńcowym bez uniesienia ST",
+      "Rozpoznania zakrzepicy żył głębokich",
+      "Oceny dojrzałości płodu",
+      "Oceny nasilenia choroby Parkinsona",
+      "Klasyfikacji torbieli nerki"
+    ],
+    "pl": "TIMI dla UA/NSTEMI porządkuje ryzyko u pacjentów z tym zespołem. Inne skale o nazwie TIMI mają odmienne zastosowania, np. przepływ wieńcowy.",
+    "ua": "TIMI для UA/NSTEMI оцінює ризик при ГКС без елевації ST. Інші шкали TIMI, зокрема оцінка коронарного потоку, мають інше призначення.",
+    "steps": [
+      "UA/NSTEMI",
+      "Ryzyko zdarzeń",
+      "TIMI 0–7"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: TIMI",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "timi-ua-nstemi",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: TIMI"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 571,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "W diagnostyce infekcyjnego zapalenia wsierdzia echokardiografia ujawnia wegetację zastawki. Jakie znaczenie może mieć ten wynik w kryteriach Duke’a?",
+    "opts": [
+      "Spełnia kryterium obrazowe duże w odpowiednim kontekście",
+      "Jest zawsze tylko kryterium małym",
+      "Samodzielnie przesądza o pewnym IZW w każdym przypadku",
+      "Ma znaczenie wyłącznie u pacjentów po wymianie zastawki",
+      "Pozwala odstąpić od pobrania posiewów"
+    ],
+    "pl": "Typowy obraz zajęcia wsierdzia jest dużym kryterium. Wynik trzeba łączyć z mikrobiologią i obrazem klinicznym; nie każda masa na zastawce jest zakażona.",
+    "ua": "Типова вегетація може бути великим візуалізаційним критерієм. Результат поєднують із мікробіологією та клінікою: не кожне утворення на клапані є інфікованим.",
+    "steps": [
+      "Wegetacja",
+      "Duże kryterium obrazowe",
+      "Posiewy nadal ważne"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Duke (IZW)",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "duke-echo-major",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Duke (IZW)"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 572,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "W ostrym zapaleniu trzustki niewydolność narządowa utrzymuje się 72 godziny. Jaką ciężkość określa zmodyfikowana Atlanta?",
+    "opts": [
+      "Ciężkie OZT",
+      "Łagodne OZT",
+      "Umiarkowanie ciężkie OZT wyłącznie",
+      "Brak OZT",
+      "Stopień Fontaine IV"
+    ],
+    "pl": "Utrzymująca się ponad 48 godzin niewydolność narządowa definiuje ciężkie OZT. Sama wysokość lipazy nie określa tej kategorii.",
+    "ua": "Органна недостатність понад 48 годин визначає тяжкий панкреатит. Сам рівень ліпази не визначає ступінь тяжкості.",
+    "steps": [
+      "Narząd niewydolny",
+      "Ponad 48 godzin",
+      "Ciężkie OZT"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Atlanta",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "atlanta-persistent-failure",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Atlanta"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Konsensus: revised Atlanta",
+        "url": "https://gut.bmj.com/content/62/1/102"
+      }
+    ]
+  },
+  {
+    "id": 573,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "W OZT niewydolność oddechowa ustąpiła po 24 godzinach i nie powróciła. Nie ma trwałej niewydolności narządowej. Jak sklasyfikować ciężkość według Atlanty?",
+    "opts": [
+      "Umiarkowanie ciężkie OZT",
+      "Łagodne OZT",
+      "Ciężkie OZT z definicji",
+      "Przewlekłe zapalenie trzustki",
+      "Nie można rozpoznać OZT bez martwicy"
+    ],
+    "pl": "Przemijająca niewydolność narządowa, ustępująca w ciągu 48 godzin, kwalifikuje do umiarkowanie ciężkiego OZT. Łagodne OZT nie ma niewydolności ani powikłań.",
+    "ua": "Минуща органна недостатність, що минає протягом 48 годин, відповідає помірно тяжкому панкреатиту. При легкому немає органної недостатності чи ускладнень.",
+    "steps": [
+      "24 godziny",
+      "Niewydolność przemijająca",
+      "Umiarkowanie ciężkie"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Atlanta",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "atlanta-transient-failure",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Atlanta"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Konsensus: revised Atlanta",
+        "url": "https://gut.bmj.com/content/62/1/102"
+      }
+    ]
+  },
+  {
+    "id": 574,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Co odpowiada stopniowi E w klasycznej morfologicznej skali Balthazara w TK?",
+    "opts": [
+      "Co najmniej dwa zbiorniki płynowe lub gaz w trzustce albo jej otoczeniu",
+      "Sam płyn w opłucnej",
+      "Wyłącznie martwica ponad połowy trzustki",
+      "Prawidłowy obraz trzustki",
+      "Izolowane powiększenie trzustki bez zmian otoczenia"
+    ],
+    "pl": "Stopień E dotyczy zbiorników i gazu. Odsetek martwicy jest osobną składową CTSI; sam wysięk opłucnowy nie definiuje E, mimo takiego zapisu w notatce.",
+    "ua": "Ступінь E стосується множинних скупчень рідини або газу. Частка некрозу — окремий компонент CTSI; плевральний випіт сам по собі не означає E.",
+    "steps": [
+      "E: wiele zbiorników",
+      "Martwica osobno",
+      "Nie sama opłucna"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 96",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "balthazar-e-correction",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 96
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "AGA: ocena obrazowa OZT",
+        "url": "https://www.cghjournal.org/article/S0016-5085%2807%2900591-4/fulltext"
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Które elementy sumuje oryginalny CTSI, tworząc wynik 0–10?",
+    "opts": [
+      "Zmiany morfologiczne Balthazara 0–4 i rozległość martwicy 0–6",
+      "Sam poziom lipazy i amylazy",
+      "Wyłącznie wiek i tętno",
+      "Sam płyn w opłucnej",
+      "Wyłącznie trzy parametry qSOFA"
+    ],
+    "pl": "Oryginalny CTSI dodaje ocenę morfologii do punktów za martwicę. Nie należy mieszać go ze zmodyfikowanym CTSI ani kliniczną Atlantą.",
+    "ua": "Оригінальний CTSI додає бали за морфологічні зміни до балів за некроз. Це інша оцінка, ніж модифікований CTSI та клінічна Atlanta.",
+    "steps": [
+      "Morfologia do 4",
+      "Martwica do 6",
+      "Razem do 10"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 96",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "ctsi-components",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 96
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "AGA: CT severity index",
+        "url": "https://www.cghjournal.org/article/S0016-5085%2807%2900591-4/fulltext"
+      }
+    ]
+  },
+  {
+    "id": 576,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Które dane są potrzebne do pełnej, poendoskopowej skali Rockalla poza oceną kliniczną?",
+    "opts": [
+      "Rozpoznanie endoskopowe i znamiona świeżego krwawienia",
+      "Wyłącznie grupa krwi",
+      "Wyłącznie stężenie TSH",
+      "Punktacja Apgar",
+      "Wyłącznie wynik gazometrii"
+    ],
+    "pl": "Pełny Rockall dodaje wynik endoskopii do wieku, wstrząsu i chorób współistniejących. Przedendoskopowy wariant nie zawiera tych danych.",
+    "ua": "Повна шкала Rockall додає ендоскопічні дані до віку, шоку та супутніх хвороб. Доендоскопічний варіант не містить цих компонентів.",
+    "steps": [
+      "Najpierw klinika",
+      "Potem endoskopia",
+      "Pełny Rockall"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 89",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "rockall-endoscopy",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 89
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 577,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Pacjent pali papierosy, nie ma ograniczenia aktywności ani innych chorób układowych. Do jakiej klasy ASA zalicza się typowo aktualnego palacza?",
+    "opts": [
+      "ASA II",
+      "ASA I",
+      "ASA III",
+      "ASA IV",
+      "ASA VI"
+    ],
+    "pl": "Aktualne palenie jest przykładem ASA II. Ostatecznej oceny stanu fizycznego przed znieczuleniem dokonuje anestezjolog.",
+    "ua": "Активне куріння — типовий приклад ASA II. Остаточну оцінку перед анестезією визначає анестезіолог.",
+    "steps": [
+      "Pali",
+      "Nie ASA I",
+      "ASA II"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: ASA",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "asa-ii-smoking",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: ASA"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "ASA: physical status classification",
+        "url": "https://doi.org/10.1097/ao9.0000000000000002"
+      }
+    ]
+  },
+  {
+    "id": 578,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Chory z pękniętym tętniakiem aorty jest umierający i nie oczekuje się jego przeżycia bez operacji. Która klasa ASA najlepiej pasuje?",
+    "opts": [
+      "ASA V",
+      "ASA I",
+      "ASA II",
+      "ASA III",
+      "ASA VI"
+    ],
+    "pl": "ASA V opisuje chorego umierającego, który bez operacji nie przeżyje. ASA VI dotyczy dawcy z rozpoznaną śmiercią mózgu; litera E dodatkowo oznacza tryb nagły.",
+    "ua": "ASA V — пацієнт у передсмертному стані, який не виживе без операції. ASA VI стосується донора з підтвердженою смертю мозку; E позначає екстреність.",
+    "steps": [
+      "Bez operacji nie przeżyje",
+      "ASA V",
+      "E oznacza nagłość"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: ASA",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "asa-v-moribund",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: ASA"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "ASA: physical status classification",
+        "url": "https://doi.org/10.1097/ao9.0000000000000002"
+      }
+    ]
+  },
+  {
+    "id": 579,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W PBL zajęte są trzy obszary limfatyczne, Hb wynosi 12 g/dl, a płytki 160 × 10⁹/l. Jaki stopień Binet?",
+    "opts": [
+      "B",
+      "A",
+      "C",
+      "D",
+      "E"
+    ],
+    "pl": "Binet B: co najmniej trzy obszary, bez niedokrwistości poniżej 10 g/dl i bez małopłytkowości poniżej 100 × 10⁹/l. Węzły szyjne po obu stronach liczy się jako jeden obszar.",
+    "ua": "Binet B: щонайменше три зони без Hb нижче 10 г/дл і без тромбоцитів нижче 100 × 10⁹/л. Шийні вузли з обох боків рахують як одну зону.",
+    "steps": [
+      "3 obszary",
+      "Hb i płytki zachowane",
+      "Binet B"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Binet",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "binet-b-case",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Binet"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NCI: CLL staging",
+        "url": "https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"
+      }
+    ]
+  },
+  {
+    "id": 580,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Chory z PBL ma Hb 8,5 g/dl z powodu choroby, płytki 120 × 10⁹/l i tylko jeden powiększony obszar węzłowy. Jaki stopień Binet?",
+    "opts": [
+      "C",
+      "A",
+      "B",
+      "D",
+      "Nie można stosować Binet przy anemii"
+    ],
+    "pl": "Hb poniżej 10 g/dl lub płytki poniżej 100 × 10⁹/l kwalifikują do Binet C niezależnie od liczby obszarów. Trzeba ustalić przyczynę cytopenii.",
+    "ua": "Hb нижче 10 г/дл або тромбоцити нижче 100 × 10⁹/л відповідають Binet C незалежно від кількості зон. Причину цитопенії потрібно встановити.",
+    "steps": [
+      "Hb 8,5",
+      "Cytopenia",
+      "Binet C"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Binet",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "binet-c-cytopenia",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Binet"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NCI: CLL staging",
+        "url": "https://www.cancer.gov/types/leukemia/hp/cll-treatment-pdq"
+      }
+    ]
+  },
+  {
+    "id": 581,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W klasycznym ISS szpiczaka β₂-mikroglobulina wynosi 2,8 mg/l, a albumina 4,0 g/dl. Jaki stopień?",
+    "opts": [
+      "I",
+      "II",
+      "III",
+      "Nie można wyznaczyć klasycznego ISS bez LDH",
+      "Nie można wyznaczyć klasycznego ISS bez cytogenetyki"
+    ],
+    "pl": "ISS I wymaga β₂-mikroglobuliny poniżej 3,5 mg/l i albuminy co najmniej 3,5 g/dl. R-ISS dodaje kolejne czynniki, więc to nie są zamienne skale.",
+    "ua": "ISS I: β₂-мікроглобулін нижче 3,5 мг/л та альбумін не менше 3,5 г/дл. R-ISS враховує додаткові чинники.",
+    "steps": [
+      "β₂M nisko",
+      "Albumina zachowana",
+      "ISS I"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 183",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "iss-myeloma-case",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 183
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NCI: myeloma ISS",
+        "url": "https://www.cancer.gov/types/myeloma/hp/myeloma-treatment-pdq"
+      }
+    ]
+  },
+  {
+    "id": 582,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Odpływ sięga układu kielichowo-miedniczkowego i powoduje łagodne lub umiarkowane poszerzenie moczowodu oraz miedniczki. Brak znacznej krętości. Jaki stopień VUR najlepiej pasuje?",
+    "opts": [
+      "III",
+      "I",
+      "II",
+      "V",
+      "Odpływu nie ma"
+    ],
+    "pl": "W III stopniu zaczyna być widoczne poszerzenie. Stopień II dochodzi do układu kielichowo-miedniczkowego bez poszerzenia; V oznacza duże poszerzenie i krętość.",
+    "ua": "При III ступені з’являється розширення. II досягає чашково-мискової системи без дилатації; V — значна дилатація й звивистість.",
+    "steps": [
+      "Do nerki",
+      "Już poszerza",
+      "VUR III"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 167",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "vur-grade-iii",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 167
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 583,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Bezobjawowa torbiel nerki została prawidłowo zakwalifikowana jako Bosniak IIF. Co najtrafniej opisuje znaczenie litery F?",
+    "opts": [
+      "Follow-up — potrzeba obserwacji obrazowej",
+      "Pewny przerzut odległy",
+      "Obowiązkowa pilna nefrektomia każdej zmiany",
+      "Zawsze ropień wymagający drenażu",
+      "Całkowity zakaz dalszej kontroli"
+    ],
+    "pl": "IIF oznacza zmianę wymagającą kontrolnych badań obrazowych. Nie jest równoznaczne z potwierdzonym rakiem ani automatyczną operacją.",
+    "ua": "IIF означає потребу в контрольних візуалізаційних обстеженнях. Це не підтверджений рак і не автоматична вимога операції.",
+    "steps": [
+      "F = follow-up",
+      "Obrazowanie kontrolne",
+      "Nie rozpoznanie raka"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: Bosniak",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "bosniak-iif-followup",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: Bosniak"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "CUA: cystic renal lesions",
+        "url": "https://www.cua.org/sites/default/files/Professional-Development/SECTION%203%20FILES/8389.pdf"
+      }
+    ]
+  },
+  {
+    "id": 584,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W opisie mammografii widnieje BI-RADS 5. Co to oznacza?",
+    "opts": [
+      "Obraz wysoce podejrzany o złośliwość, wymagający weryfikacji tkankowej",
+      "Nowotwór już potwierdzony biopsją",
+      "Badanie prawidłowe",
+      "Zmianę na pewno łagodną",
+      "Wyłącznie niewystarczającą jakość zdjęcia"
+    ],
+    "pl": "BI-RADS 5 to bardzo duże podejrzenie złośliwości. Kategoria 6 oznacza znany nowotwór potwierdzony biopsją.",
+    "ua": "BI-RADS 5 — дуже висока підозра на злоякісність, що потребує морфологічної верифікації. Категорія 6 — рак уже підтверджений біопсією.",
+    "steps": [
+      "5 podejrzenie",
+      "Biopsja potwierdza",
+      "6 już potwierdzone"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 325",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "birads5-not-histology",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 325
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 585,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Pacjent z ekspozycją na dym ma utrwalone objawy, a po leku rozszerzającym oskrzela FEV₁/FVC wynosi 0,62. Co ocenia ten stosunek w diagnostyce POChP?",
+    "opts": [
+      "Obecność obturacji; stopień ograniczenia przepływu ocenia się dodatkowo z FEV₁ % należnej",
+      "Bezpośrednio stopień GOLD 4 niezależnie od FEV₁",
+      "Wyłącznie subiektywne nasilenie duszności",
+      "Wyłącznie ryzyko zaostrzeń w poprzednim roku",
+      "Sam w sobie wyklucza POChP"
+    ],
+    "pl": "Stosunek FEV₁/FVC po bronchodilatatorze poniżej 0,70 wspiera rozpoznanie utrwalonej obturacji w odpowiednim kontekście. Stopnie GOLD 1–4 wykorzystują FEV₁ % należnej.",
+    "ua": "FEV₁/FVC після бронходилататора нижче 0,70 підтверджує стійку обструкцію у відповідному клінічному контексті. Ступені GOLD 1–4 визначають за FEV₁ у % належного.",
+    "steps": [
+      "Stosunek: obturacja",
+      "FEV₁ %: stopień",
+      "Nie myl wskaźników"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 54",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "gold-diagnosis-versus-grade",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 54
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 586,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Pacjent z zapaleniem płuc ma 66 lat, jest przytomny, oddech 22/min, ciśnienie 130/75 mmHg, mocznik 5 mmol/l. Ile punktów CURB-65?",
+    "opts": [
+      "1",
+      "0",
+      "2",
+      "3",
+      "4"
+    ],
+    "pl": "Punkt daje tylko wiek co najmniej 65 lat. Pozostałe kryteria: splątanie, mocznik ponad 7 mmol/l, oddech co najmniej 30/min, niskie ciśnienie.",
+    "ua": "Один бал дає лише вік від 65 років. Інші критерії: сплутаність, сечовина понад 7 ммоль/л, дихання від 30/хв, низький тиск.",
+    "steps": [
+      "66 lat",
+      "Pozostałe kryteria nieobecne",
+      "1 punkt"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 45",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "curb65-age-boundary",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 45
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 587,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Pacjent zgłasza smoliste stolce. Która skala może oszacować ryzyko potrzeby interwencji jeszcze przed gastroskopią?",
+    "opts": [
+      "Glasgow-Blatchford",
+      "Forrest",
+      "Pełna poendoskopowa Rockall",
+      "Balthazar",
+      "Hinchey"
+    ],
+    "pl": "GBS wykorzystuje dane kliniczne i laboratoryjne przed endoskopią. Forrest wymaga obejrzenia zmiany podczas endoskopii.",
+    "ua": "GBS використовує клінічні та лабораторні дані до ендоскопії. Для Forrest потрібно побачити ураження під час ендоскопії.",
+    "steps": [
+      "Przed gastroskopią",
+      "Klinika i laboratorium",
+      "GBS"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 78",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "gbs-before-endoscopy",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 78
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 588,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W materiale skrót IPSS pojawia się przy zespołach mielodysplastycznych. Do czego odnosi się w tym kontekście?",
+    "opts": [
+      "Oceny rokowania w MDS",
+      "Wyłącznie nasilenia objawów oddawania moczu",
+      "Oceny Apgar",
+      "Oceny stopnia oparzenia",
+      "Rozpoznania wyłącznie chłoniaka Hodgkina"
+    ],
+    "pl": "Ten sam skrót IPSS może oznaczać różne narzędzia. W MDS jest systemem prognostycznym, a w urologii kwestionariuszem objawów; kontekst jest kluczowy.",
+    "ua": "IPSS має різні значення. У MDS це прогностична система, в урології — шкала симптомів нижніх сечових шляхів. Вирішує контекст.",
+    "steps": [
+      "IPSS",
+      "Najpierw kontekst",
+      "MDS = rokowanie"
+    ],
+    "src": 3,
+    "sourceRef": "tabela: IPSS (MDS)",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "ipss-mds-not-prostate",
+      "materialId": 8,
+      "file": "LEK TOP100 Skale.docx",
+      "sha256": "8f162cf6d19053e7fc224096854ee437338255b45ec82c0c3359972eb0f92388",
+      "locator": {
+        "section": "tabela: IPSS (MDS)"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 589,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Klasyfikacja Bismutha dotycząca uszkodzeń dróg żółciowych po cholecystektomii opisuje przede wszystkim:",
+    "opts": [
+      "Poziom uszkodzenia lub zwężenia względem połączenia przewodów wątrobowych",
+      "Wielkość kamienia w pęcherzyku",
+      "Stopień zapalenia trzustki w TK",
+      "Ryzyko krwawienia z żylaków przełyku",
+      "Czynność syntetyczną wątroby"
+    ],
+    "pl": "W tym zastosowaniu Bismuth opisuje anatomię uszkodzenia dróg żółciowych. Bismuth-Corlette dla raka wnęki to odrębny kontekst klasyfikacji.",
+    "ua": "У цьому контексті Bismuth описує рівень ушкодження жовчних проток. Bismuth—Corlette при перихілярній холангіокарциномі — інше застосування.",
+    "steps": [
+      "Po cholecystektomii",
+      "Poziom przewodów",
+      "Anatomia uszkodzenia"
+    ],
+    "src": 8,
+    "sourceRef": "akapit 131",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "bismuth-injury-location",
+      "materialId": 6,
+      "file": "skale_i_klasyfikacje.docx",
+      "sha256": "18c17a8b80ddf5ee4a67f60b7f0845316bf2758d937cc497e065d2ec49060d4b",
+      "locator": {
+        "paragraph": 131
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 590,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Pacjentka ma gorączkę i ból lewego dołu biodrowego. TK wykazuje zapalenie wokół uchyłków esicy. Jakie jest rozpoznanie?",
+    "opts": [
+      "Ostre zapalenie uchyłków esicy",
+      "Ostre zapalenie wyrostka",
+      "Ostre zapalenie pęcherzyka żółciowego",
+      "Skręt przydatków jako wynik TK",
+      "Kamica przewodu żółciowego"
+    ],
+    "pl": "Ból lewego dołu biodrowego z zapalnymi zmianami uchyłków esicy wskazuje na diverticulitis. Sam ból bez obrazowania ma szerszą diagnostykę różnicową.",
+    "ua": "Біль зліва внизу живота разом із запальними змінами дивертикулів сигми на КТ відповідає дивертикуліту. Сам біль має ширший перелік причин.",
+    "steps": [
+      "Lewy dół",
+      "Esica",
+      "Zapalone uchyłki"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 4",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "diverticulitis-localization",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 4
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 591,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Pacjent ma typowy ostry ból nadbrzusza promieniujący do pleców i lipazę pięciokrotnie powyżej górnej granicy normy. Czy do samego rozpoznania OZT zawsze potrzebuje TK?",
+    "opts": [
+      "Nie — spełnia dwa z trzech kryteriów rozpoznania",
+      "Tak — OZT wymaga TK u każdego",
+      "Nie — bo lipaza wyklucza OZT",
+      "Tak — wyłącznie TK może wykazać ból",
+      "Nie — rozpoznaje się wyłącznie przewlekłe zapalenie"
+    ],
+    "pl": "Do rozpoznania OZT wystarczają dwa z trzech: charakterystyczny ból, enzymy co najmniej 3 razy ponad normę, typowe obrazowanie. Obrazowanie nadal może być potrzebne do oceny przyczyny lub powikłań.",
+    "ua": "Для діагнозу достатньо двох із трьох критеріїв: типовий біль, ферменти ≥3 верхніх меж норми, типова візуалізація. Візуалізація може бути потрібна для оцінки причини чи ускладнень.",
+    "steps": [
+      "Typowy ból",
+      "Lipaza ponad 3 razy",
+      "Dwa kryteria"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 7",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pancreatitis-two-criteria",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 7
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Konsensus: rozpoznanie OZT",
+        "url": "https://gut.bmj.com/content/62/1/102"
+      }
+    ]
+  },
+  {
+    "id": 592,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Pacjent przewlekle przyjmuje allopurynol i ma typowy napad dny; nie stwierdzono przeciwwskazań do kolchicyny. Które postępowanie leczy bieżący stan zapalny?",
+    "opts": [
+      "Dołączenie kolchicyny z kontynuacją dotychczasowego leczenia obniżającego moczany",
+      "Samo zwiększenie allopurynolu zamiast leczenia przeciwzapalnego",
+      "Odstawienie wszystkich leków na stałe",
+      "Rutynowy antybiotyk bez cech infekcji",
+      "Sama witamina D"
+    ],
+    "pl": "Napad wymaga leczenia przeciwzapalnego, np. kolchicyny, NLPZ lub glikokortykosteroidu zależnie od przeciwwskazań. Allopurynol nie jest lekiem doraźnie przeciwbólowym.",
+    "ua": "Напад потребує протизапального лікування: колхіцину, НПЗП або глюкокортикоїду залежно від протипоказань. Алопуринол не є препаратом для негайного знеболення.",
+    "steps": [
+      "Allopurynol: moczany",
+      "Kolchicyna: napad",
+      "Dwie różne role"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 10",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "gout-flare-antiinflammatory",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 10
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "ACR 2020: gout",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563586/"
+      }
+    ]
+  },
+  {
+    "id": 593,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Który objaw należy do małych, a nie dużych kryteriów Jonesa w gorączce reumatycznej?",
+    "opts": [
+      "Gorączka",
+      "Pląsawica Sydenhama",
+      "Rumień brzeżny",
+      "Guzki podskórne",
+      "Zapalenie serca"
+    ],
+    "pl": "Gorączka jest kryterium małym. Progi oraz interpretacja objawów stawowych zależą od ryzyka populacji; pozostałe wymienione objawy należą do dużych.",
+    "ua": "Гарячка — малий критерій. Пороги й трактування суглобових проявів залежать від ризику популяції; решта перелічених ознак — великі критерії.",
+    "steps": [
+      "Jones",
+      "Gorączka mała",
+      "Serce duże"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 12",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "jones-fever-minor",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 12
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "CDC: acute rheumatic fever",
+        "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/acute-rheumatic-fever.html"
+      }
+    ]
+  },
+  {
+    "id": 594,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Dlaczego w prawidłowej ciąży stężenie hemoglobiny może się obniżyć mimo wzrostu całkowitej masy erytrocytów?",
+    "opts": [
+      "Objętość osocza rośnie bardziej niż masa erytrocytów",
+      "Każda ciąża powoduje masywną hemolizę",
+      "Erytrocyty całkowicie przestają powstawać",
+      "Żelazo nie jest wchłaniane w żadnej ciąży",
+      "Spada objętość osocza przy stałej masie krwinek"
+    ],
+    "pl": "Względnie większy przyrost osocza powoduje rozcieńczenie krwi. Nie oznacza to jednak, że każdą anemię można uznać za fizjologiczną bez oceny niedoborów.",
+    "ua": "Плазма збільшується більше, ніж маса еритроцитів, тому кров розводиться. Це не дозволяє вважати будь-яку анемію фізіологічною без оцінки дефіцитів.",
+    "steps": [
+      "Osocze rośnie szybciej",
+      "Rozcieńczenie",
+      "Hb względnie spada"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 17",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pregnancy-hemodilution",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 17
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 595,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Chory z obrzękiem płuc ma ciśnienie 80/50 mmHg i objawy hipoperfuzji. Który rutynowo rozważany lek rozszerzający naczynia może dodatkowo pogłębić hipotensję?",
+    "opts": [
+      "Nitrogliceryna",
+      "Noradrenalina",
+      "Dobutamina",
+      "Tlen przy współistniejącej hipoksemii",
+      "Dopamina stosowana jako lek wazopresyjny"
+    ],
+    "pl": "Azotany obniżają ciśnienie i nie są właściwym wyborem przy tak głębokiej hipotensji. Taki pacjent wymaga pilnej oceny i leczenia wstrząsu, a nie schematu dla nadciśnieniowego obrzęku płuc.",
+    "ua": "Нітрати знижують тиск і непридатні при такій гіпотензії. Потрібна невідкладна оцінка й лікування шоку, а не схема для гіпертензивного набряку легень.",
+    "steps": [
+      "Obrzęk płuc",
+      "SBP 80",
+      "Azotany pogłębią spadek"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 18",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pulmonary-edema-hypotension-nitrates",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 18
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "ESC 2021: heart failure",
+        "url": "https://academic.oup.com/eurheartj/article/42/36/3599/6358045"
+      }
+    ]
+  },
+  {
+    "id": 596,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Ciężarna ma ciężkie zaostrzenie astmy mimo początkowego leczenia wziewnego. Jak należy traktować wskazane glikokortykosteroidy ogólnoustrojowe?",
+    "opts": [
+      "Nie należy ich wstrzymywać wyłącznie z powodu ciąży",
+      "Są bezwzględnie zakazane w każdej ciąży",
+      "Zawsze zastępuje je antybiotyk",
+      "Zawsze zastępuje je heparyna",
+      "Można je podać dopiero po porodzie"
+    ],
+    "pl": "Niedotlenienie matki i płodu jest istotnym zagrożeniem. Ciężkie zaostrzenie leczy się pilnie, a wskazanych steroidów nie odmawia się tylko z powodu ciąży.",
+    "ua": "Гіпоксія матері й плода становить загрозу. Тяжке загострення лікують невідкладно; показані системні стероїди не скасовують лише через вагітність.",
+    "steps": [
+      "Leczyć zaostrzenie",
+      "Chronić utlenowanie",
+      "Ciąża nie blokuje steroidu"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 19",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "asthma-pregnancy-systemic-steroids",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 19
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Asthma in Pregnancy: przegląd kliniczny",
+        "url": "https://doi.org/10.1097/AOG.0000000000005948"
+      }
+    ]
+  },
+  {
+    "id": 597,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Jaką drogę planowego porodu zaleca NICE dla ciąży bliźniaczej jednokosmówkowej jednoowodniowej?",
+    "opts": [
+      "Cięcie cesarskie",
+      "Zawsze poród pochwowy niezależnie od sytuacji",
+      "Zawsze poród kleszczowy obu płodów",
+      "Czekanie do 42. tygodnia u każdej pacjentki",
+      "Wyłącznie próżnociąg"
+    ],
+    "pl": "Wspólna jama owodniowa wiąże się m.in. z ryzykiem kolizji pępowin. NICE zaleca planowe cięcie; moment i nagłe sytuacje wymagają indywidualnej oceny.",
+    "ua": "Спільна амніотична порожнина створює ризик ускладнень пуповин. NICE рекомендує плановий кесарів розтин; термін та екстрені ситуації оцінюють індивідуально.",
+    "steps": [
+      "Jedna owodnia",
+      "Dwie pępowiny",
+      "Planowe cięcie"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 29",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "mcma-delivery-route",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 29
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG137: monoamniotic twins",
+        "url": "https://www.nice.org.uk/guidance/ng137/chapter/Recommendations"
+      }
+    ]
+  },
+  {
+    "id": 598,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która para odpowiada dwóm najczęstszym przyczynom ostrego zapalenia trzustki w typowych populacjach dorosłych?",
+    "opts": [
+      "Kamica żółciowa i alkohol",
+      "Uraz brzucha i zakażenie wirusem świnki",
+      "Hiperkalcemia i pasożyty dróg żółciowych",
+      "Mutacja PRSS1 i anomalie przewodów",
+      "Autoimmunizacja i jatrogenne OZT po ERCP"
+    ],
+    "pl": "W różnicowaniu przyczyny OZT wcześnie ocenia się kamicę żółciową i ekspozycję na alkohol. Inne przyczyny obejmują m.in. hipertriglicerydemię i leki.",
+    "ua": "Серед частих причин гострого панкреатиту — жовчнокам’яна хвороба та алкоголь. Також існують гіпертригліцеридемія, лікарські та інші причини.",
+    "steps": [
+      "Drogi żółciowe",
+      "Alkohol",
+      "Szukaj etiologii"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 46",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "pancreatitis-common-causes",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 46
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 599,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Według NICE od którego tygodnia zaleca się małą dawkę aspiryny u ciężarnych z wysokim ryzykiem stanu przedrzucawkowego?",
+    "opts": [
+      "Od 12. tygodnia",
+      "Dopiero od 30. tygodnia",
+      "Wyłącznie po porodzie",
+      "Dopiero po pierwszym napadzie drgawek",
+      "Dopiero po rozpoczęciu porodu"
+    ],
+    "pl": "NICE zaleca rozpoczęcie od 12. tygodnia. To profilaktyka u wybranych pacjentek, a nie leczenie rzucawki; szczegółowy schemat zależy od stosowanych wytycznych.",
+    "ua": "NICE рекомендує починати від 12 тижня. Це профілактика у пацієнток із ризиком, а не лікування еклампсії; конкретну схему визначають відповідні настанови.",
+    "steps": [
+      "Ryzyko ocenione",
+      "12. tydzień",
+      "Profilaktyka"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 50",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "preeclampsia-aspirin-start",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 50
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG133: aspirin",
+        "url": "https://www.nice.org.uk/guidance/ng133/chapter/recommendations"
+      }
+    ]
+  },
+  {
+    "id": 600,
+    "topic": "Pediatria i neonatologia",
+    "q": "Oblicz podstawowe dobowe zapotrzebowanie na płyny dziecka 26 kg według reguły Hollidaya-Segara 100/50/20 ml/kg. Nie doliczaj deficytu ani strat bieżących.",
+    "opts": [
+      "1620 ml/dobę",
+      "1300 ml/dobę",
+      "1500 ml/dobę",
+      "2100 ml/dobę",
+      "2600 ml/dobę"
+    ],
+    "pl": "Pierwsze 10 kg: 1000 ml; kolejne 10 kg: 500 ml; pozostałe 6 kg: 120 ml. Razem 1620 ml. To obliczenie podstawowe, nie gotowy plan leczenia odwodnienia.",
+    "ua": "Перші 10 кг: 1000 мл; наступні 10: 500 мл; решта 6: 120 мл. Разом 1620 мл. Це базова потреба, а не повний план лікування зневоднення.",
+    "steps": [
+      "10 × 100",
+      "10 × 50",
+      "6 × 20 = razem 1620"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 1, temat zapisu 54",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "holliday-segar-26kg",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 1,
+        "number": 54
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG29: Holliday–Segar",
+        "url": "https://www.nice.org.uk/guidance/ng29/chapter/Recommendations"
+      }
+    ]
+  },
+  {
+    "id": 601,
+    "topic": "Pediatria i neonatologia",
+    "q": "Dobrze przybierające niemowlę karmione piersią ma w 3. tygodniu żółtaczkę z przewagą bilirubiny niesprzężonej. Wykluczono inne przyczyny. Które rozpoznanie pasuje?",
+    "opts": [
+      "Żółtaczka związana z mlekiem kobiecym",
+      "Żółtaczka z niedostatecznej podaży pokarmu przy słabym przyroście masy",
+      "Cholestaza z przewagą bilirubiny sprzężonej",
+      "Hemoliza jako jedyne możliwe wyjaśnienie",
+      "Fizjologiczna żółtaczka w pierwszych 6 godzinach życia"
+    ],
+    "pl": "Żółtaczka mleka kobiecego może trwać kilka tygodni u dobrze rozwijającego się dziecka. Przed takim rozpoznaniem ocenia się bilirubinę bezpośrednią i przyczyny patologiczne.",
+    "ua": "Жовтяниця грудного молока може тривати кілька тижнів у дитини, яка добре росте. Перед цим діагнозом оцінюють прямий білірубін та виключають патологічні причини.",
+    "steps": [
+      "Dobrze rośnie",
+      "Późniejsza żółtaczka",
+      "Wyklucz inne przyczyny"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 2, temat zapisu 146",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "breast-milk-jaundice",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 2,
+        "number": 146
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "CDC: jaundice and breastfeeding",
+        "url": "https://www.cdc.gov/breastfeeding-special-circumstances/hcp/illnesses-conditions/jaundice.html"
+      }
+    ]
+  },
+  {
+    "id": 602,
+    "topic": "Pediatria i neonatologia",
+    "q": "U noworodka podejrzewa się przewodozależną wadę serca z pogorszeniem przy zamykaniu przewodu tętniczego. Jaki lek służy do utrzymania jego drożności?",
+    "opts": [
+      "Prostaglandyna E₁ (alprostadyl)",
+      "Indometacyna",
+      "Ibuprofen",
+      "Paracetamol w celu zamknięcia przewodu",
+      "Furosemid jako lek otwierający przewód"
+    ],
+    "pl": "PGE₁ podtrzymuje drożność przewodu jako pomost do leczenia wady. Wymaga monitorowania, m.in. z powodu ryzyka bezdechu; nie każda wada serca jest przewodozależna.",
+    "ua": "PGE₁ підтримує відкриту артеріальну протоку як міст до лікування вади. Потрібен моніторинг, зокрема через ризик апное. Не всі вади протокозалежні.",
+    "steps": [
+      "Przewód się zamyka",
+      "PGE₁ utrzymuje",
+      "Monitoruj oddech"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 2, temat zapisu 151",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "duct-dependent-prostaglandin",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 2,
+        "number": 151
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 603,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "U pacjentki rozpoznano SLE bez przeciwwskazań do hydroksychlorochiny. Który lek jest zalecany jako podstawowy element leczenia u większości takich chorych, z odpowiednim nadzorem?",
+    "opts": [
+      "Hydroksychlorochina",
+      "Cyklofosfamid u każdej pacjentki niezależnie od zajęcia narządów",
+      "Stałe duże dawki prednizonu u wszystkich",
+      "Rytuksymab jako obowiązkowy lek pierwszego wyboru u wszystkich",
+      "Metotreksat jako uniwersalny zamiennik hydroksychlorochiny"
+    ],
+    "pl": "EULAR zaleca hydroksychlorochinę, jeśli nie ma przeciwwskazań. Cyklofosfamid rezerwuje się dla określonych ciężkich sytuacji; sam rumień na twarzy nie uzasadnia jego rutynowego stosowania.",
+    "ua": "EULAR рекомендує гідроксихлорохін за відсутності протипоказань. Циклофосфамід використовують у певних тяжких ситуаціях; сам висип на обличчі не є підставою для нього.",
+    "steps": [
+      "SLE",
+      "Hydroksychlorochina",
+      "Nadzór okulistyczny"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 2, temat zapisu 160",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "sle-hydroxychloroquine",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 2,
+        "number": 160
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "EULAR 2023: SLE",
+        "url": "https://ard.bmj.com/content/early/2023/10/11/ard-2023-224762?versioned=true"
+      }
+    ]
+  },
+  {
+    "id": 604,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Chory z ciężką hiperkaliemią ma poszerzony QRS. Jaką rolę pełni dożylne podanie soli wapnia?",
+    "opts": [
+      "Stabilizuje błonę komórkową serca, nie usuwa potasu z organizmu",
+      "Trwale usuwa cały nadmiar potasu",
+      "Zastępuje insulinę i wszystkie dalsze działania",
+      "Zwiększa wydalanie potasu przez płuca",
+      "Służy wyłącznie do uzupełnienia witaminy D"
+    ],
+    "pl": "Wapń chroni serce przy toksycznych zmianach EKG. Równolegle potrzebne są działania obniżające potas i usuwające jego przyczynę.",
+    "ua": "Кальцій стабілізує міокард при токсичних ЕКГ-змінах. Паралельно потрібні заходи для зниження калію й усунення причини.",
+    "steps": [
+      "EKG zagrożone",
+      "Wapń chroni",
+      "Potas trzeba obniżyć"
+    ],
+    "src": 6,
+    "sourceRef": "s. PDF 3, temat zapisu 174",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "hyperkalemia-calcium-role",
+      "materialId": 1,
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "locator": {
+        "page": 3,
+        "number": 174
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "RCUK 2025: hyperkalaemia",
+        "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines"
+      }
+    ]
+  },
+  {
+    "id": 605,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która lokalizacja jest najczęstsza dla GIST w przewodzie pokarmowym?",
+    "opts": [
+      "Żołądek",
+      "Przełyk",
+      "Odbytnica",
+      "Wyrostek robaczkowy",
+      "Pęcherzyk żółciowy"
+    ],
+    "pl": "GIST najczęściej występuje w żołądku, następnie w jelicie cienkim. Nie jest tym samym co gruczolakorak żołądka.",
+    "ua": "GIST найчастіше виникає у шлунку, далі — у тонкій кишці. Це не те саме, що аденокарцинома шлунка.",
+    "steps": [
+      "GIST",
+      "Najczęściej żołądek",
+      "Nie gruczolakorak"
+    ],
+    "src": 0,
+    "sourceRef": "s. PDF 1",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "gist-common-site",
+      "materialId": 3,
+      "file": "07 LEW 16.05.2024.pdf",
+      "sha256": "73076e0992782e2d372bd9c569343dc207ca5ca067c6cd3f53f896bdb352b58f",
+      "locator": {
+        "page": 1
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NCI: GIST",
+        "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/hp/gist-treatment-pdq"
+      }
+    ]
+  },
+  {
+    "id": 606,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Co wyróżnia laparoskopową metodę TAPP naprawy przepukliny pachwinowej w porównaniu z TEP?",
+    "opts": [
+      "Dostęp przez jamę otrzewnej do przestrzeni przedotrzewnowej",
+      "Zawsze brak użycia siatki",
+      "Usunięcie całego kanału pachwinowego",
+      "Dostęp wyłącznie przez cewkę moczową",
+      "Otwarcie żołądka"
+    ],
+    "pl": "TAPP to transabdominal preperitoneal repair: wejście do jamy otrzewnej, a następnie ułożenie siatki przedotrzewnowo. TEP omija jamę otrzewnej.",
+    "ua": "TAPP передбачає вхід у черевну порожнину з подальшим розташуванням сітки передочеревинно. TEP оминає черевну порожнину.",
+    "steps": [
+      "TA: przez brzuch",
+      "PP: przed otrzewną",
+      "TAPP"
+    ],
+    "src": 0,
+    "sourceRef": "s. PDF 1",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "tapp-versus-tep",
+      "materialId": 3,
+      "file": "07 LEW 16.05.2024.pdf",
+      "sha256": "73076e0992782e2d372bd9c569343dc207ca5ca067c6cd3f53f896bdb352b58f",
+      "locator": {
+        "page": 1
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 607,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Który narząd nie jest rutynowo usuwany podczas klasycznej pankreatoduodenektomii Whipple’a?",
+    "opts": [
+      "Śledziona",
+      "Dwunastnica",
+      "Głowa trzustki",
+      "Dystalny odcinek przewodu żółciowego wspólnego",
+      "Pęcherzyk żółciowy"
+    ],
+    "pl": "Klasyczna operacja obejmuje głowę trzustki, dwunastnicę, końcowy odcinek dróg żółciowych, pęcherzyk i część żołądka. Śledziona zwykle pozostaje.",
+    "ua": "Класична операція охоплює голівку підшлункової, дванадцятипалу кишку, дистальні жовчні шляхи, жовчний міхур і частину шлунка. Селезінку зазвичай зберігають.",
+    "steps": [
+      "Whipple: głowa trzustki",
+      "Dwunastnica obok",
+      "Śledziona zostaje"
+    ],
+    "src": 0,
+    "sourceRef": "s. PDF 2",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "whipple-spleen-preserved",
+      "materialId": 3,
+      "file": "07 LEW 16.05.2024.pdf",
+      "sha256": "73076e0992782e2d372bd9c569343dc207ca5ca067c6cd3f53f896bdb352b58f",
+      "locator": {
+        "page": 2
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 608,
+    "topic": "Nefrologia i elektrolity",
+    "q": "W zadaniu przyjmij całkowitą wodę ustrojową 60 l, sód 154 mmol/l i cel 140 mmol/l. Jaki deficyt wolnej wody daje wzór TBW × (Na/140 − 1)?",
+    "opts": [
+      "6 l",
+      "2 l",
+      "4 l",
+      "10 l",
+      "14 l"
+    ],
+    "pl": "60 × (154/140 − 1) = 60 × 0,1 = 6 l. To szacunek deficytu, nie zalecenie podania całości od razu; tempo korekcji i straty wymagają osobnej oceny.",
+    "ua": "60 × (154/140 − 1) = 6 л. Це оцінка дефіциту, а не вказівка вводити все відразу; темп корекції й поточні втрати оцінюють окремо.",
+    "steps": [
+      "154/140 = 1,1",
+      "Nadwyżka 0,1",
+      "60 × 0,1 = 6"
+    ],
+    "src": 1,
+    "sourceRef": "akapit 18",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "water-deficit-calculation",
+      "materialId": 2,
+      "file": "08 LEW 06.11.2024 (1).docx",
+      "sha256": "6e07e9db876d8573ef326fd71918fe303388da21c7d88fcf76e65eba0fad278b",
+      "locator": {
+        "paragraph": 18
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 609,
+    "topic": "Pediatria i neonatologia",
+    "q": "Według KDIGO 2025 początkowa dobowa dawka prednizonu/prednizolonu w typowym pierwszym epizodzie zespołu nerczycowego u dziecka wynosi:",
+    "opts": [
+      "60 mg/m² albo 2 mg/kg, maksymalnie 60 mg/dobę",
+      "60 mg/kg u każdego dziecka",
+      "2 mg/m², maksymalnie 5 mg/dobę",
+      "600 mg/m² bez limitu",
+      "Jednorazowo 1 mg niezależnie od masy"
+    ],
+    "pl": "Kluczowe są jednostki: 60 mg na metr kwadratowy, a nie na kilogram. KDIGO dopuszcza schemat oparty na powierzchni albo masie z limitem 60 mg na dobę.",
+    "ua": "Ключові одиниці: 60 мг на квадратний метр, а не на кілограм. KDIGO допускає розрахунок за площею або масою з максимумом 60 мг на добу.",
+    "steps": [
+      "60 na m²",
+      "2 na kg",
+      "Maksimum 60 mg"
+    ],
+    "src": 1,
+    "sourceRef": "akapit 44",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "nephrotic-prednisone-units",
+      "materialId": 2,
+      "file": "08 LEW 06.11.2024 (1).docx",
+      "sha256": "6e07e9db876d8573ef326fd71918fe303388da21c7d88fcf76e65eba0fad278b",
+      "locator": {
+        "paragraph": 44
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "KDIGO 2025: childhood nephrotic syndrome",
+        "url": "https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf"
+      }
+    ]
+  },
+  {
+    "id": 610,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "U ciężarnej z chorobą autoimmunologiczną wykryto anty-Ro/SSA. Z jakim powikłaniem płodowym wiąże się ten profil przeciwciał?",
+    "opts": [
+      "Wrodzony blok przedsionkowo-komorowy w toczniu noworodkowym",
+      "Zawsze trisomia 21",
+      "Wyłącznie przerost odźwiernika",
+      "Zawsze wada cewy nerwowej",
+      "Zawsze hemofilia A"
+    ],
+    "pl": "Przeciwciała anty-Ro/SSA mogą przechodzić przez łożysko i wiązać się z toczniem noworodkowym, w tym blokiem serca. Dodatni wynik oznacza ryzyko, nie pewność powikłania.",
+    "ua": "Анти-Ro/SSA можуть проходити плаценту й бути пов’язаними з неонатальним вовчаком, зокрема блокадою серця. Позитивний тест означає ризик, а не неминучість.",
+    "steps": [
+      "Anty-Ro",
+      "Przez łożysko",
+      "Ryzyko bloku serca"
+    ],
+    "src": 5,
+    "sourceRef": "s. PDF 3",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "anti-ro-neonatal-block",
+      "materialId": 11,
+      "file": "LEW 06.11.2024.pdf",
+      "sha256": "8391ee4ba597a0b7cc12f5ac834ffc538ca6b50ab5b5688ddccc882cd7cd6766",
+      "locator": {
+        "page": 3
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "ACR 2020: reproductive health",
+        "url": "https://acrjournals.onlinelibrary.wiley.com/doi/10.1002/acr.24130"
+      }
+    ]
+  },
+  {
+    "id": 611,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Górną ścianę, czyli sklepienie kanału pachwinowego, tworzą głównie:",
+    "opts": [
+      "Łukowate włókna mięśnia skośnego wewnętrznego i poprzecznego brzucha",
+      "Wyłącznie więzadło pachwinowe",
+      "Wyłącznie powięź poprzeczna",
+      "Wyłącznie rozcięgno mięśnia skośnego zewnętrznego",
+      "Mięsień prosty uda"
+    ],
+    "pl": "Sklepienie tworzą łuki mięśni skośnego wewnętrznego i poprzecznego. Więzadło pachwinowe jest dnem, a powięź poprzeczna głównym elementem ściany tylnej.",
+    "ua": "Дах утворюють дугоподібні волокна внутрішнього косого й поперечного м’язів живота. Пахвинна зв’язка — дно, поперечна фасція — основа задньої стінки.",
+    "steps": [
+      "Dach: łuki mięśni",
+      "Dno: więzadło",
+      "Tył: powięź"
+    ],
+    "src": 4,
+    "sourceRef": "s. PDF 1",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "inguinal-roof",
+      "materialId": 5,
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "locator": {
+        "page": 1
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 612,
+    "topic": "Pediatria i neonatologia",
+    "q": "Po nagłej zmianie podparcia głowy noworodek odwodzi i prostuje ramiona, a następnie je przywodzi. Jaki odruch opisano?",
+    "opts": [
+      "Moro",
+      "Babińskiego",
+      "Chwytny dłoniowy",
+      "Szukania",
+      "Ssania"
+    ],
+    "pl": "Odruch Moro ma fazę odwiedzenia/wyprostu i następującego przywiedzenia kończyn górnych. Asymetria wymaga oceny neurologicznej i urazu kończyny.",
+    "ua": "Рефлекс Моро складається з відведення й розгинання рук, потім їх приведення. Асиметрію оцінюють щодо неврологічних причин та травми.",
+    "steps": [
+      "Nagły bodziec",
+      "Ramiona na zewnątrz",
+      "Potem obejmują"
+    ],
+    "src": 4,
+    "sourceRef": "s. PDF 3",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "moro-reflex",
+      "materialId": 5,
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "locator": {
+        "page": 3
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 613,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "U dziecka kilka tygodni po zakażeniu gardła wystąpiły mimowolne ruchy pląsawicze i chwiejność emocjonalna. Które powikłanie trzeba rozważyć?",
+    "opts": [
+      "Pląsawicę Sydenhama w gorączce reumatycznej",
+      "Wyłącznie chorobę Huntingtona",
+      "Zespół Guillaina-Barrégo jako typową pląsawicę",
+      "Botulizm",
+      "Tężec jako przyczynę typowych ruchów pląsawiczych"
+    ],
+    "pl": "Pląsawica Sydenhama jest dużym kryterium gorączki reumatycznej i może pojawić się z opóźnieniem po zakażeniu paciorkowcowym.",
+    "ua": "Хорея Сиденгама — великий критерій ревматичної гарячки; вона може виникнути із затримкою після стрептококової інфекції.",
+    "steps": [
+      "Po paciorkowcu",
+      "Pląsawica",
+      "Sydenham"
+    ],
+    "src": 4,
+    "sourceRef": "s. PDF 2",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "sydenham-post-strep",
+      "materialId": 5,
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "locator": {
+        "page": 2
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "CDC: rheumatic fever",
+        "url": "https://www.cdc.gov/group-a-strep/hcp/clinical-guidance/acute-rheumatic-fever.html"
+      }
+    ]
+  },
+  {
+    "id": 614,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "U 93-letniej pacjentki przypadkowo wykryto kamienie w prawidłowym pęcherzyku, bez objawów i bez zmian w drogach żółciowych. Co jest zwykle właściwe?",
+    "opts": [
+      "Obserwacja i informacja o objawach alarmowych",
+      "Pilna cholecystektomia wyłącznie z powodu obecności kamieni",
+      "Rutynowy antybiotyk do końca życia",
+      "Pilna pankreatoduodenektomia",
+      "Rutynowa ERCP mimo braku kamicy przewodowej"
+    ],
+    "pl": "Bezobjawowa kamica w prawidłowym pęcherzyku i drogach żółciowych zwykle nie wymaga leczenia operacyjnego. Objawy lub szczególne czynniki ryzyka mogą zmienić decyzję.",
+    "ua": "Безсимптомні камені в нормальному жовчному міхурі за відсутності патології проток зазвичай не потребують операції. Симптоми чи особливі ризики змінюють рішення.",
+    "steps": [
+      "Kamienie bez objawów",
+      "Nie operuj automatycznie",
+      "Obserwacja"
+    ],
+    "src": 4,
+    "sourceRef": "s. PDF 2",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "asymptomatic-gallstones",
+      "materialId": 5,
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "locator": {
+        "page": 2
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE CG188: gallstone disease",
+        "url": "https://www.nice.org.uk/guidance/cg188/chapter/Recommendations"
+      }
+    ]
+  },
+  {
+    "id": 615,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Kreatynina wzrosła z 0,9 do 1,3 mg/dl w ciągu 36 godzin. Który wniosek jest prawidłowy według kryteriów KDIGO 2012?",
+    "opts": [
+      "Wzrost spełnia kryterium AKI ≥0,3 mg/dl w 48 godzin",
+      "AKI wymaga zawsze kreatyniny ponad 5 mg/dl",
+      "AKI wyklucza brak obrzęków",
+      "To automatycznie PChN G5",
+      "Zmiana nie ma znaczenia, bo wartość jest bliska normie"
+    ],
+    "pl": "Liczy się przyrost w czasie, nie tylko przekroczenie zakresu laboratorium. Wzrost o 0,4 mg/dl w 36 godzin spełnia kryterium AKI.",
+    "ua": "Важлива зміна в часі, а не тільки лабораторна норма. Зростання на 0,4 мг/дл за 36 годин відповідає критерію ГПН.",
+    "steps": [
+      "Przyrost 0,4",
+      "Czas 36 godzin",
+      "AKI"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 13",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "aki-creatinine-rise",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 13
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "KDIGO: AKI",
+        "url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf"
+      }
+    ]
+  },
+  {
+    "id": 616,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Pacjent waży 80 kg i oddał 200 ml moczu w ciągu 8 godzin. Średnia diureza jest utrwalona przez ten okres. Czy spełnia kryterium oliguryczne AKI KDIGO 2012?",
+    "opts": [
+      "Tak — około 0,31 ml/kg/h przez ponad 6 godzin",
+      "Nie — jest to 2,5 ml/kg/h",
+      "Nie — tylko bezmocz może oznaczać AKI",
+      "Tak — ponieważ każdy wynik poniżej 2 l oznacza AKI",
+      "Nie — masa ciała nie ma znaczenia"
+    ],
+    "pl": "200 ÷ 80 ÷ 8 = 0,3125 ml/kg/h. To poniżej 0,5 ml/kg/h przez co najmniej 6 godzin; trzeba też ocenić przyczynę i wiarygodność zbiórki.",
+    "ua": "200 ÷ 80 ÷ 8 = 0,3125 мл/кг/год. Це менше 0,5 протягом щонайменше 6 годин; також оцінюють причину й точність збору.",
+    "steps": [
+      "Podziel przez kg",
+      "Podziel przez godziny",
+      "0,31"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 13",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "aki-urine-calculation",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 13
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "KDIGO: AKI",
+        "url": "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf"
+      }
+    ]
+  },
+  {
+    "id": 617,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Starszy mężczyzna ma zatrzymanie moczu, przepełniony pęcherz, obustronne wodonercze i wzrost kreatyniny. Jaki mechanizm AKI jest najbardziej prawdopodobny?",
+    "opts": [
+      "Pozanerkowy — utrudniony odpływ moczu",
+      "Przednerkowy wyłącznie z krwotoku",
+      "Pierwotnie kłębuszkowy bez przeszkody",
+      "Wyłącznie toksyczny po aminoglikozydzie",
+      "Fizjologiczny wzrost kreatyniny"
+    ],
+    "pl": "Zastój za przeszkodą w odpływie może pogarszać filtrację obu nerek. Obraz wymaga pilnego odbarczenia i oceny przyczyny przeszkody.",
+    "ua": "Перешкода відтоку сечі може погіршити функцію обох нирок. Потрібні невідкладне відновлення відтоку та встановлення причини.",
+    "steps": [
+      "Pełny pęcherz",
+      "Wodonercze obustronne",
+      "Przeszkoda poniżej"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 13",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "postrenal-aki-obstruction",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 13
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 618,
+    "topic": "Nefrologia i elektrolity",
+    "q": "W fazie zdrowienia po AKI diureza wzrosła do 5 l/dobę. Na jakie zagrożenie trzeba szczególnie uważać?",
+    "opts": [
+      "Odwodnienie i utratę elektrolitów mimo zwiększonej diurezy",
+      "Pewną pełną normalizację funkcji nerek",
+      "Brak potrzeby kontroli bilansu",
+      "Zawsze nadmierne zatrzymanie wody",
+      "Całkowity brak wydalania sodu"
+    ],
+    "pl": "Filtracja i zdolność zagęszczania moczu mogą wracać w różnym tempie. Faza wielomoczu wymaga kontroli bilansu, masy ciała i elektrolitów.",
+    "ua": "Фільтрація та здатність концентрувати сечу можуть відновлюватися нерівномірно. У поліуричній фазі контролюють баланс рідини, масу й електроліти.",
+    "steps": [
+      "Dużo moczu",
+      "Można tracić wodę",
+      "Kontroluj elektrolity"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 13",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "aki-polyuric-recovery",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 13
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 619,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Pacjent po operacji tarczycy ma tężyczkę i niskie stężenie wapnia zjonizowanego. Jakiej zmiany w EKG można oczekiwać?",
+    "opts": [
+      "Wydłużenia QT",
+      "Typowego skrócenia QT",
+      "Zawsze uniesienia ST we wszystkich odprowadzeniach",
+      "Zawsze całkowitego zaniku zespołów QRS",
+      "Wyłącznie skrócenia PQ"
+    ],
+    "pl": "Hipokalcemia może wydłużać QT, głównie przez wydłużenie odcinka ST. Hiperkalcemia częściej skraca QT.",
+    "ua": "Гіпокальціємія може подовжувати QT, переважно за рахунок ST. Гіперкальціємія частіше скорочує QT.",
+    "steps": [
+      "Wapń niski",
+      "Tężyczka",
+      "QT długie"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 38",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "hypocalcemia-qt",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 38
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 620,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Pacjent z podejrzeniem zakażenia ma oddech 24/min, ciśnienie skurczowe 95 mmHg i nowo powstałe splątanie. Ile wynosi qSOFA?",
+    "opts": [
+      "3",
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "pl": "Po jednym punkcie za oddech ≥22/min, SBP ≤100 mmHg i zmienioną świadomość. Wynik sygnalizuje ryzyko, ale sam nie rozpoznaje sepsy.",
+    "ua": "По балу за дихання ≥22/хв, систолічний тиск ≤100 мм рт. ст. і змінену свідомість. Сума вказує на ризик, але сама не встановлює сепсис.",
+    "steps": [
+      "Oddech 24",
+      "SBP 95",
+      "Splątanie: razem 3"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 139",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "qsofa-case-score",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 139
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 621,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Pacjent z zakażeniem ma qSOFA 0, ale narastającą niewydolność narządową. Który wniosek jest prawidłowy?",
+    "opts": [
+      "Niski qSOFA nie wyklucza sepsy i nie powinien być jedynym narzędziem przesiewowym",
+      "qSOFA 0 zawsze wyklucza sepsę",
+      "Sepsa wymaga qSOFA dokładnie 3",
+      "Można zignorować niewydolność narządową",
+      "Sepsę rozpoznaje się tylko z gorączki"
+    ],
+    "pl": "qSOFA ma ograniczoną czułość. SSC odradza używanie go jako jedynego narzędzia przesiewowego; potrzebna jest pełna ocena kliniczna.",
+    "ua": "qSOFA має обмежену чутливість. SSC не рекомендує його як єдиний скринінг; потрібна повна клінічна оцінка.",
+    "steps": [
+      "qSOFA niski",
+      "Sepsa nadal możliwa",
+      "Oceń narządy"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 139",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "qsofa-not-exclusion",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 139
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Surviving Sepsis Campaign 2021",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8486643/"
+      }
+    ]
+  },
+  {
+    "id": 622,
+    "topic": "Psychiatria i neurologia",
+    "q": "Pacjent po udarze potrzebuje pomocy w części codziennych czynności, ale chodzi bez pomocy drugiej osoby. Który wynik mRS najlepiej pasuje?",
+    "opts": [
+      "3",
+      "0",
+      "1",
+      "4",
+      "5"
+    ],
+    "pl": "mRS 3 oznacza umiarkowaną niesprawność: potrzeba pewnej pomocy przy zachowanej zdolności chodzenia bez pomocy innej osoby.",
+    "ua": "mRS 3 — помірна інвалідність: потрібна певна допомога, але людина ходить без допомоги іншої особи.",
+    "steps": [
+      "Pomoc w czynnościach",
+      "Chodzi sam",
+      "mRS 3"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 138",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "mrs-grade3",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 138
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Joint Commission: modified Rankin scale",
+        "url": "https://manual.jointcommission.org/releases/TJC2026B/DataElem0569.html"
+      }
+    ]
+  },
+  {
+    "id": 623,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Powikłanie pooperacyjne wymaga reoperacji w znieczuleniu ogólnym, bez niewydolności narządowej zagrażającej życiu. Jaki stopień Claviena-Dindo?",
+    "opts": [
+      "IIIb",
+      "I",
+      "II",
+      "IIIa",
+      "V"
+    ],
+    "pl": "Stopień III wymaga interwencji chirurgicznej, endoskopowej lub radiologicznej. IIIa jest bez znieczulenia ogólnego, IIIb z takim znieczuleniem.",
+    "ua": "III ступінь потребує хірургічного, ендоскопічного чи радіологічного втручання. IIIa — без загальної анестезії, IIIb — під загальною анестезією.",
+    "steps": [
+      "Interwencja: III",
+      "Znieczulenie ogólne: b",
+      "IIIb"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 139",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "clavien-iiib",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 139
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "Dindo i wsp. 2004: klasyfikacja powikłań",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1360123/"
+      }
+    ]
+  },
+  {
+    "id": 624,
+    "topic": "Psychiatria i neurologia",
+    "q": "U nieprzytomnego pacjenta zapisano GCS 3. Czy ten wynik sam wystarcza do rozpoznania śmierci mózgu?",
+    "opts": [
+      "Nie — potrzebna jest odrębna procedura i wykluczenie czynników zakłócających",
+      "Tak — GCS 3 jest definicją śmierci mózgu",
+      "Tak — niezależnie od sedacji",
+      "Tak — niezależnie od temperatury",
+      "Tak — bez badania odruchów pniowych"
+    ],
+    "pl": "GCS ocenia reakcje, nie orzeka śmierci mózgu. Leki, hipotermia i inne odwracalne czynniki mogą obniżać wynik; rozpoznanie wymaga spełnienia odrębnych kryteriów.",
+    "ua": "GCS оцінює реакції, але не встановлює смерть мозку. Седація, гіпотермія та інші оборотні чинники можуть знижувати бал; потрібна окрема процедура.",
+    "steps": [
+      "GCS opisuje reakcje",
+      "3 nie oznacza śmierci",
+      "Osobne kryteria"
+    ],
+    "src": 9,
+    "sourceRef": "s. PDF 142",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "gcs3-not-brain-death",
+      "materialId": 7,
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "locator": {
+        "page": 142
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "AAN/AAP/CNS/SCCM 2023",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/"
+      }
+    ]
+  },
+  {
+    "id": 625,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "W ciężkim stanie brzusznym pojawiły się podbiegnięcia krwawe wokół pępka. Jak nazywa się ten objaw?",
+    "opts": [
+      "Cullena",
+      "Grey-Turnera",
+      "Foxa",
+      "Kehra",
+      "Murphy’ego"
+    ],
+    "pl": "Cullen dotyczy okolicy pępka. Może towarzyszyć krwawieniu do jamy brzusznej lub zaotrzewnowo; nie jest swoisty wyłącznie dla OZT.",
+    "ua": "Симптом Куллена — екхімози навколо пупка. Можливий при внутрішньочеревній чи заочеревинній кровотечі, а не лише при панкреатиті.",
+    "steps": [
+      "Cullen",
+      "Centralnie",
+      "Pępek"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Objaw Cullena",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "cullen-location",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Objaw Cullena"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 626,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Podbiegnięcia krwawe na bocznych powierzchniach brzucha w przebiegu krwawienia zaotrzewnowego określa się jako objaw:",
+    "opts": [
+      "Grey-Turnera",
+      "Cullena",
+      "Courvoisiera",
+      "Rovsinga",
+      "Blumberga"
+    ],
+    "pl": "Grey-Turner oznacza zasinienia boków/okolic lędźwiowych. Cullen jest okołopępkowy; same objawy nie ustalają etiologii krwawienia.",
+    "ua": "Симптом Грея—Тернера — екхімози бокових чи поперекових ділянок. Куллена — навколо пупка. Ці ознаки не визначають причину кровотечі.",
+    "steps": [
+      "Grey-Turner",
+      "Boki tułowia",
+      "Krwawienie głębiej"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Objaw Grey-Turnera",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "grey-turner-location",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Objaw Grey-Turnera"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 627,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Zasinienie górnej części uda w okolicy pachwinowej związane z krwawieniem zaotrzewnowym to klasycznie objaw:",
+    "opts": [
+      "Foxa",
+      "Cullena",
+      "Murphy’ego",
+      "Chełmońskiego",
+      "Jaworskiego"
+    ],
+    "pl": "W objawie Foxa krew szerzy się do okolicy więzadła pachwinowego i górnej części uda. Jest to wskazówka lokalizacyjna, nie samodzielne rozpoznanie przyczyny.",
+    "ua": "При симптомі Фокса кров поширюється до пахвинної ділянки та верхньої частини стегна. Це локалізаційна ознака, а не діагноз причини.",
+    "steps": [
+      "Fox",
+      "Pachwina",
+      "Górna część uda"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Objaw Fox’a",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "fox-location",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Objaw Fox’a"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 628,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Twardy powiększony lewy węzeł nadobojczykowy u pacjenta z utratą masy ciała budzi podejrzenie przerzutów, m.in. z przewodu pokarmowego. Jak nazywa się ten węzeł?",
+    "opts": [
+      "Virchowa",
+      "Sister Mary Joseph",
+      "Delphian",
+      "Wartowniczy pachowy",
+      "Cloqueta"
+    ],
+    "pl": "Węzeł Virchowa znajduje się po lewej nad obojczykiem. Może być zajęty w nowotworach jamy brzusznej, ale sam nie rozstrzyga narządu pochodzenia.",
+    "ua": "Вузол Вірхова розташований зліва над ключицею. Можливе метастатичне ураження при пухлинах живота, але сам вузол не визначає первинний орган.",
+    "steps": [
+      "Lewy obojczyk",
+      "Przerzutowa wskazówka",
+      "Virchow"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Węzeł Virchowa",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "virchow-node-left",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Węzeł Virchowa"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 629,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W badaniu per rectum wyczuwalny jest naciek przerzutowy w najniższej części otrzewnej przed odbytnicą. Jak brzmi klasyczny eponim?",
+    "opts": [
+      "Półka Blumera",
+      "Guz Pancoasta",
+      "Węzeł Virchowa",
+      "Objaw Chvostka",
+      "Zespół Meigsa"
+    ],
+    "pl": "Półka Blumera oznacza przerzutowy naciek w zachyłku odbytniczo-pęcherzowym lub odbytniczo-macicznym, wyczuwalny przez odbytnicę.",
+    "ua": "Полиця Блюмера — метастатичний інфільтрат у прямокишково-міхуровій чи прямокишково-матковій заглибині, доступний ректальному дослідженню.",
+    "steps": [
+      "Miednica najniżej",
+      "Naciek przed odbytnicą",
+      "Blumer"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Półka Blumera",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "blumer-shelf",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Półka Blumera"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 630,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Ból podczas delikatnego wstrząsania prawą okolicą podżebrową przez dłoń badającego określa się jako objaw:",
+    "opts": [
+      "Chełmońskiego",
+      "Murphy’ego",
+      "Rovsinga",
+      "Kehra",
+      "Homansa"
+    ],
+    "pl": "Chełmoński wiąże się ze wstrząsaniem prawym łukiem żebrowym; Murphy z zatrzymaniem wdechu podczas palpacji okolicy pęcherzyka. Objawy wspierają, ale nie zastępują diagnostyki.",
+    "ua": "Симптом Хелмонського викликають струшуванням правої підреберної ділянки. Мерфі — зупинка вдиху при пальпації; обидва не замінюють діагностику.",
+    "steps": [
+      "Prawy łuk",
+      "Wstrząsanie",
+      "Chełmoński"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Objaw Chełmońskiego",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "chelmonski-percussion",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Objaw Chełmońskiego"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 631,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Gdzie leży punkt McBurneya?",
+    "opts": [
+      "Na granicy bocznej i środkowej 1/3 linii od prawego kolca biodrowego przedniego górnego do pępka",
+      "W połowie lewego łuku żebrowego",
+      "Na środku linii łączącej oba kolce biodrowe",
+      "W lewym dole nadobojczykowym",
+      "Na wyrostku mieczykowatym"
+    ],
+    "pl": "Odmierza się około jedną trzecią od prawego kolca w stronę pępka. To orientacyjny punkt, a położenie wyrostka może się różnić.",
+    "ua": "Приблизно одна третина від правої передньої верхньої клубової ості до пупка. Це орієнтир; положення апендикса варіює.",
+    "steps": [
+      "Prawy kolec do pępka",
+      "1/3 od kolca",
+      "McBurney"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Punkt McBurneya",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "mcburney-landmark",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Punkt McBurneya"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 632,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która linia służy do wyznaczenia punktu Lanza?",
+    "opts": [
+      "Łącząca oba kolce biodrowe przednie górne",
+      "Łącząca pępek z wyrostkiem mieczykowatym",
+      "Łącząca oba sutki",
+      "Łącząca lewy kolec biodrowy z łukiem żebrowym",
+      "Łącząca pępek ze spojeniem łonowym"
+    ],
+    "pl": "Punkt Lanza leży na granicy prawej i środkowej jednej trzeciej linii między kolcami biodrowymi przednimi górnymi.",
+    "ua": "Точка Ланца розташована між правою та середньою третинами лінії, яка з’єднує передні верхні клубові ості.",
+    "steps": [
+      "Kolec do kolca",
+      "Prawa 1/3",
+      "Lanz"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Punkt Lanza",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "lanz-landmark",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Punkt Lanza"
+      },
+      "examPrediction": false
+    }
+  },
+  {
+    "id": 633,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Pacjent ma jednostronny obrzęk łydki, ale objaw Homansa jest ujemny. Co jest właściwe?",
+    "opts": [
+      "Nie wykluczać DVT; zastosować ocenę prawdopodobieństwa i odpowiednie badania",
+      "Wykluczyć DVT wyłącznie na tej podstawie",
+      "Uznać, że na pewno występuje zakrzepica",
+      "Rozpoznać zatorowość płucną bez innych badań",
+      "Zastąpić USG wielokrotnym wywoływaniem objawu"
+    ],
+    "pl": "Objaw Homansa nie ma wystarczającej wartości do wykluczania zakrzepicy. Diagnostyka opiera się na prawdopodobieństwie klinicznym, D-dimerze i USG według ścieżki diagnostycznej.",
+    "ua": "Негативний симптом Хоманса не виключає тромбоз. Використовують клінічну ймовірність, D-димер та УЗД відповідно до алгоритму.",
+    "steps": [
+      "Homans ujemny",
+      "DVT nadal możliwa",
+      "Wells i badania"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Objaw Homansa",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "homans-not-ruleout",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Objaw Homansa"
+      },
+      "examPrediction": false
+    },
+    "references": [
+      {
+        "title": "NICE NG158: diagnostyka DVT",
+        "url": "https://www.nice.org.uk/guidance/NG158/chapter/recommendations"
+      }
+    ]
+  },
+  {
+    "id": 634,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Do bólu prawego podżebrza, gorączki i żółtaczki dołączyły hipotensja oraz zaburzenia świadomości. Jak zmienia się klasyczny zestaw objawów?",
+    "opts": [
+      "Triada Charcota staje się pentadą Reynoldsa",
+      "Triada Charcota staje się triadą Whipple’a",
+      "Pentada Reynoldsa cofa się do triady Charcota",
+      "To triada Cushinga",
+      "To triada Macklera"
+    ],
+    "pl": "Triada Charcota sugeruje zapalenie dróg żółciowych. Dołączenie wstrząsu i zaburzeń świadomości tworzy pentadę Reynoldsa i wskazuje na ciężki stan.",
+    "ua": "Тріада Шарко підказує холангіт. Шок і порушення свідомості доповнюють її до пентади Рейнольдса та вказують на тяжкий стан.",
+    "steps": [
+      "Ból + gorączka + żółtaczka",
+      "Dołączają 2 objawy",
+      "Reynolds = 5"
+    ],
+    "src": 7,
+    "sourceRef": "hasło: Triada Charcota",
+    "generation": {
+      "kind": "source-derived",
+      "batch": "materials-2026-11",
+      "objective": "charcot-reynolds-difference",
+      "materialId": 9,
+      "file": "Ważne nazwiska w chirurgii.doc",
+      "sha256": "34f05797c61a819e5f12d0a23195aed7c5bb681f4cc7920faeb3ca454b303dd4",
+      "locator": {
+        "section": "hasło: Triada Charcota"
+      },
+      "examPrediction": false
+    }
   }
 ]

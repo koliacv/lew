@@ -114,7 +114,7 @@ export function formatDuration(milliseconds) {
 export function validateBank(bank, sources) {
   if (!Array.isArray(bank) || bank.length < 200) throw new Error('Expected at least 200 questions');
   if (!Array.isArray(sources) || sources.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid sources');
-  const ids = new Set(), stems = new Set(), topics = new Map();
+  const ids = new Set(), stems = new Set(), topics = new Map(), objectives = new Set();
   for (const q of bank) {
     if (!Number.isInteger(q.id) || ids.has(q.id)) throw new Error('Invalid or duplicate ID');
     if (stems.has(q.q)) throw new Error('Duplicate question');
@@ -127,6 +127,16 @@ export function validateBank(bank, sources) {
         q.steps.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid memory map');
     if (!Number.isInteger(q.src) || !sources[q.src]) throw new Error('Unknown source');
     if (q.id > 200 && (typeof q.sourceRef !== 'string' || !q.sourceRef.trim())) throw new Error('Missing source locator');
+    if (q.generation) {
+      const g=q.generation, loc=g.locator;
+      if (q.provenance || g.kind!=='source-derived' || g.examPrediction!==false ||
+          typeof g.batch!=='string' || !g.batch.trim() || typeof g.objective!=='string' || !g.objective.trim() || objectives.has(g.objective) ||
+          !Number.isInteger(g.materialId) || g.materialId<1 || typeof g.file!=='string' || !g.file.trim() ||
+          !/^[a-f0-9]{64}$/.test(g.sha256) || !loc ||
+          !((Number.isInteger(loc.page)&&loc.page>0) || (Number.isInteger(loc.paragraph)&&loc.paragraph>0) ||
+          (typeof loc.section==='string'&&loc.section.trim()))) throw new Error('Invalid generated question provenance');
+      objectives.add(g.objective);
+    }
     if (q.provenance) {
       const p=q.provenance;
       const displayed=p.translatedOptions ?? p.originalOptions;

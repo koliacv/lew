@@ -1,5 +1,5 @@
-import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=source-audit-7';
-import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js?v=source-audit-7';
+import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=materials-8';
+import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js?v=materials-8';
 
 async function loadJson(url) {
   const response = await fetch(url,{cache:'no-cache'});
@@ -54,7 +54,7 @@ function home(){
   <section class="lw-hero"><div><div class="lw-eyebrow">TWOJA PRZESTRZEŃ DO NAUKI</div>
     <h1>Małe sesje.<br><em>Duży krok do LEW.</em></h1>
     <p class="lw-muted">Wybierz odpowiedź. Sprawdź wynik, czas i wyjaśnienie. Cel: 70 sekund na pytanie — bez blokady po upływie czasu.</p>
-    <a class="lw-hero-link" href="#lw-topic-heading">Zaplanuj dzisiejszy trening <span aria-hidden="true">↗</span></a>
+    <a class="lw-hero-link" href="#lw-topic-heading">Zaplanuj dzisiejszy trening <span aria-hidden="true">↗</span></a><br><a class="lw-hero-link" href="#lw-materials">${BANK.filter(q=>q.generation).length} nowych pytań z materiałów <span aria-hidden="true">↗</span></a>
   </div><div class="lw-coverage"><div class="lw-ring" style="--score:${totalSeen/BANK.length*100}%"><div><strong>${Math.round(totalSeen/BANK.length*100)}%</strong><small>obejrzanej bazy</small></div></div><strong>${totalSeen} z ${BANK.length} pytań</strong><small>Obejrzana część bazy pytań</small></div></section>
   <div class="lw-stats"><div><span class="lw-stat-icon" aria-hidden="true">▤</span><div><strong>${BANK.length}</strong><small>pytań do treningu</small></div></div><div><span class="lw-stat-icon" aria-hidden="true">◎</span><div><strong>${topics.length} dziedzin</strong><small>jeden cel: lepsze przygotowanie</small></div></div><div><span class="lw-stat-icon" aria-hidden="true">↻</span><div><strong>${BANK.length-totalSeen} nowych</strong><small>pierwszeństwo w losowaniu</small></div></div></div>
   <section class="lw-history" aria-label="Historia losowania">
@@ -72,6 +72,7 @@ function home(){
     <p class="lw-muted">70 sekund na pytanie jako cel. Po kliknięciu „Odpowiedz” od razu zobaczysz wynik, czas odpowiedzi i wyjaśnienie PL / UA.</p>
     <p class="lw-muted">Wybierz 10 lub 20 pytań, aby rzadziej spotykać powtórki.</p>
   </section></div>
+  <section class="lw-box" id="lw-materials"><div class="lw-eyebrow">NOWE ZADANIA Z TWOICH MATERIAŁÓW</div><h2>Od notatki do przypadku klinicznego</h2><p>${BANK.filter(q=>q.generation).length} nowych pytań autorskich na podstawie 11 materiałów: przypadki, obliczenia, skale i różnicowanie. Każde ma wyjaśnienie, wskazówki pamięciowe i dokładne miejsce w materiale. To zadania do przygotowania, nie prognoza pytań egzaminacyjnych.</p><div class="lw-controls"><label class="lw-field">Liczba nowych pytań<select id="lw-generated-limit"><option value="20">20</option><option value="40">40</option><option value="${BANK.filter(q=>q.generation).length}">Wszystkie ${BANK.filter(q=>q.generation).length}</option></select></label><button class="lw-primary" id="lw-generated-start">Trenuj nowe pytania →</button></div><p class="lw-muted">Są także w treningach tematycznych i próbnym LEW. Losowanie najpierw wybiera pytania jeszcze nieoglądane.</p></section>
   <section class="lw-box"><div class="lw-eyebrow">PYTANIA Z MATERIAŁÓW</div><h2>Sprawdź pytania źródłowe</h2><p>${BANK.filter(q=>q.provenance).length} pytań z wariantami zapisanymi w materiałach (2–5 odpowiedzi). Tłumaczenia i doprecyzowania są oznaczone; oryginał zobaczysz po odpowiedzi.</p><button id="lw-source-start">Powtórz pytania z materiałów →</button><p><a href="./audit.html">Audyt 11 materiałów i braków w pokryciu</a></p></section>
   <section class="lw-box lw-exam"><span class="lw-badge">02 / PRÓBNY LEW Z WYJAŚNIENIAMI</span><h2>200 pytań. Każda odpowiedź od razu wyjaśniona.</h2>
     <p class="lw-muted">Po 20 pytań z każdej dziedziny. Ten sam format co w tematach: odpowiedź → wynik i czas → wyjaśnienie → następne pytanie. Cel: 70 sekund na odpowiedź. Bez globalnego limitu czasu. To trening, nie symulacja warunków oficjalnego egzaminu.</p>
@@ -92,6 +93,7 @@ function home(){
   });
   main.querySelector('#lw-limit').onchange=e=>limit=+e.target.value;
   main.querySelector('#lw-start').onclick=()=>start(pool.map(q=>q.id),'topic',limit);
+  main.querySelector('#lw-generated-start').onclick=()=>{const ids=BANK.filter(q=>q.generation).map(q=>q.id);start(ids,'topic',+main.querySelector('#lw-generated-limit').value)};
   main.querySelector('#lw-source-start').onclick=()=>{const ids=BANK.filter(q=>q.provenance).map(q=>q.id);start(ids,'topic',ids.length)};
   main.querySelector('#lw-exam').onclick=()=>start(BANK.map(q=>q.id),'exam',200);
   let confirmReset=false;
@@ -125,12 +127,12 @@ function renderQuestion(){
   main.innerHTML=`<div class="lw-top"><div><span class="lw-badge">${s.mode==='exam'?'PRÓBNY LEW':'TRENING TEMATYCZNY'}</span><p><small>${esc(q.topic)}</small></p></div><div><div class="lw-time" id="lw-clock" aria-label="Czas odpowiedzi">${clock(submitted?s.responseTimes[id]:performance.now()-s.questionStarted)}</div><small>Pytanie <strong>${s.index+1}</strong> / ${s.ids.length}</small></div></div>
   <div class="lw-progress" role="progressbar" aria-label="Zatwierdzone odpowiedzi" aria-valuenow="${answered(s)}" aria-valuemin="0" aria-valuemax="${s.ids.length}"><div style="width:${answered(s)/s.ids.length*100}%"></div></div>
   <div class="lw-session-meta"><span>${answered(s)} z ${s.ids.length} odpowiedzi</span><span id="lw-time-hint">${submitted?'Czas zatrzymany':'Cel: 70 sekund'}</span></div>
-  <fieldset><legend><h2 tabindex="-1">${esc(q.q)}</h2></legend><p class="lw-answer-hint">Wybierz jedną odpowiedź. Możesz zmienić wybór przed zatwierdzeniem.</p>${s.options[id].map((oi,k)=>`<label class="lw-option ${submitted&&oi===0?'correct':submitted&&s.answers[id]===oi?'wrong':''}"><input type="radio" name="lw-answer" value="${oi}" ${s.answers[id]===oi?'checked':''} ${submitted?'disabled':''}><span class="lw-letter">${'ABCDE'[k]}</span><span>${esc(q.opts[oi])}${submitted&&oi===0?' <strong>✓ Prawidłowa</strong>':submitted&&s.answers[id]===oi?' <strong>✕ Twój wybór</strong>':''}</span></label>`).join('')}</fieldset>
+  <fieldset><legend><h2 tabindex="-1">${esc(q.q)}</h2></legend>${q.generation?'<p class="lw-badge">PYTANIE AUTORSKIE Z MATERIAŁÓW</p>':''}<p class="lw-answer-hint">Wybierz jedną odpowiedź. Możesz zmienić wybór przed zatwierdzeniem.</p>${s.options[id].map((oi,k)=>`<label class="lw-option ${submitted&&oi===0?'correct':submitted&&s.answers[id]===oi?'wrong':''}"><input type="radio" name="lw-answer" value="${oi}" ${s.answers[id]===oi?'checked':''} ${submitted?'disabled':''}><span class="lw-letter">${'ABCDE'[k]}</span><span>${esc(q.opts[oi])}${submitted&&oi===0?' <strong>✓ Prawidłowa</strong>':submitted&&s.answers[id]===oi?' <strong>✕ Twój wybór</strong>':''}</span></label>`).join('')}</fieldset>
   ${submitted?`<section id="lw-feedback" tabindex="-1" aria-label="Wynik odpowiedzi"><div class="lw-feedback ${s.answers[id]===0?'':'bad'}" role="status">${s.answers[id]===0?'✓ Prawidłowa odpowiedź':'✕ Nieprawidłowa odpowiedź'}<span class="lw-response-time">Twój czas: <strong>${seconds(s.responseTimes[id])} s</strong> · cel 70 s · ${s.responseTimes[id]<=TARGET_RESPONSE_MS?'w założonym czasie':'powyżej celu'}</span></div>
   <div id="lw-explanation" class="lw-explainer"><div class="lw-eyebrow">PRAWIDŁOWA ODPOWIEDŹ</div><h3>${esc(q.opts[0])}</h3><div class="lw-polish-explanation" lang="pl"><p>${esc(q.pl)}</p></div><aside class="lw-memory-note" lang="pl" aria-label="Jak zapamiętać"><strong>Jak zapamiętać</strong><p>${q.steps.map(step=>esc(step)).join(' · ')}.</p><small>Połącz te hasła z odpowiedzią: <b>${esc(q.opts[0])}</b>.</small></aside><details class="lw-translation"><summary lang="uk">Пояснення українською</summary><div lang="uk"><p>${esc(q.ua)}</p><aside class="lw-memory-note"><strong>Як запам’ятати</strong><p>Пов’яжи польські опорні слова «${q.steps.map(step=>esc(step)).join(' · ')}» з відповіддю «${esc(q.opts[0])}».</p></aside></div></details>
   ${explanationVisual(q,esc)}
   ${q.provenance?`<details class="lw-original"><summary>Zapis w materiale źródłowym</summary><p>${esc(q.provenance.originalQuestion)}</p><ol type="A">${q.provenance.originalOptions.map(o=>`<li>${esc(o)}</li>`).join('')}</ol><p>Podstawa klucza: ${esc(q.provenance.answerEvidence)}</p></details>`:''}
-  <p class="lw-source"><small>Materiał: ${esc(SOURCES[q.src])}${q.sourceRef?` — ${esc(q.sourceRef)}`:''}. ${q.provenance?`Pytanie ${q.provenance.kind==='source-adapted'?'przetłumaczone lub doprecyzowane na podstawie materiału':'przeniesione z materiału (ujednolicono odstępy)'}. Zachowano warianty zapisane w materiale; mogą być przetłumaczone. Wyjaśnienie autorskie. ${q.provenance.adaptationNote?esc(q.provenance.adaptationNote):''} Klucz źródłowy nie jest oficjalnym kluczem CEM.`:'Pytanie i wyjaśnienie: autorskie.'}${q.references?.length?`<br>${q.references.map(ref=>`<a href="${esc(ref.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.title)}</a>`).join(' · ')}`:''}</small></p></div></section>`:''}
+  <p class="lw-source"><small>Materiał: ${esc(q.generation?.file??SOURCES[q.src])}${q.sourceRef?` — ${esc(q.sourceRef)}`:''}. ${q.provenance?`Pytanie ${q.provenance.kind==='source-adapted'?'przetłumaczone lub doprecyzowane na podstawie materiału':'przeniesione z materiału (ujednolicono odstępy)'}. Zachowano warianty zapisane w materiale; mogą być przetłumaczone. Wyjaśnienie autorskie. ${q.provenance.adaptationNote?esc(q.provenance.adaptationNote):''} Klucz źródłowy nie jest oficjalnym kluczem CEM.`:q.generation?'Nowe pytanie i warianty odpowiedzi opracowane na podstawie wskazanego materiału. Nie jest to oryginalny zapis ani przewidywanie pytania CEM.':'Pytanie i wyjaśnienie: autorskie.'}${q.references?.length?`<br>${q.references.map(ref=>`<a href="${esc(ref.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.title)}</a>`).join(' · ')}`:''}</small></p></div></section>`:''}
   <nav class="lw-question-actions" aria-label="Nawigacja pytania">${submitted?`<button id="lw-next" class="lw-primary">${s.index===s.ids.length-1?'Zobacz podsumowanie →':'Następne pytanie →'}</button>`:'<button id="lw-submit" class="lw-primary" disabled>Odpowiedz</button>'}</nav>
   <button id="lw-end" class="lw-end">Zakończ sesję</button>
   <div id="lw-confirm" class="lw-confirm" hidden><p>Zakończyć teraz? Podsumowanie obejmie tylko zatwierdzone odpowiedzi.</p><div class="lw-row"><button id="lw-confirm-yes">Zakończ</button><button id="lw-confirm-no">Kontynuuj</button></div></div>`;
@@ -167,6 +169,7 @@ function finish(){
 }
 
 home();
+if(location.hash==='#lw-materials')main.querySelector('#lw-materials').scrollIntoView({block:'start'});
 }
 
 initialize().catch(error => {
