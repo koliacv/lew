@@ -1,6 +1,6 @@
 # lew
 
-Тренажер підготовки до **Lekarski Egzamin Weryfikacyjny (LEW)**: 500 авторських питань польською у 10 темах по 50, пояснення польською та українською з негайною перевіркою кожної відповіді.
+Тренажер підготовки до **Lekarski Egzamin Weryfikacyjny (LEW)**: 505 питань польською у 10 темах: 500 авторських адаптацій та 5 перенесених або уточнених питань із джерел, пояснення польською та українською з негайною перевіркою кожної відповіді.
 
 ## Можливості
 
@@ -77,3 +77,7 @@ Po odpowiedzi ilustracja pamięciowa jest otwarta i pokazuje wskazówki wraz z o
 Każda odpowiedź zawiera widoczną od razu notatkę „Jak zapamiętać”: trzy autorskie hasła z pola `steps`, powiązane z poprawną odpowiedzią. Notatka jest skrótem do powtórki, a pełne wyjaśnienie zachowuje kontekst i zastrzeżenia.
 
 Wizualizacje pamięciowe pokazują odpowiedź i wskazówki bez dodatkowego kliknięcia. NYHA ma sceny wysiłku/spoczynku (źródło: https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure), a pytania o Mallory’ego-Weissa/Boerhaavego porównanie głębokości pęknięcia na podstawie istniejących wyjaśnień. Pozostałe pytania korzystają z podpisanych symboli do haseł `steps`; nie są to indywidualne obrazy patologii ani diagramy przyczynowe. Realistyczne plansze pozostają w opcjonalnym atlasie.
+
+## Аудит джерел
+
+[Звіт перевірки 11 матеріалів](audit.html), [інвентаризація](data/source-audit.json). Повне покриття та завершена клінічна рецензія не заявлені. Кнопка «Powtórz pytania z materiałów» запускає 5 перенесених питань у звичайному форматі.

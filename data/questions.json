@@ -10556,5 +10556,235 @@
         "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-advanced-life-support-guidelines"
       }
     ]
+  },
+  {
+    "id": 501,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Zwężenie tętnic nerkowych prowadzi do",
+    "opts": [
+      "HipoK",
+      "HipoMg",
+      "HiperNa",
+      "HiperCa",
+      "HipoCa"
+    ],
+    "pl": "Zwężenie tętnicy nerkowej może aktywować układ renina–angiotensyna–aldosteron i prowadzić do utraty potasu. Hipokaliemia jest możliwa, ale nie występuje u każdego chorego.",
+    "ua": "Стеноз ниркової артерії може активувати ренін-ангіотензин-альдостеронову систему та спричинити втрату калію. Гіпокаліємія можлива, але виникає не в кожного пацієнта.",
+    "steps": [
+      "Niedokrwienie nerki",
+      "Aldosteron",
+      "Utrata K⁺"
+    ],
+    "src": 6,
+    "sourceRef": "s. 1, pytanie 2; wyróżniony klucz w materiale wspomnieniowym",
+    "references": [
+      {
+        "title": "Renal artery stenosis presenting as hypertension with hypokalemia",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36122918/"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "2",
+      "originalQuestion": "Zwężenie tętnic nerkowych prowadzi do",
+      "originalOptions": [
+        "HipoMg",
+        "HiperNa",
+        "HiperCa",
+        "HipoCa",
+        "HipoK"
+      ],
+      "correctOriginalIndex": 4,
+      "answerEvidence": "E) HipoK",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
+  },
+  {
+    "id": 502,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Na EKG QRS >120ms, rsR w odprowadzeniu V1, szerokie S v odprowadzeniu 1",
+    "opts": [
+      "Blok prawej odnogi pęczka Hisa",
+      "AVblok IIst",
+      "blok przednej gałęzi lewej odnogi pęczka Hisa",
+      "Blok lewej odnogi pęczka Hisa",
+      "Kardiomiopatia"
+    ],
+    "pl": "Poszerzony QRS z rsR′ w V1 i szerokim S w I odpowiada blokowi prawej odnogi pęczka Hisa. Sam opis bloku nie określa jego przyczyny.",
+    "ua": "Розширений QRS із rsR′ у V1 та широким S у I відповідає блокаді правої ніжки пучка Гіса. Сам опис блокади не визначає її причини.",
+    "steps": [
+      "QRS ≥120 ms",
+      "rsR′ w V1",
+      "RBBB"
+    ],
+    "src": 6,
+    "sourceRef": "s. 1, pytanie 5; wyróżniony klucz w materiale wspomnieniowym",
+    "references": [
+      {
+        "title": "ESC/EAPC: abnormal electrocardiogram findings",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12777699/"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "5",
+      "originalQuestion": "Na EKG QRS >120ms, rsR w odprowadzeniu V1, szerokie S v odprowadzeniu 1",
+      "originalOptions": [
+        "AVblok IIst",
+        "blok przednej gałęzi lewej odnogi pęczka Hisa",
+        "Blok lewej odnogi pęczka Hisa",
+        "Blok prawej odnogi pęczka Hisa",
+        "Kardiomiopatia"
+      ],
+      "correctOriginalIndex": 3,
+      "answerEvidence": "D)Blok prawej odnogi pęczka Hisa",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
+  },
+  {
+    "id": 503,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Męszczyzna , badanie na WZW B, Hbs-Ag - ujemny, Hbe-ujemny, AT Hbs - dodatni, Anti Hbc- dodatni. O czym swiądczy?",
+    "opts": [
+      "Przebyta choroba",
+      "wysoka zakażność",
+      "ostra choroba",
+      "reaktywacja zakażenia",
+      "szczepienie"
+    ],
+    "pl": "HBsAg ujemny, anty-HBc dodatnie i anty-HBs dodatnie wskazują na przebyte zakażenie HBV. Samo szczepienie nie powoduje dodatnich anty-HBc; po przebytej infekcji istnieje ryzyko reaktywacji podczas immunosupresji.",
+    "ua": "Негативний HBsAg разом із позитивними анти-HBc та анти-HBs вказує на перенесену інфекцію HBV. Вакцинація сама по собі не спричиняє появи анти-HBc; після інфекції можлива реактивація під час імуносупресії.",
+    "steps": [
+      "HBsAg −",
+      "Anty-HBc + i anty-HBs +",
+      "Przebyte HBV"
+    ],
+    "src": 6,
+    "sourceRef": "s. 1, pytanie 6; wyróżniony klucz w materiale wspomnieniowym",
+    "references": [
+      {
+        "title": "CDC: interpretation of HBV serology",
+        "url": "https://www.cdc.gov/hepatitis-b/hcp/diagnosis-testing/index.html"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "6",
+      "originalQuestion": "Męszczyzna , badanie na WZW B, Hbs-Ag - ujemny, Hbe-ujemny, AT Hbs - dodatni, Anti Hbc-\ndodatni. O czym swiądczy?",
+      "originalOptions": [
+        "wysoka zakażność",
+        "Przebyta choroba",
+        "ostra choroba",
+        "reaktywacja zakażenia",
+        "szczepienie"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "B) Przebyta choroba",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
+  },
+  {
+    "id": 504,
+    "topic": "Ginekologia i położnictwo",
+    "q": "TTTS stopień obrzęk uogólniony 1 płodu",
+    "opts": [
+      "st.4",
+      "st.1",
+      "st.2",
+      "st.3",
+      "obrzek nie jest kryterium"
+    ],
+    "pl": "W klasyfikacji Quintero obrzęk uogólniony jednego lub obu płodów odpowiada stopniowi IV TTTS.",
+    "ua": "У класифікації Quintero водянка одного або обох плодів відповідає IV стадії TTTS.",
+    "steps": [
+      "TTTS",
+      "Obrzęk płodu",
+      "Quintero IV"
+    ],
+    "src": 6,
+    "sourceRef": "s. 1, pytanie 14; wyróżniony klucz w materiale wspomnieniowym",
+    "references": [
+      {
+        "title": "ISUOG 2025: ultrasound in twin pregnancy",
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/10.1002/uog.29166"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "14",
+      "originalQuestion": "TTTS stopień obrzęk uogólniony 1 płodu",
+      "originalOptions": [
+        "st.1",
+        "st.2",
+        "st.3",
+        "st.4",
+        "obrzek nie jest kryterium"
+      ],
+      "correctOriginalIndex": 3,
+      "answerEvidence": " st.4",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
+  },
+  {
+    "id": 505,
+    "topic": "Pediatria i neonatologia",
+    "q": "RKO u niemowlęcia bez zaawansowanego udrożnienia dróg oddechowych, prowadzone przez ratownika przeszkolonego w pediatrycznym BLS według ERC 2025: jaki stosunek uciśnięć do oddechów?",
+    "opts": [
+      "15:2",
+      "1:1",
+      "30:2",
+      "5:2",
+      "10:2"
+    ],
+    "pl": "Według ERC/RCUK 2025 osoba przeszkolona w pediatrycznym BLS stosuje 15:2. Bez takiego przeszkolenia stosuje 30:2. W źródle brakowało tego warunku; dlatego doprecyzowano pytanie, zachowując wszystkie warianty.",
+    "ua": "За ERC/RCUK 2025 особа, навчена педіатричній базовій реанімації, використовує 15:2. Без такої підготовки застосовують 30:2. У джерелі цієї умови не було, тому питання уточнено зі збереженням усіх варіантів.",
+    "steps": [
+      "Niemowlę",
+      "Przeszkolenie PBLS",
+      "15:2"
+    ],
+    "src": 9,
+    "sourceRef": "PDF s. 80, Pytanie egzaminacyjne Zielona Góra; doprecyzowano przeszkolenie ratownika",
+    "references": [
+      {
+        "title": "ERC/RCUK 2025: Paediatric Life Support",
+        "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "Конспект полный.pdf",
+      "sha256": "22d9cd202cec02249d61a057fd06a14a2ba76cf1d6a9064370c210ecba2a1498",
+      "page": 80,
+      "number": "Zielona Góra — RKO",
+      "originalQuestion": "RKO u niemowląt (stosunek uciśnięć do oddechów):",
+      "originalOptions": [
+        "1:1",
+        "15:2",
+        "30:2",
+        "5:2",
+        "10:2"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "B. 15:2 ✅",
+      "normalization": "clarified-rescuer-training",
+      "officialKey": false
+    }
   }
 ]

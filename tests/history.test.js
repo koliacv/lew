@@ -10,11 +10,11 @@ function seeded(seed = 173) {
   return () => ((seed = (seed * 1664525 + 1013904223) >>> 0) / 2 ** 32);
 }
 
-test('expanded bank covers ten topics with fifty questions each', () => {
+test('expanded bank retains ten topics with at least fifty questions each', () => {
   const topics = [...new Set(bank.map(q => q.topic))];
-  assert.equal(bank.length, 500);
+  assert.equal(bank.length, 505);
   assert.equal(topics.length, 10);
-  for (const topic of topics) assert.equal(bank.filter(q => q.topic === topic).length, 50);
+  for (const topic of topics) assert.ok(bank.filter(q => q.topic === topic).length >= 50);
   for (const q of bank.filter(q => q.id > 200)) assert.ok(q.sourceRef.trim());
 });
 
@@ -48,8 +48,8 @@ test('two completed 200-question exams have no overlap and cover all topics', ()
   }
   history = recordSeen(history, second, 2000);
   const third = selectExamQuestions(bank, 200, history, seeded(3));
-  assert.equal(third.filter(id => !history[id]).length, 100);
-  assert.equal(third.filter(id => first.includes(id)).length, 100);
+  assert.equal(third.filter(id => !history[id]).length, bank.length - 400);
+  assert.equal(third.filter(id => first.includes(id)).length, 600 - bank.length);
   assert.equal(third.filter(id => second.includes(id)).length, 0);
 });
 
@@ -96,9 +96,9 @@ test('incomplete sessions only count questions actually shown', () => {
 });
 
 test('sessions keep answers shuffled and prioritize unseen questions', () => {
-  const history = recordSeen({}, ids.slice(0, 450), 1000);
+  const history = recordSeen({}, ids.slice(0, ids.length - 50), 1000);
   const session = createSession(ids, 'topic', 50, 2000, seeded(), '', history);
-  assert.deepEqual([...session.ids].sort((a,b) => a-b), ids.slice(450));
+  assert.deepEqual([...session.ids].sort((a,b) => a-b), ids.slice(-50));
   for (const options of Object.values(session.options)) assert.deepEqual([...options].sort(), [0,1,2,3,4]);
 });
 
@@ -158,6 +158,8 @@ test('long-run exposure stays even and sessions never duplicate their own questi
     assert.equal(new Set(selected).size, 20);
     history = recordSeen(history, selected, 1000+i);
   }
-  assert.equal(Object.keys(history).length, 500);
-  assert.ok(Object.values(history).every(item => item.shown === 6));
+  assert.equal(Object.keys(history).length, bank.length);
+  const counts = Object.values(history).map(item => item.shown);
+  assert.equal(counts.reduce((sum,n)=>sum+n,0), 150*20);
+  assert.ok(Math.max(...counts)-Math.min(...counts)<=1);
 });

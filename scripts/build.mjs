@@ -9,7 +9,7 @@ const destination = new URL('dist/', root);
 await rm(destination, { recursive: true, force: true });
 await mkdir(destination, { recursive: true });
 // Publish only website assets, never tests, repository metadata, or original uploads.
-for (const path of ['index.html', 'assets', 'src', 'data']) {
+for (const path of ['index.html', 'audit.html', 'assets', 'src', 'data']) {
   await cp(new URL(path, root), new URL(path, destination), { recursive: true });
 }
 await writeFile(new URL('.nojekyll', destination), '');

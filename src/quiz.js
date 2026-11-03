@@ -122,6 +122,15 @@ export function validateBank(bank, sources) {
         q.steps.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid memory map');
     if (!Number.isInteger(q.src) || !sources[q.src]) throw new Error('Unknown source');
     if (q.id > 200 && (typeof q.sourceRef !== 'string' || !q.sourceRef.trim())) throw new Error('Missing source locator');
+    if (q.provenance) {
+      const p=q.provenance;
+      if (!['source-question','source-adapted'].includes(p.kind) || !/^[a-f0-9]{64}$/.test(p.sha256) ||
+          !Number.isInteger(p.page) || p.page<1 || !p.file || !p.originalQuestion || !p.answerEvidence ||
+          !Array.isArray(p.originalOptions) || p.originalOptions.length!==5 ||
+          !Number.isInteger(p.correctOriginalIndex) || p.correctOriginalIndex<0 || p.correctOriginalIndex>4 ||
+          p.originalOptions[p.correctOriginalIndex]!==q.opts[0] ||
+          p.originalOptions.some(o=>!q.opts.includes(o))) throw new Error('Invalid source provenance');
+    }
     if (q.references !== undefined && (!Array.isArray(q.references) || q.references.some(ref =>
       typeof ref.title !== 'string' || !ref.title.trim() || typeof ref.url !== 'string' || !/^https:\/\//.test(ref.url)
     ))) throw new Error('Invalid clinical reference');
