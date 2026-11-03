@@ -1,5 +1,5 @@
-import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=source-audit-6';
-import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js?v=source-audit-6';
+import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=source-audit-7';
+import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js?v=source-audit-7';
 
 async function loadJson(url) {
   const response = await fetch(url,{cache:'no-cache'});
@@ -72,7 +72,7 @@ function home(){
     <p class="lw-muted">70 sekund na pytanie jako cel. Po kliknięciu „Odpowiedz” od razu zobaczysz wynik, czas odpowiedzi i wyjaśnienie PL / UA.</p>
     <p class="lw-muted">Wybierz 10 lub 20 pytań, aby rzadziej spotykać powtórki.</p>
   </section></div>
-  <section class="lw-box"><div class="lw-eyebrow">PYTANIA Z MATERIAŁÓW</div><h2>Sprawdź pytania źródłowe</h2><p>${BANK.filter(q=>q.provenance).length} pytań z zachowanymi wariantami odpowiedzi. Oznaczenia przy wyjaśnieniu pokazują pochodzenie i ewentualne doprecyzowanie.</p><button id="lw-source-start">Powtórz pytania z materiałów →</button><p><a href="./audit.html">Audyt 11 materiałów i braków w pokryciu</a></p></section>
+  <section class="lw-box"><div class="lw-eyebrow">PYTANIA Z MATERIAŁÓW</div><h2>Sprawdź pytania źródłowe</h2><p>${BANK.filter(q=>q.provenance).length} pytań z wariantami zapisanymi w materiałach (2–5 odpowiedzi). Tłumaczenia i doprecyzowania są oznaczone; oryginał zobaczysz po odpowiedzi.</p><button id="lw-source-start">Powtórz pytania z materiałów →</button><p><a href="./audit.html">Audyt 11 materiałów i braków w pokryciu</a></p></section>
   <section class="lw-box lw-exam"><span class="lw-badge">02 / PRÓBNY LEW Z WYJAŚNIENIAMI</span><h2>200 pytań. Każda odpowiedź od razu wyjaśniona.</h2>
     <p class="lw-muted">Po 20 pytań z każdej dziedziny. Ten sam format co w tematach: odpowiedź → wynik i czas → wyjaśnienie → następne pytanie. Cel: 70 sekund na odpowiedź. Bez globalnego limitu czasu. To trening, nie symulacja warunków oficjalnego egzaminu.</p>
     <button id="lw-exam" class="lw-primary">Rozpocznij próbny LEW →</button>
@@ -104,7 +104,7 @@ function home(){
 function start(ids,mode,count){
   clearInterval(tick);refreshHistory();
   const selected=mode==='exam'?selectExamQuestions(BANK.filter(q=>ids.includes(q.id)),count,history):ids;
-  session=createSession(selected,mode,count,performance.now(),Math.random,lastOrder,history);
+  session=createSession(selected,mode,count,performance.now(),Math.random,lastOrder,history,Object.fromEntries(BANK.map(q=>[q.id,q.opts.length])));
   lastOrder=session.ids.join(',');
   renderQuestion();
 }
@@ -129,8 +129,8 @@ function renderQuestion(){
   ${submitted?`<section id="lw-feedback" tabindex="-1" aria-label="Wynik odpowiedzi"><div class="lw-feedback ${s.answers[id]===0?'':'bad'}" role="status">${s.answers[id]===0?'✓ Prawidłowa odpowiedź':'✕ Nieprawidłowa odpowiedź'}<span class="lw-response-time">Twój czas: <strong>${seconds(s.responseTimes[id])} s</strong> · cel 70 s · ${s.responseTimes[id]<=TARGET_RESPONSE_MS?'w założonym czasie':'powyżej celu'}</span></div>
   <div id="lw-explanation" class="lw-explainer"><div class="lw-eyebrow">PRAWIDŁOWA ODPOWIEDŹ</div><h3>${esc(q.opts[0])}</h3><div class="lw-polish-explanation" lang="pl"><p>${esc(q.pl)}</p></div><aside class="lw-memory-note" lang="pl" aria-label="Jak zapamiętać"><strong>Jak zapamiętać</strong><p>${q.steps.map(step=>esc(step)).join(' · ')}.</p><small>Połącz te hasła z odpowiedzią: <b>${esc(q.opts[0])}</b>.</small></aside><details class="lw-translation"><summary lang="uk">Пояснення українською</summary><div lang="uk"><p>${esc(q.ua)}</p><aside class="lw-memory-note"><strong>Як запам’ятати</strong><p>Пов’яжи польські опорні слова «${q.steps.map(step=>esc(step)).join(' · ')}» з відповіддю «${esc(q.opts[0])}».</p></aside></div></details>
   ${explanationVisual(q,esc)}
-  ${q.provenance?`<details class="lw-original"><summary>Zapis w materiale źródłowym</summary><p>${esc(q.provenance.originalQuestion)}</p><ol type="A">${q.provenance.originalOptions.map(o=>`<li>${esc(o)}</li>`).join('')}</ol><p>Oznaczenie odpowiedzi w źródle: ${esc(q.provenance.answerEvidence)}</p></details>`:''}
-  <p class="lw-source"><small>Materiał: ${esc(SOURCES[q.src])}${q.sourceRef?` — ${esc(q.sourceRef)}`:''}. ${q.provenance?`Pytanie ${q.provenance.kind==='source-adapted'?'doprecyzowane na podstawie materiału':'przeniesione z materiału (ujednolicono odstępy)'}. Warianty zachowane; wyjaśnienie autorskie. Klucz źródłowy nie jest oficjalnym kluczem CEM.`:'Pytanie i wyjaśnienie: autorskie.'}${q.references?.length?`<br>${q.references.map(ref=>`<a href="${esc(ref.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.title)}</a>`).join(' · ')}`:''}</small></p></div></section>`:''}
+  ${q.provenance?`<details class="lw-original"><summary>Zapis w materiale źródłowym</summary><p>${esc(q.provenance.originalQuestion)}</p><ol type="A">${q.provenance.originalOptions.map(o=>`<li>${esc(o)}</li>`).join('')}</ol><p>Podstawa klucza: ${esc(q.provenance.answerEvidence)}</p></details>`:''}
+  <p class="lw-source"><small>Materiał: ${esc(SOURCES[q.src])}${q.sourceRef?` — ${esc(q.sourceRef)}`:''}. ${q.provenance?`Pytanie ${q.provenance.kind==='source-adapted'?'przetłumaczone lub doprecyzowane na podstawie materiału':'przeniesione z materiału (ujednolicono odstępy)'}. Zachowano warianty zapisane w materiale; mogą być przetłumaczone. Wyjaśnienie autorskie. ${q.provenance.adaptationNote?esc(q.provenance.adaptationNote):''} Klucz źródłowy nie jest oficjalnym kluczem CEM.`:'Pytanie i wyjaśnienie: autorskie.'}${q.references?.length?`<br>${q.references.map(ref=>`<a href="${esc(ref.url)}" target="_blank" rel="noopener noreferrer">${esc(ref.title)}</a>`).join(' · ')}`:''}</small></p></div></section>`:''}
   <nav class="lw-question-actions" aria-label="Nawigacja pytania">${submitted?`<button id="lw-next" class="lw-primary">${s.index===s.ids.length-1?'Zobacz podsumowanie →':'Następne pytanie →'}</button>`:'<button id="lw-submit" class="lw-primary" disabled>Odpowiedz</button>'}</nav>
   <button id="lw-end" class="lw-end">Zakończ sesję</button>
   <div id="lw-confirm" class="lw-confirm" hidden><p>Zakończyć teraz? Podsumowanie obejmie tylko zatwierdzone odpowiedzi.</p><div class="lw-row"><button id="lw-confirm-yes">Zakończ</button><button id="lw-confirm-no">Kontynuuj</button></div></div>`;

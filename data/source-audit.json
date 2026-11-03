@@ -1,7 +1,7 @@
 {
   "date": "2026-11-03",
   "originalBank": 500,
-  "currentBank": 505,
+  "currentBank": 514,
   "fullCoverageVerified": false,
   "allFilesIndexed": true,
   "allContentClinicallyReviewed": false,
@@ -19,8 +19,8 @@
       "ocrBlocks": 1,
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
-      "imported": 4,
-      "clinicalReview": "partial"
+      "imported": 10,
+      "clinicalReview": "selected-questions-reviewed"
     },
     {
       "id": 2,
@@ -35,7 +35,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 3,
@@ -49,8 +49,8 @@
       "ocrBlocks": 0,
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
-      "imported": 0,
-      "clinicalReview": "partial"
+      "imported": 1,
+      "clinicalReview": "selected-questions-reviewed"
     },
     {
       "id": 4,
@@ -65,7 +65,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 5,
@@ -79,8 +79,8 @@
       "ocrBlocks": 0,
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
-      "imported": 0,
-      "clinicalReview": "partial"
+      "imported": 2,
+      "clinicalReview": "selected-questions-reviewed"
     },
     {
       "id": 6,
@@ -95,7 +95,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 7,
@@ -110,7 +110,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 1,
-      "clinicalReview": "partial"
+      "clinicalReview": "selected-questions-reviewed"
     },
     {
       "id": 8,
@@ -125,7 +125,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 9,
@@ -138,7 +138,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 10,
@@ -153,7 +153,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     },
     {
       "id": 11,
@@ -168,7 +168,7 @@
       "unreadableBlocks": [],
       "exactStemOccurrences": 0,
       "imported": 0,
-      "clinicalReview": "partial"
+      "clinicalReview": "not-complete"
     }
   ],
   "units": 2075,
@@ -177,12 +177,77 @@
     502,
     503,
     504,
-    505
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    513,
+    514
   ],
   "limitations": [
     "142 pages of the notes were OCR-processed; OCR is not manually verified line by line.",
     "Long textbook pages are indexed, not converted into validated test questions.",
     "Recalled exam notes are not an official answer key.",
     "Candidate matches are lexical search suggestions, not confirmed coverage."
-  ]
+  ],
+  "reviewedSourceIssues": [
+    {
+      "id": "gcs-brain-death",
+      "sources": [
+        7
+      ],
+      "locator": "Конспект, PDF s. 142",
+      "title": "GCS 3 ≠ діагноз смерті мозку",
+      "finding": "Конспект прирівнює GCS 3 до смерті мозку. Сам бал цього не встановлює: потрібна окрема процедура з визначеною причиною, виключенням перешкод для оцінки, перевіркою стовбурових рефлексів і дихання.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10791061/",
+      "reference": "AAN/AAP/CNS/SCCM 2023"
+    },
+    {
+      "id": "steroid-dose-units",
+      "sources": [
+        2,
+        11
+      ],
+      "locator": "LEW 06.11.2024, DOCX akapit 45 / PDF s. 2, № 14",
+      "title": "Помилка в одиницях дози стероїду",
+      "finding": "Запис «Encorton 60 mg/kg» не відповідає стандартному початковому дозуванню KDIGO для дитячого нефротичного синдрому. Не можна переносити його як правильну відповідь; у рекомендації йдеться про 60 mg/m² або 2 mg/kg на добу з максимальною добовою дозою 60 mg.",
+      "url": "https://kdigo.org/wp-content/uploads/2025/04/KDIGO-2025-Guideline-for-Nephrotic-Syndrome-in-Children.pdf",
+      "reference": "KDIGO 2025, Practice Point 1.3.1.1"
+    },
+    {
+      "id": "qsofa-diagnosis",
+      "sources": [
+        7
+      ],
+      "locator": "Конспект, PDF s. 139",
+      "title": "qSOFA не встановлює діагноз сепсису",
+      "finding": "Формула «qSOFA ≥2 = тяжкий сепсис» у конспекті некоректна. qSOFA оцінює ризик несприятливого перебігу; SSC не рекомендує використовувати її як єдиний скринінговий інструмент.",
+      "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021",
+      "reference": "Surviving Sepsis Campaign 2021"
+    },
+    {
+      "id": "turner-karyotype",
+      "sources": [
+        5
+      ],
+      "locator": "LEW 26.05.2026, PDF s. 5, № 72; суперечить запису № 31 на с. 3",
+      "title": "Каріотип Тернера записано суперечливо",
+      "finding": "У № 72 наведено 47,XXX як каріотип Тернера. Класичний варіант — 45,X; можливі мозаїчні й структурні варіанти. Ізольований 47,XXX не можна завчати як класичний каріотип Тернера.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11759048/",
+      "reference": "Міжнародні рекомендації щодо синдрому Тернера, 2024"
+    }
+  ],
+  "duplicateCheck": {
+    "sources": [
+      2,
+      11
+    ],
+    "docxNumberedRecords": 181,
+    "sharedNormalizedPrefixes": 177,
+    "method": "First 80 alphanumeric characters of each numbered DOCX heading searched in normalized PDF text; indicates overlap, not complete document identity."
+  }
 }

@@ -12,7 +12,7 @@ function seeded(seed = 173) {
 
 test('expanded bank retains ten topics with at least fifty questions each', () => {
   const topics = [...new Set(bank.map(q => q.topic))];
-  assert.equal(bank.length, 505);
+  assert.equal(bank.length, 514);
   assert.equal(topics.length, 10);
   for (const topic of topics) assert.ok(bank.filter(q => q.topic === topic).length >= 50);
   for (const q of bank.filter(q => q.id > 200)) assert.ok(q.sourceRef.trim());

@@ -10786,5 +10786,442 @@
       "normalization": "clarified-rescuer-training",
       "officialKey": false
     }
+  },
+  {
+    "id": 506,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Dorosły z niepowikłanym ostrym zapaleniem oskrzeli, bez cech zapalenia płuc, ciężkiego stanu ogólnego ani zwiększonego ryzyka powikłań. Jakie postępowanie jest właściwe?",
+    "opts": [
+      "Leczenie objawowe",
+      "Amoksycylina",
+      "Ceftriakson",
+      "Klarytromycyna",
+      "Kotrimoksazol (Biseptol)"
+    ],
+    "pl": "W niepowikłanym ostrym zapaleniu oskrzeli zwykle wystarcza leczenie objawowe. Antybiotyku nie zaleca się rutynowo; ciężki stan lub zwiększone ryzyko powikłań zmieniają postępowanie.",
+    "ua": "При неускладненому гострому бронхіті зазвичай достатньо симптоматичного лікування. Антибіотик не призначають рутинно; тяжкий стан або підвищений ризик ускладнень змінюють тактику.",
+    "steps": [
+      "Ostre zapalenie oskrzeli",
+      "Bez powikłań",
+      "Objawowo"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 1, zapis 3",
+    "references": [
+      {
+        "title": "NICE NG120, zalecenie 1.1.9",
+        "url": "https://www.nice.org.uk/guidance/ng120/chapter/Recommendations"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "3",
+      "originalQuestion": "Preparat wyboru w leczeniu zapalenia oskrzeli",
+      "originalOptions": [
+        "Amoxycyllina",
+        "Ceftriaxon",
+        "Klarytromicina",
+        "Biseptol",
+        "leczenie objawowe"
+      ],
+      "correctOriginalIndex": 4,
+      "answerEvidence": "E) leczenie objawowe",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Dodano warunki: ostre niepowikłane zapalenie oskrzeli i brak zwiększonego ryzyka. Ujednolicono polskie nazwy leków; nie dodano wariantów.",
+      "translatedOptions": [
+        "Amoksycylina",
+        "Ceftriakson",
+        "Klarytromycyna",
+        "Kotrimoksazol (Biseptol)",
+        "Leczenie objawowe"
+      ]
+    }
+  },
+  {
+    "id": 507,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który z wymienionych leków moczopędnych może zwiększać stężenie wapnia we krwi?",
+    "opts": [
+      "Hydrochlorotiazyd",
+      "Furosemid",
+      "Torasemid",
+      "Amlodypina"
+    ],
+    "pl": "Hydrochlorotiazyd zmniejsza wydalanie wapnia z moczem i może nieznacznie zwiększać jego stężenie we krwi. Znaczna hiperkalcemia wymaga poszukiwania innych przyczyn.",
+    "ua": "Гідрохлортіазид зменшує виведення кальцію із сечею та може дещо підвищити його рівень у крові. Значна гіперкальціємія потребує пошуку інших причин.",
+    "steps": [
+      "Tiazyd",
+      "Mniej Ca²⁺ w moczu",
+      "Więcej Ca²⁺ we krwi"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 1, zapis 8; zachowano 4 warianty zapisane w materiale",
+    "references": [
+      {
+        "title": "Hydrochlorothiazide: informacja producenta",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=8bc8d5e2-a974-64ed-e053-2a95a90a8340&type=display"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 1,
+      "number": "8",
+      "originalQuestion": "jaki moczopędny lek wywoluje hipercalcemiju",
+      "originalOptions": [
+        "hydrochlortiazyd",
+        "furosemid",
+        "torasemid",
+        "amlodypina"
+      ],
+      "correctOriginalIndex": 0,
+      "answerEvidence": "hydrochlortiazyd",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Poprawiono pisownię oraz zaznaczono, że hiperkalcemia jest możliwym skutkiem. Zachowano cztery zapisane warianty.",
+      "translatedOptions": [
+        "Hydrochlorotiazyd",
+        "Furosemid",
+        "Torasemid",
+        "Amlodypina"
+      ]
+    }
+  },
+  {
+    "id": 508,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Najczętsza przyczyna wodobrzusza",
+    "opts": [
+      "marskość wątroby",
+      "niewydolność serca",
+      "niewydolność nerek",
+      "rak jajnika",
+      "przewlekle zapalenie nerek"
+    ],
+    "pl": "Najczęstszą przyczyną wodobrzusza jest marskość wątroby. Nadciśnienie wrotne i zatrzymywanie sodu oraz wody sprzyjają gromadzeniu płynu w jamie otrzewnej.",
+    "ua": "Найчастіша причина асциту — цироз печінки. Портальна гіпертензія та затримка натрію й води сприяють накопиченню рідини в черевній порожнині.",
+    "steps": [
+      "Marskość",
+      "Nadciśnienie wrotne",
+      "Wodobrzusze"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 3, zapis 168",
+    "references": [
+      {
+        "title": "KASL 2026: wodobrzusze",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13430399/"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 3,
+      "number": "168",
+      "originalQuestion": "Najczętsza przyczyna wodobrzusza",
+      "originalOptions": [
+        "niewydolność serca",
+        "marskość wątroby",
+        "niewydolność nerek",
+        "rak jajnika",
+        "przewlekle zapalenie nerek"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "Komentarz autorki: „Я вибрала marskość”; odpowiedź dodatkowo sprawdzona w wytycznych KASL 2026.",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
+  },
+  {
+    "id": 509,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Jakie powikłanie może wywołać zbyt szybkie wyrównanie przewlekłej hiponatremii?",
+    "opts": [
+      "Demielinizacja osmotyczna",
+      "Obrzęk mózgu",
+      "Wklinowanie mózgu",
+      "Drgawki"
+    ],
+    "pl": "Zbyt szybki wzrost stężenia sodu w przewlekłej hiponatremii może spowodować demielinizację osmotyczną. To inny mechanizm niż obrzęk mózgu w ostrej hiponatremii.",
+    "ua": "Надто швидке підвищення натрію при хронічній гіпонатріємії може спричинити осмотичну демієлінізацію. Це інший механізм, ніж набряк мозку при гострій гіпонатріємії.",
+    "steps": [
+      "Przewlekle niski Na⁺",
+      "Zbyt szybka korekta",
+      "Demielinizacja"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 3, zapis 175; zachowano 4 warianty zapisane w materiale",
+    "references": [
+      {
+        "title": "Society for Endocrinology 2022: hiponatremia",
+        "url": "https://www.endocrinology.org/media/xhrhxhxm/emergency-management-of-severe-and-moderately-severely-symptomatic-hyponatraemia-in-adult-patients-2022.pdf"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 3,
+      "number": "175",
+      "originalQuestion": "Hiponatremia, co będzie jak za szybko podaż sodu?",
+      "originalOptions": [
+        "Obrzęk mózgu",
+        "zaklinowanie",
+        "drgawki",
+        "Демиелинизация"
+      ],
+      "correctOriginalIndex": 3,
+      "answerEvidence": "W źródle podano wariant „Демиелинизация”, bez osobnego oznaczenia klucza. Klucz ustalono według zaleceń Society for Endocrinology.",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Przetłumaczono wariant odpowiedzi i doprecyzowano przewlekłą hiponatremię.",
+      "translatedOptions": [
+        "Obrzęk mózgu",
+        "Wklinowanie mózgu",
+        "Drgawki",
+        "Demielinizacja osmotyczna"
+      ]
+    }
+  },
+  {
+    "id": 510,
+    "topic": "Psychiatria i neurologia",
+    "q": "Które z wymienionych działań jest charakterystyczne dla benzodiazepin, np. diazepamu?",
+    "opts": [
+      "Miorelaksacyjne",
+      "Przeciwkaszlowe",
+      "Przeciwbiegunkowe",
+      "Przeciwwymiotne",
+      "Przeciwpsychotyczne"
+    ],
+    "pl": "Diazepam działa ośrodkowo i może zmniejszać napięcie mięśni szkieletowych. Działanie uspokajające benzodiazepin nie jest tym samym co działanie przeciwpsychotyczne.",
+    "ua": "Діазепам діє на центральну нервову систему та може зменшувати напруження скелетних м’язів. Заспокійлива дія бензодіазепінів не тотожна антипсихотичній.",
+    "steps": [
+      "Benzodiazepina",
+      "Ośrodkowe działanie",
+      "Rozluźnienie mięśni"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 3, zapis 197",
+    "references": [
+      {
+        "title": "Diazepam: informacja producenta",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=078bbb41-7e3a-48db-87f0-ec6a6ec0194e"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 3,
+      "number": "197",
+      "originalQuestion": "Бензодіазепіни. Вибрати дію",
+      "originalOptions": [
+        "Міорелаксуюча",
+        "проти кашлю",
+        "проти діареї",
+        "противимьотна",
+        "antypsychotyczna"
+      ],
+      "correctOriginalIndex": 0,
+      "answerEvidence": "W notatce wskazano działanie miorelaksacyjne; potwierdzone w informacji producenta diazepamu.",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Przetłumaczono pytanie i pięć działań wymienionych w zapisie; dodano diazepam jako przykład.",
+      "translatedOptions": [
+        "Miorelaksacyjne",
+        "Przeciwkaszlowe",
+        "Przeciwbiegunkowe",
+        "Przeciwwymiotne",
+        "Przeciwpsychotyczne"
+      ]
+    }
+  },
+  {
+    "id": 511,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Jaki jest maksymalny czas utrzymywania tamponady balonowej sondą Sengstakena–Blakemore’a jako pomostu do leczenia definitywnego krwawienia z żylaków przełyku?",
+    "opts": [
+      "24 h",
+      "48h",
+      "72h"
+    ],
+    "pl": "ESGE zaleca, aby tamponady balonowej nie utrzymywać dłużej niż 24 godziny. Jest to krótkotrwały pomost do leczenia definitywnego, ze ścisłym monitorowaniem z powodu ryzyka powikłań.",
+    "ua": "ESGE рекомендує не залишати балонну тампонаду довше ніж 24 години. Це короткочасний місток до остаточного лікування, що потребує ретельного моніторингу через ризик ускладнень.",
+    "steps": [
+      "Tamponada",
+      "Pomost do leczenia",
+      "Maks. 24 h"
+    ],
+    "src": 6,
+    "sourceRef": "PDF s. 2, zapis 154; zachowano 3 warianty zapisane w materiale",
+    "references": [
+      {
+        "title": "ESGE 2022: krwawienie żylakowe",
+        "url": "https://www.esge.com/assets/downloads/pdfs/guidelines/2022_a-1939-4887.pdf"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW 11.2025.pdf",
+      "sha256": "cbf5e55b701560b10813cad87909908ec5a3fd0080c895dbc7479c5a44666463",
+      "page": 2,
+      "number": "154",
+      "originalQuestion": "сколько можно этот вонючий зонд Блэкмора держать",
+      "originalOptions": [
+        "24 h",
+        "48h",
+        "72h"
+      ],
+      "correctOriginalIndex": 0,
+      "answerEvidence": "24 h",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Przetłumaczono i uściślono, że chodzi o tamponadę balonową krwawienia żylakowego, a nie dowolny zgłębnik."
+    }
+  },
+  {
+    "id": 512,
+    "topic": "Pediatria i neonatologia",
+    "q": "Jaka dobowa dawka witaminy D (IU/24 h) jest zalecana profilaktycznie zdrowemu noworodkowi urodzonemu o czasie według polskich zaleceń 2023?",
+    "opts": [
+      "400",
+      "200",
+      "600",
+      "800",
+      "1000"
+    ],
+    "pl": "Zdrowym niemowlętom urodzonym o czasie w wieku 0–6 miesięcy zaleca się 400 IU witaminy D na dobę, niezależnie od sposobu karmienia. To dawka profilaktyczna, nie schemat leczenia niedoboru.",
+    "ua": "Здоровим доношеним немовлятам віком 0–6 місяців рекомендують 400 МО вітаміну D на добу незалежно від способу вигодовування. Це профілактична доза, а не схема лікування дефіциту.",
+    "steps": [
+      "Zdrowy noworodek",
+      "Profilaktyka",
+      "400 IU/dobę"
+    ],
+    "src": 0,
+    "sourceRef": "PDF s. 7, zapis witamina D",
+    "references": [
+      {
+        "title": "Polskie zalecenia dotyczące witaminy D, 2023",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9920487/"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "07 LEW 16.05.2024.pdf",
+      "sha256": "73076e0992782e2d372bd9c569343dc207ca5ca067c6cd3f53f896bdb352b58f",
+      "page": 7,
+      "number": "witamina D",
+      "originalQuestion": "Витамин д у здорового новородка",
+      "originalOptions": [
+        "200",
+        "400",
+        "600",
+        "800",
+        "1000"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "W materiale wyróżniono 400; poniższa tabela podaje 400 IU/24 h dla wieku 0–6 miesięcy.",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Przetłumaczono pytanie i dodano jednostkę, profilaktyczny cel oraz warunek urodzenia o czasie. Liczby w wariantach zachowano."
+    }
+  },
+  {
+    "id": 513,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który z wymienionych leków przeciwcukrzycowych nie pobudza wydzielania insuliny?",
+    "opts": [
+      "Metformina",
+      "Gliklazyd",
+      "Semaglutyd",
+      "Tirzepatyd"
+    ],
+    "pl": "Metformina zmniejsza wątrobową produkcję glukozy i poprawia wrażliwość na insulinę, bez pobudzania jej wydzielania. Gliclazyd oraz leki inkretynowe z pozostałych odpowiedzi mogą zwiększać wydzielanie insuliny.",
+    "ua": "Метформін зменшує продукцію глюкози печінкою та покращує чутливість до інсуліну, не стимулюючи його секреції. Гліклазид та інкретинові препарати серед інших варіантів можуть підвищувати секрецію інсуліну.",
+    "steps": [
+      "Metformina",
+      "Lepsza wrażliwość",
+      "Bez pobudzania wydzielania"
+    ],
+    "src": 4,
+    "sourceRef": "PDF s. 16, zapis uzupełnienie 7; zachowano 4 warianty zapisane w materiale",
+    "references": [
+      {
+        "title": "Metformin: informacja producenta, mechanizm działania",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574"
+      }
+    ],
+    "provenance": {
+      "kind": "source-adapted",
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "page": 16,
+      "number": "uzupełnienie 7",
+      "originalQuestion": "какой из препаратов при диабете действует переферически и не влияет на инсулин( не повышает его уровень), варианты : гликлазид, метформин, семаглутид, тирзепатид",
+      "originalOptions": [
+        "гликлазид",
+        "метформин",
+        "семаглутид",
+        "тирзепатид"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "W źródle brak oznaczonego klucza. Odpowiedź ustalono na podstawie informacji producenta metforminy.",
+      "normalization": "translated-or-clarified",
+      "officialKey": false,
+      "adaptationNote": "Przetłumaczono pytanie i nazwy czterech leków. Uściślono, że pytanie dotyczy wydzielania insuliny.",
+      "translatedOptions": [
+        "Gliklazyd",
+        "Metformina",
+        "Semaglutyd",
+        "Tirzepatyd"
+      ]
+    }
+  },
+  {
+    "id": 514,
+    "topic": "Psychiatria i neurologia",
+    "q": "Test Spurlinga przy jakiej chorobie",
+    "opts": [
+      "Rwa szyjna",
+      "Rwa lędźwiowa"
+    ],
+    "pl": "Test Spurlinga służy ocenie radikulopatii szyjnej. Odtworzenie bólu promieniującego do kończyny górnej może wspierać rozpoznanie; sam test nie zastępuje pełnego badania.",
+    "ua": "Тест Сперлінга застосовують для оцінки шийної радикулопатії. Відтворення болю з іррадіацією в руку може підтримувати діагноз; сам тест не замінює повного обстеження.",
+    "steps": [
+      "Spurling",
+      "Szyja → ramię",
+      "Rwa szyjna"
+    ],
+    "src": 4,
+    "sourceRef": "PDF s. 11, zapis 146; zachowano 2 warianty zapisane w materiale",
+    "references": [
+      {
+        "title": "Tong i wsp.: The Spurling test and cervical radiculopathy",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/11805661/"
+      }
+    ],
+    "provenance": {
+      "kind": "source-question",
+      "file": "LEW - 26.05.2026.pdf",
+      "sha256": "5f642229f0ee74659e1e881d51e55052da5c863995410e6db74b2e9368f0eb3f",
+      "page": 11,
+      "number": "146",
+      "originalQuestion": "Test Spurlinga przy jakiej chorobie",
+      "originalOptions": [
+        "Rwa lędźwiowa",
+        "Rwa szyjna"
+      ],
+      "correctOriginalIndex": 1,
+      "answerEvidence": "2) Rwa szyjna - to prawidłowo",
+      "normalization": "whitespace-only",
+      "officialKey": false
+    }
   }
 ]

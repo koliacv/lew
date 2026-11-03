@@ -55,15 +55,20 @@ export function recordSeen(history, ids, now = Date.now()) {
   return next;
 }
 
-export function createSession(ids, mode, count, now = Date.now(), random = Math.random, previousOrder = '', history = {}) {
+export function createSession(ids, mode, count, now = Date.now(), random = Math.random, previousOrder = '', history = {}, optionCounts = {}) {
   if (!['topic', 'exam'].includes(mode)) throw new Error('Invalid mode');
   if (!Number.isInteger(count) || count < 1 || count > ids.length) throw new Error('Invalid question count');
   if (new Set(ids).size !== ids.length) throw new Error('Duplicate question IDs');
   const order = selectQuestions(ids, count, history, random);
+  const options = Object.fromEntries(order.map(id => {
+    const length = optionCounts[id] ?? 5;
+    if (!Number.isInteger(length) || length < 2 || length > 5) throw new Error('Invalid option count');
+    return [id, shuffle(Array.from({ length }, (_, i) => i), random)];
+  }));
   if (order.length > 1 && order.join(',') === previousOrder) order.push(order.shift());
   return {
     ids: order,
-    options: Object.fromEntries(order.map(id => [id, shuffle([0, 1, 2, 3, 4], random)])),
+    options,
     answers: {}, responseTimes: {}, seen: [], index: 0, mode,
     started: now, questionStarted: now,
     finished: false, elapsed: 0
@@ -116,7 +121,7 @@ export function validateBank(bank, sources) {
     for (const key of ['topic', 'q', 'pl', 'ua']) {
       if (typeof q[key] !== 'string' || !q[key].trim()) throw new Error(`Missing ${key}`);
     }
-    if (!Array.isArray(q.opts) || q.opts.length !== 5 || new Set(q.opts).size !== 5 ||
+    if (!Array.isArray(q.opts) || q.opts.length < (q.provenance ? 2 : 5) || q.opts.length > 5 || new Set(q.opts).size !== q.opts.length ||
         q.opts.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid options');
     if (!Array.isArray(q.steps) || q.steps.length !== 3 ||
         q.steps.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid memory map');
@@ -124,12 +129,17 @@ export function validateBank(bank, sources) {
     if (q.id > 200 && (typeof q.sourceRef !== 'string' || !q.sourceRef.trim())) throw new Error('Missing source locator');
     if (q.provenance) {
       const p=q.provenance;
+      const displayed=p.translatedOptions ?? p.originalOptions;
       if (!['source-question','source-adapted'].includes(p.kind) || !/^[a-f0-9]{64}$/.test(p.sha256) ||
           !Number.isInteger(p.page) || p.page<1 || !p.file || !p.originalQuestion || !p.answerEvidence ||
-          !Array.isArray(p.originalOptions) || p.originalOptions.length!==5 ||
-          !Number.isInteger(p.correctOriginalIndex) || p.correctOriginalIndex<0 || p.correctOriginalIndex>4 ||
-          p.originalOptions[p.correctOriginalIndex]!==q.opts[0] ||
-          p.originalOptions.some(o=>!q.opts.includes(o))) throw new Error('Invalid source provenance');
+          !Array.isArray(p.originalOptions) || p.originalOptions.length!==q.opts.length ||
+          p.originalOptions.some(o=>typeof o!=='string'||!o.trim()) ||
+          !Array.isArray(displayed) || displayed.length!==p.originalOptions.length ||
+          new Set(displayed).size!==displayed.length ||
+          (p.translatedOptions && (p.kind!=='source-adapted'||!p.adaptationNote)) ||
+          !Number.isInteger(p.correctOriginalIndex) || p.correctOriginalIndex<0 || p.correctOriginalIndex>=displayed.length ||
+          displayed[p.correctOriginalIndex]!==q.opts[0] ||
+          displayed.some(o=>!q.opts.includes(o))) throw new Error('Invalid source provenance');
     }
     if (q.references !== undefined && (!Array.isArray(q.references) || q.references.some(ref =>
       typeof ref.title !== 'string' || !ref.title.trim() || typeof ref.url !== 'string' || !/^https:\/\//.test(ref.url)
