@@ -349,3 +349,22 @@ body { background: #f4f6fb; }
 #lew-app .lw-memory-note > strong { display:block; font-size:13px; color:var(--lw-text); }
 #lew-app .lw-memory-note p { margin:8px 0; font-size:16px; font-weight:600; line-height:1.6; overflow-wrap:anywhere; }
 #lew-app .lw-memory-note small { display:block; line-height:1.6; }
+/* Visible memory cues: the answer is never hidden behind diagram controls. */
+#lew-app .lw-cue-scene { display:flex; align-items:stretch; gap:8px; margin:18px 0; }
+#lew-app .lw-picture-cue { flex:1; min-width:0; padding:12px 8px; text-align:center; background:transparent; border:0; border-bottom:3px solid var(--lw-line); border-radius:0; }
+#lew-app .lw-picture-cue svg { display:block; width:80px; max-width:100%; margin:0 auto 12px; color:var(--lw-teal); }
+#lew-app .lw-picture-cue span { font-size:14px; line-height:1.5; font-weight:650; overflow-wrap:anywhere; }
+#lew-app .lw-picture-cue[aria-pressed=true] { background:var(--lw-soft); border-bottom-color:var(--lw-green); }
+#lew-app .lw-scene-answer { background:var(--lw-soft); border:1px solid var(--lw-teal); padding:18px; border-radius:14px; margin:18px 0; text-align:center; }
+#lew-app .lw-scene-answer span { display:block; font-size:10px; letter-spacing:.08em; color:var(--lw-muted); }
+#lew-app .lw-scene-answer strong { display:block; margin-top:8px; font-size:20px; }
+#lew-app .lw-scene-hint { font-size:11px; color:var(--lw-muted); }
+#lew-app .lw-nyha-scenes { display:flex; gap:8px; margin-top:18px; }
+#lew-app .lw-nyha-scene { flex:1; min-width:0; margin:0; padding:10px; border:1px solid var(--lw-line); border-radius:12px; }
+#lew-app .lw-nyha-scene.is-answer { border:2px solid var(--lw-teal); background:var(--lw-soft); }
+#lew-app .lw-nyha-scene svg { display:block; width:100%; color:var(--lw-text); }
+#lew-app .lw-nyha-scene figcaption { display:grid; gap:6px; font-size:12px; text-align:center; }
+#lew-app .lw-symptom { display:block; color:var(--lw-red); text-align:center; font-size:12px; }
+#lew-app .lw-scene-rule { font-weight:650; line-height:1.6; }
+#lew-app .lw-tear-scene { display:block; width:100%; color:var(--lw-text); margin-top:18px; }
+@media(max-width:480px) { #lew-app .lw-picture-cue span { font-size:12px; } #lew-app .lw-nyha-scene { padding:8px 3px; } #lew-app .lw-nyha-scene figcaption { font-size:10px; } }

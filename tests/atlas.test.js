@@ -31,10 +31,11 @@ test('each question has an open illustration and a separately collapsed atlas',a
  }
  assert.equal(typeof mountExplanationVisual(null),'function');
 });
-test('interactive scale examples preserve the authored question and bilingual explanation',async()=>{
- const {SCALE_EXAMPLES}=await import('../src/scale-examples.js');
+test('memory scenes expose the correct answer immediately and retain explanatory qualifiers',async()=>{
+ const {memoryScene}=await import('../src/memory-scene.js');
  const bank=JSON.parse(await readFile(new URL('../data/questions.json',import.meta.url),'utf8'));
- for(const examples of Object.values(SCALE_EXAMPLES))for(const example of examples){
-  assert.ok(bank.some(q=>q.q===example.q&&q.opts[0]===example.label&&q.pl===example.pl&&q.ua===example.ua));
- }
+ for(const q of bank){const html=memoryScene(q);assert.match(html,/lw-scene-answer/);assert.match(html,/lw-scene-context/);assert.doesNotMatch(html,/data-clinical|Prawidłowa odpowiedź<\/button>/);}
+ assert.match(memoryScene(bank.find(q=>q.id===201)),/Mały wysiłek/);
+ assert.match(memoryScene(bank.find(q=>q.id===21)),/Tylko śluzówka/);
+ assert.match(memoryScene(bank.find(q=>q.id===22)),/Cała ściana/);
 });

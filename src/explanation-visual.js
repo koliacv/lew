@@ -1,11 +1,10 @@
-import { ATLAS, selectAtlas } from './atlas-data.js';
+import { ATLAS } from './atlas-data.js';
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-import { questionIllustration, mountQuestionIllustration, scaleName } from './question-illustration.js';
+import { memoryScene, mountMemoryScene } from './memory-scene.js';
 export function explanationVisual(question) {
-  const selected = scaleName(question) ? null : selectAtlas(question);
   return `<section class="lw-visual" aria-labelledby="lw-visual-title">
     <div class="lw-eyebrow">ILUSTRACJA DO PYTANIA</div><h3 id="lw-visual-title">Zobacz i zrozum</h3>
-    ${selected ? `<p class="lw-atlas-intro">${escape(selected.title)} — kontekst anatomiczny. Ilustracja przedstawia anatomię, nie obraz choroby tego pacjenta.</p><div class="lw-question-plate" data-atlas="${selected.id}"><div class="lw-atlas-content"></div></div>` : questionIllustration(question)}
+    ${memoryScene(question)}
     <details class="lw-atlas-library"><summary>Otwórz atlas medyczny · 13 ilustracji</summary><p class="lw-atlas-intro">Przeglądaj pozostałe ilustracje niezależnie od pytania.</p>
     <label class="lw-atlas-label" for="lw-atlas-select">Ilustracja w atlasie</label><select id="lw-atlas-select" class="lw-atlas-select"><option value="">Wybierz z atlasu…</option>${ATLAS.map(a=>`<option value="${a.id}">${escape(a.title)}</option>`).join('')}</select>
     <div class="lw-atlas-content"></div></details></section>`;
@@ -16,7 +15,7 @@ export function mountExplanationVisual(element,question) {
   const plate=element.querySelector('.lw-question-plate');
   if(plate)disposers.push(mountPlate(plate));
   const clinical=element.querySelector('.lw-case-illustration');
-  if(clinical&&question)disposers.push(mountQuestionIllustration(clinical,question));
+  if(clinical&&question)disposers.push(mountMemoryScene(clinical));
   const library=element.querySelector('.lw-atlas-library');
   let mounted=false;
   const toggle=()=>{if(library.open&&!mounted){disposers.push(mountPlate(library));mounted=true;}};
