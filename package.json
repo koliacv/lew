@@ -1,0 +1,12 @@
+{
+  "name": "lew-trainer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Polish LEW practice with Ukrainian explanations",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.mjs"
+  }
+}

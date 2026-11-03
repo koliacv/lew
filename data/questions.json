@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Chory ma duszność przy zwykłej aktywności, ale nie w spoczynku. Która klasa NYHA najlepiej odpowiada temu opisowi?",
+    "opts": [
+      "II",
+      "I",
+      "III",
+      "IV",
+      "V"
+    ],
+    "pl": "NYHA II to niewielkie ograniczenie zwykłej aktywności. Objawy spoczynkowe sugerują IV.",
+    "ua": "NYHA II — незначне обмеження звичайної активності. Симптоми у спокої відповідають IV.",
+    "steps": [
+      "Zwykły wysiłek",
+      "Duszność",
+      "NYHA II"
+    ],
+    "src": 8
+  },
+  {
+    "id": 2,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Dławica występuje także w spoczynku. Która klasa CCS jest najbardziej odpowiednia?",
+    "opts": [
+      "IV",
+      "I",
+      "II",
+      "III",
+      "0"
+    ],
+    "pl": "CCS IV oznacza dolegliwości przy minimalnej aktywności lub w spoczynku.",
+    "ua": "CCS IV — стенокардія при мінімальному навантаженні або у спокої.",
+    "steps": [
+      "Spoczynek",
+      "Ból wieńcowy",
+      "CCS IV"
+    ],
+    "src": 8
+  },
+  {
+    "id": 3,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "U chorego z zawałem rozpoznano wstrząs kardiogenny. Jaka to klasa Killipa?",
+    "opts": [
+      "IV",
+      "I",
+      "II",
+      "III",
+      "0"
+    ],
+    "pl": "W klasyfikacji Killipa wstrząs oznacza IV; obrzęk płuc bez wstrząsu — III.",
+    "ua": "За Killip шок — IV, набряк легень без шоку — III.",
+    "steps": [
+      "Zawał",
+      "Wstrząs",
+      "Killip IV"
+    ],
+    "src": 3
+  },
+  {
+    "id": 4,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Który czynnik ryzyka sercowo-naczyniowego jest modyfikowalny?",
+    "opts": [
+      "Palenie tytoniu",
+      "Wiek",
+      "Płeć biologiczna",
+      "Wywiad rodzinny",
+      "Dziedziczna mutacja"
+    ],
+    "pl": "Palenie można wyeliminować. Wiek i obciążenie rodzinne nie podlegają takiej zmianie.",
+    "ua": "Куріння можна припинити. Вік і спадковість змінити неможливо.",
+    "steps": [
+      "Tytoń",
+      "Możliwość zmiany",
+      "Modyfikowalny"
+    ],
+    "src": 1
+  },
+  {
+    "id": 5,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "QRS jest poszerzony, w V1 występuje rsR′, a w I szeroki S. Co rozpoznajesz?",
+    "opts": [
+      "Blok prawej odnogi pęczka Hisa",
+      "Blok lewej odnogi",
+      "Blok AV I stopnia",
+      "Migotanie przedsionków",
+      "Asystolię"
+    ],
+    "pl": "Układ rsR′ w V1 z szerokim S w odprowadzeniach bocznych jest typowy dla RBBB.",
+    "ua": "rsR′ у V1 і широкий S у бічних відведеннях характерні для блокади правої ніжки.",
+    "steps": [
+      "V1: rsR′",
+      "Boczne: szeroki S",
+      "RBBB"
+    ],
+    "src": 6
+  },
+  {
+    "id": 6,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Ciągły szmer maszynowy u dziecka sugeruje przede wszystkim:",
+    "opts": [
+      "Przetrwały przewód tętniczy",
+      "Ubytek przegrody międzykomorowej",
+      "Zwężenie aorty",
+      "Niedomykalność mitralną",
+      "Blok AV"
+    ],
+    "pl": "Przewód łączy aortę z tętnicą płucną. Różnica ciśnień utrzymuje przepływ w skurczu i rozkurczu.",
+    "ua": "Протока з'єднує аорту з легеневою артерією. Потік у систолу й діастолу створює безперервний шум.",
+    "steps": [
+      "Aorta",
+      "Przewód tętniczy",
+      "Tętnica płucna"
+    ],
+    "src": 6
+  },
+  {
+    "id": 7,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Co oznacza odwrócenie przecieku sercowego na prawo-lewy wskutek nadciśnienia płucnego?",
+    "opts": [
+      "Zespół Eisenmengera",
+      "Zespół Gilberta",
+      "Zespół Conna",
+      "Zespół Sheehana",
+      "Zespół Alporta"
+    ],
+    "pl": "Wzrost oporu płucnego odwraca wcześniejszy przeciek lewo-prawy i może wywołać sinicę.",
+    "ua": "Зростання легеневого опору змінює напрямок шунта на право-лівий і може спричинити ціаноз.",
+    "steps": [
+      "Przeciek L→P",
+      "Opór płucny rośnie",
+      "Przeciek P→L"
+    ],
+    "src": 2
+  },
+  {
+    "id": 8,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Do czego służy skala HAS-BLED?",
+    "opts": [
+      "Oceny ryzyka krwawienia",
+      "Oceny nasilenia dławicy",
+      "Rozpoznania zawału",
+      "Oceny świadomości",
+      "Oceny dojrzałości szyjki"
+    ],
+    "pl": "HAS-BLED porządkuje czynniki ryzyka krwawienia. Wysoki wynik sam nie oznacza zakazu antykoagulacji.",
+    "ua": "HAS-BLED оцінює ризик кровотечі. Високий бал сам по собі не забороняє антикоагуляцію.",
+    "steps": [
+      "Antykoagulacja",
+      "Czynniki krwawienia",
+      "HAS-BLED"
+    ],
+    "src": 3
+  },
+  {
+    "id": 9,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Który objaw jest typowy dla hiperkaliemii w EKG?",
+    "opts": [
+      "Wysokie spiczaste załamki T",
+      "Fale delta",
+      "Stałe uniesienie PR",
+      "Izolowana fala epsilon",
+      "Załamek J przy normotermii"
+    ],
+    "pl": "Hiperkaliemia może powodować spiczaste T i poszerzenie QRS. Prawidłowe EKG jej nie wyklucza.",
+    "ua": "Гіперкаліємія може давати загострені T і широкий QRS. Нормальна ЕКГ її не виключає.",
+    "steps": [
+      "K⁺ rośnie",
+      "Repolaryzacja",
+      "Spiczaste T"
+    ],
+    "src": 6
+  },
+  {
+    "id": 10,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Który biomarker jest preferowany do wykrywania uszkodzenia mięśnia sercowego?",
+    "opts": [
+      "Troponina sercowa",
+      "CA-125",
+      "AFP",
+      "Bilirubina",
+      "Amylaza"
+    ],
+    "pl": "Troponina wskazuje na uszkodzenie kardiomiocytów; sam wzrost nie wystarcza do rozpoznania zawału.",
+    "ua": "Тропонін вказує на ушкодження кардіоміоцитів; лише його підвищення не доводить інфаркт.",
+    "steps": [
+      "Uszkodzenie komórek",
+      "Troponina",
+      "Kontekst niedokrwienia"
+    ],
+    "src": 9
+  },
+  {
+    "id": 11,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Która skala ocenia kliniczne prawdopodobieństwo zatorowości płucnej?",
+    "opts": [
+      "Wellsa",
+      "Bishopa",
+      "Apgar",
+      "Tannera",
+      "Forresta"
+    ],
+    "pl": "Wells służy ocenie prawdopodobieństwa ZP przed dalszymi badaniami.",
+    "ua": "Шкала Wells оцінює ймовірність ТЕЛА до подальших досліджень.",
+    "steps": [
+      "Podejrzenie ZP",
+      "Ocena kliniczna",
+      "Wells"
+    ],
+    "src": 4
+  },
+  {
+    "id": 12,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Co oznacza dodatni D-dimer?",
+    "opts": [
+      "Nieswoistą aktywację tworzenia i rozpadu fibryny",
+      "Pewną zatorowość płucną",
+      "Pewny zawał",
+      "Wykluczenie zakrzepicy",
+      "Wyłącznie chorobę nowotworową"
+    ],
+    "pl": "D-dimer jest czuły, ale nieswoisty. Dodatni wynik sam nie potwierdza ZP.",
+    "ua": "D-димер чутливий, але неспецифічний. Позитивний результат сам не підтверджує ТЕЛА.",
+    "steps": [
+      "Fibryna",
+      "Rozpad",
+      "D-dimer"
+    ],
+    "src": 9
+  },
+  {
+    "id": 13,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Nagła duszność, ból opłucnowy i jednostronny obrzęk łydki sugerują:",
+    "opts": [
+      "Zatorowość płucną",
+      "Przewlekłą niedoczynność tarczycy",
+      "Chorobę Gilberta",
+      "Zapalenie ucha",
+      "Niedobór B12"
+    ],
+    "pl": "Zakrzepica kończyny może być źródłem zatoru płucnego. Objawy wymagają pilnej oceny.",
+    "ua": "Тромбоз ноги може бути джерелом ТЕЛА. Такі симптоми потребують термінової оцінки.",
+    "steps": [
+      "Zakrzep w nodze",
+      "Krążenie żylne",
+      "Zator płucny"
+    ],
+    "src": 3
+  },
+  {
+    "id": 14,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Która skala opisuje subiektywne nasilenie duszności?",
+    "opts": [
+      "mMRC",
+      "Gleasona",
+      "Bishopa",
+      "BI-RADS",
+      "Ann Arbor"
+    ],
+    "pl": "mMRC ocenia, jak duszność ogranicza codzienną aktywność.",
+    "ua": "mMRC оцінює, наскільки задишка обмежує повсякденну активність.",
+    "steps": [
+      "Aktywność",
+      "Duszność",
+      "mMRC"
+    ],
+    "src": 3
+  },
+  {
+    "id": 15,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Co oznacza litera C w CRB-65?",
+    "opts": [
+      "Zaburzenia świadomości",
+      "Kaszel",
+      "Sinicę",
+      "Stężenie wapnia",
+      "Ból w klatce piersiowej"
+    ],
+    "pl": "C to confusion, czyli splątanie. Pozostałe elementy dotyczą oddychania, ciśnienia i wieku.",
+    "ua": "C — confusion, сплутаність. Інші компоненти — дихання, тиск і вік.",
+    "steps": [
+      "C",
+      "Confusion",
+      "Splątanie"
+    ],
+    "src": 3
+  },
+  {
+    "id": 16,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Który parametr jest podstawą spirometrycznej oceny nasilenia obturacji w POChP?",
+    "opts": [
+      "FEV1 jako procent wartości należnej",
+      "Stężenie troponiny",
+      "Liczba płytek",
+      "Bilirubina",
+      "INR"
+    ],
+    "pl": "Po potwierdzeniu obturacji nasilenie ograniczenia przepływu ocenia się m.in. według FEV1.",
+    "ua": "Після підтвердження обструкції ступінь обмеження потоку оцінюють, зокрема, за FEV1.",
+    "steps": [
+      "Spirometria",
+      "FEV1",
+      "Stopień obturacji"
+    ],
+    "src": 3
+  },
+  {
+    "id": 17,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Tętno paradoksalne w ciężkim napadzie astmy oznacza:",
+    "opts": [
+      "Nadmierny spadek ciśnienia skurczowego podczas wdechu",
+      "Wzrost ciśnienia podczas wydechu o 1 mmHg",
+      "Brak tętna tylko na stopach",
+      "Stałą bradykardię",
+      "Tętno dwubitne"
+    ],
+    "pl": "Tętno paradoksalne to spadek ciśnienia skurczowego podczas wdechu przekraczający 10 mmHg.",
+    "ua": "Парадоксальний пульс — падіння систолічного тиску на вдиху більш ніж на 10 мм рт. ст.",
+    "steps": [
+      "Wdech",
+      "Spadek ciśnienia",
+      "Więcej niż 10 mmHg"
+    ],
+    "src": 6
+  },
+  {
+    "id": 18,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Co najczęściej wywołuje niepowikłane ostre zapalenie oskrzeli u dorosłych?",
+    "opts": [
+      "Wirusy",
+      "Mycobacterium tuberculosis",
+      "Candida albicans",
+      "Plasmodium",
+      "Clostridium tetani"
+    ],
+    "pl": "Większość przypadków ma etiologię wirusową; rutynowy antybiotyk nie jest potrzebny.",
+    "ua": "Більшість випадків вірусні; рутинний антибіотик не потрібний.",
+    "steps": [
+      "Wirus",
+      "Zapalenie oskrzeli",
+      "Leczenie objawowe"
+    ],
+    "src": 4
+  },
+  {
+    "id": 19,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Załamek P w EKG odpowiada przede wszystkim:",
+    "opts": [
+      "Depolaryzacji przedsionków",
+      "Depolaryzacji komór",
+      "Repolaryzacji komór",
+      "Skurczowi aorty",
+      "Pracy węzła przedsionkowo-komorowego jako osobnej fali"
+    ],
+    "pl": "P to przedsionki, QRS to depolaryzacja komór, T to ich repolaryzacja.",
+    "ua": "P — деполяризація передсердь, QRS — шлуночків, T — реполяризація шлуночків.",
+    "steps": [
+      "P",
+      "Przedsionki",
+      "Depolaryzacja"
+    ],
+    "src": 0
+  },
+  {
+    "id": 20,
+    "topic": "Kardiologia i pulmonologia",
+    "q": "Która triada sprzyja zakrzepicy żylnej?",
+    "opts": [
+      "Zastój, uszkodzenie śródbłonka, nadkrzepliwość",
+      "Gorączka, kaszel, katar",
+      "Żółtaczka, świąd, biegunka",
+      "Bradykardia, hipoglikemia, hipotermia",
+      "Ból, ślepota, głuchota"
+    ],
+    "pl": "Triada Virchowa łączy zastój krwi, uszkodzenie ściany naczynia i nadkrzepliwość.",
+    "ua": "Тріада Вірхова: застій крові, ушкодження ендотелію та гіперкоагуляція.",
+    "steps": [
+      "Zastój",
+      "Śródbłonek",
+      "Nadkrzepliwość"
+    ],
+    "src": 9
+  },
+  {
+    "id": 21,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Krwawe wymioty po uporczywych wymiotach, z powierzchownym pęknięciem śluzówki, wskazują na:",
+    "opts": [
+      "Zespół Mallory’ego-Weissa",
+      "Zespół Boerhaavego",
+      "Zespół Gilberta",
+      "Achalazję",
+      "Chorobę Hirschsprunga"
+    ],
+    "pl": "Mallory-Weiss uszkadza śluzówkę; Boerhaave oznacza pęknięcie całej ściany.",
+    "ua": "Mallory-Weiss — розрив слизової; Boerhaave — розрив усієї стінки.",
+    "steps": [
+      "Wymioty",
+      "Pęknięcie śluzówki",
+      "Krwawienie"
+    ],
+    "src": 7
+  },
+  {
+    "id": 22,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Pełnościenne samoistne pęknięcie przełyku po gwałtownych wymiotach to:",
+    "opts": [
+      "Zespół Boerhaavego",
+      "Zespół Plummera-Vinsona",
+      "Zespół Gilberta",
+      "Zespół Ogilviego",
+      "Zespół Mirizziego"
+    ],
+    "pl": "Boerhaave obejmuje całą ścianę przełyku i grozi zapaleniem śródpiersia.",
+    "ua": "При Boerhaave розривається вся стінка стравоходу; можливий медіастиніт.",
+    "steps": [
+      "Wymioty",
+      "Cała ściana",
+      "Śródpiersie"
+    ],
+    "src": 7
+  },
+  {
+    "id": 23,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Niedokrwistość z niedoboru żelaza, dysfagia i błony przełyku tworzą zespół:",
+    "opts": [
+      "Plummera-Vinsona",
+      "Conna",
+      "Alporta",
+      "Eisenmengera",
+      "Korsakowa"
+    ],
+    "pl": "Plummer-Vinson łączy niedobór żelaza z dysfagią i błonami przełyku.",
+    "ua": "Plummer-Vinson поєднує дефіцит заліза, дисфагію та мембрани стравоходу.",
+    "steps": [
+      "Żelazo ↓",
+      "Błony przełyku",
+      "Dysfagia"
+    ],
+    "src": 2
+  },
+  {
+    "id": 24,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Nawracające wrzody przy guzie wydzielającym gastrynę wskazują na:",
+    "opts": [
+      "Zespół Zollingera-Ellisona",
+      "Zespół Sheehana",
+      "Zespół Alporta",
+      "Zespół Turnera",
+      "Zespół Leriche’a"
+    ],
+    "pl": "Gastrinoma zwiększa wydzielanie kwasu i sprzyja mnogim, nawrotowym wrzodom.",
+    "ua": "Гастринома підвищує секрецію кислоти та спричиняє множинні рецидивні виразки.",
+    "steps": [
+      "Gastrinoma",
+      "Kwas ↑",
+      "Wrzody"
+    ],
+    "src": 2
+  },
+  {
+    "id": 25,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Ostra rzekoma niedrożność jelita grubego bez mechanicznej przeszkody to:",
+    "opts": [
+      "Zespół Ogilviego",
+      "Zespół Bouvereta",
+      "Przepuklina Richtera",
+      "Zespół Mirizziego",
+      "Choroba Crohna"
+    ],
+    "pl": "W zespole Ogilviego jelito jest rozdęte, ale brak fizycznej przeszkody.",
+    "ua": "При синдромі Ogilvie кишка розширена без механічної перешкоди.",
+    "steps": [
+      "Rozdęcie",
+      "Brak przeszkody",
+      "Ogilvie"
+    ],
+    "src": 7
+  },
+  {
+    "id": 26,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Ucisk przewodu wątrobowego wspólnego przez kamień w szyi pęcherzyka to:",
+    "opts": [
+      "Zespół Mirizziego",
+      "Zespół Gilberta",
+      "Zespół Mallory’ego-Weissa",
+      "Zespół Conna",
+      "Zespół Alporta"
+    ],
+    "pl": "Kamień uciska drogi żółciowe z zewnątrz i powoduje żółtaczkę zaporową.",
+    "ua": "Камінь зовні стискає жовчну протоку й спричиняє механічну жовтяницю.",
+    "steps": [
+      "Kamień w szyi",
+      "Ucisk przewodu",
+      "Żółtaczka"
+    ],
+    "src": 7
+  },
+  {
+    "id": 27,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Niedrożność dwunastnicy spowodowana kamieniem żółciowym to:",
+    "opts": [
+      "Zespół Bouvereta",
+      "Zespół Budda-Chiariego",
+      "Zespół Eisenmengera",
+      "Zespół Kawasaki",
+      "Zespół Taya-Sachsa"
+    ],
+    "pl": "Bouveret to szczególna postać niedrożności żółciowej z przeszkodą w okolicy odźwiernika lub dwunastnicy.",
+    "ua": "Bouveret — жовчнокам'яна непрохідність у ділянці воротаря або дванадцятипалої кишки.",
+    "steps": [
+      "Kamień żółciowy",
+      "Dwunastnica",
+      "Niedrożność"
+    ],
+    "src": 7
+  },
+  {
+    "id": 28,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która operacja obejmuje resekcję chorego odcinka jelita, zamknięcie kikuta odbytnicy i kolostomię końcową?",
+    "opts": [
+      "Hartmanna",
+      "Whipple’a",
+      "Lichtensteina",
+      "Billrotha I",
+      "Heineckego-Mikulicza"
+    ],
+    "pl": "Hartmann rozdziela pasaż: bliższy koniec tworzy stomię, dalszy kikut jest zamknięty.",
+    "ua": "При операції Hartmann проксимальний кінець виводять як стому, дистальний закривають.",
+    "steps": [
+      "Resekcja",
+      "Stomia",
+      "Kikut zamknięty"
+    ],
+    "src": 7
+  },
+  {
+    "id": 29,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która operacja jest pankreatoduodenektomią?",
+    "opts": [
+      "Whipple’a",
+      "Milesa",
+      "Hartmanna",
+      "Lichtensteina",
+      "Nissena"
+    ],
+    "pl": "Whipple obejmuje resekcję głowy trzustki i dwunastnicy; zakres żołądkowy zależy od wariantu.",
+    "ua": "Whipple — резекція головки підшлункової та дванадцятипалої кишки; обсяг резекції шлунка залежить від варіанта.",
+    "steps": [
+      "Głowa trzustki",
+      "Dwunastnica",
+      "Whipple"
+    ],
+    "src": 0
+  },
+  {
+    "id": 30,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Zespolenie pozostałego żołądka bezpośrednio z dwunastnicą po resekcji to:",
+    "opts": [
+      "Billroth I",
+      "Billroth II",
+      "Hartmann",
+      "Miles",
+      "TAPP"
+    ],
+    "pl": "Billroth I odtwarza połączenie żołądek–dwunastnica; Billroth II łączy żołądek z jelitem czczym.",
+    "ua": "Billroth I — шлунок із дванадцятипалою кишкою; Billroth II — із порожньою.",
+    "steps": [
+      "Żołądek",
+      "Dwunastnica",
+      "Billroth I"
+    ],
+    "src": 7
+  },
+  {
+    "id": 31,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Zespolenie żołądka z jelitem czczym po resekcji odpowiada operacji:",
+    "opts": [
+      "Billrotha II",
+      "Billrotha I",
+      "Milesa",
+      "Hartmanna",
+      "Lichtensteina"
+    ],
+    "pl": "W Billroth II dwunastnica jest wyłączona z pasażu pokarmowego.",
+    "ua": "При Billroth II дванадцятипала кишка виключена з проходження їжі.",
+    "steps": [
+      "Żołądek",
+      "Jelito czcze",
+      "Billroth II"
+    ],
+    "src": 7
+  },
+  {
+    "id": 32,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Operacja Lichtensteina jest metodą leczenia:",
+    "opts": [
+      "Przepukliny pachwinowej z użyciem siatki",
+      "Raka trzustki",
+      "Achalazji",
+      "Wrzodu dwunastnicy",
+      "Raka odbytnicy"
+    ],
+    "pl": "Lichtenstein to otwarta beznapięciowa plastyka przepukliny pachwinowej z siatką.",
+    "ua": "Lichtenstein — відкрита ненатяжна пластика пахвинної грижі із сіткою.",
+    "steps": [
+      "Pachwina",
+      "Siatka",
+      "Lichtenstein"
+    ],
+    "src": 7
+  },
+  {
+    "id": 33,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Wyrostek robaczkowy w worku przepukliny pachwinowej oznacza przepuklinę:",
+    "opts": [
+      "Amyanda",
+      "Richtera",
+      "Littrego",
+      "Maydla",
+      "Rozworu przełykowego"
+    ],
+    "pl": "Amyand kojarzy się z appendix — wyrostkiem robaczkowym w przepuklinie.",
+    "ua": "Amyand асоціюється з appendix — апендиксом у грижі.",
+    "steps": [
+      "A jak Amyand",
+      "A jak appendix",
+      "Przepuklina"
+    ],
+    "src": 7
+  },
+  {
+    "id": 34,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Uwięźnięcie tylko części obwodu ściany jelita to przepuklina:",
+    "opts": [
+      "Richtera",
+      "Amyanda",
+      "Littrego",
+      "Pępkowa zawsze",
+      "Przeponowa zawsze"
+    ],
+    "pl": "Przepuklina Richtera może powodować martwicę bez pełnej niedrożności światła.",
+    "ua": "Грижа Richter може спричинити некроз без повної кишкової непрохідності.",
+    "steps": [
+      "Część ściany",
+      "Uwięźnięcie",
+      "Pasaż może trwać"
+    ],
+    "src": 7
+  },
+  {
+    "id": 35,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Uchyłek Meckela w worku przepuklinowym to przepuklina:",
+    "opts": [
+      "Littrego",
+      "Amyanda",
+      "Richtera",
+      "Maydla",
+      "Spiegla z definicji"
+    ],
+    "pl": "Littre = uchyłek Meckela w przepuklinie.",
+    "ua": "Littre — дивертикул Меккеля у грижовому мішку.",
+    "steps": [
+      "Meckel",
+      "Worek przepuklinowy",
+      "Littre"
+    ],
+    "src": 7
+  },
+  {
+    "id": 36,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Tylną ścianę kanału pachwinowego tworzy przede wszystkim:",
+    "opts": [
+      "Powięź poprzeczna",
+      "Więzadło pachwinowe",
+      "Mięsień prosty brzucha",
+      "Skóra",
+      "Otrzewna jako jedyna warstwa"
+    ],
+    "pl": "Powięź poprzeczna stanowi główną tylną ścianę kanału pachwinowego.",
+    "ua": "Поперечна фасція є основою задньої стінки пахвинного каналу.",
+    "steps": [
+      "Kanał pachwinowy",
+      "Ściana tylna",
+      "Powięź poprzeczna"
+    ],
+    "src": 4
+  },
+  {
+    "id": 37,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Segment I wątroby odpowiada:",
+    "opts": [
+      "Płatowi ogoniastemu",
+      "Płatowi kwadratowemu",
+      "Całej prawej połowie",
+      "Segmentowi przedniemu prawemu",
+      "Pęcherzykowi żółciowemu"
+    ],
+    "pl": "W podziale Couinauda segment I to płat ogoniasty.",
+    "ua": "За Couinaud сегмент I — хвостата частка.",
+    "steps": [
+      "Couinaud",
+      "Segment I",
+      "Płat ogoniasty"
+    ],
+    "src": 0
+  },
+  {
+    "id": 38,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Która skala opisuje endoskopowe znamiona krwawienia z wrzodu?",
+    "opts": [
+      "Forresta",
+      "Apgar",
+      "NYHA",
+      "Tannera",
+      "Gleasona"
+    ],
+    "pl": "Forrest klasyfikuje obraz wrzodu i znamiona niedawnego lub aktywnego krwawienia.",
+    "ua": "Forrest класифікує ендоскопічні ознаки активної або недавньої виразкової кровотечі.",
+    "steps": [
+      "Endoskopia",
+      "Wrzód",
+      "Krwawienie: Forrest"
+    ],
+    "src": 3
+  },
+  {
+    "id": 39,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Który obraz odpowiada Forrest Ia?",
+    "opts": [
+      "Tryskające krwawienie tętnicze",
+      "Czyste dno wrzodu",
+      "Płaska plama barwnikowa",
+      "Skrzep przylegający",
+      "Widoczne niekrwawiące naczynie"
+    ],
+    "pl": "Ia to krwawienie tryskające; Ib — sączące.",
+    "ua": "Ia — струменева кровотеча; Ib — просочування крові.",
+    "steps": [
+      "Ia",
+      "Tętnica",
+      "Strumień krwi"
+    ],
+    "src": 8
+  },
+  {
+    "id": 40,
+    "topic": "Gastroenterologia i chirurgia",
+    "q": "Nawracająca łagodna hiperbilirubinemia niesprzężona bez hemolizy sugeruje:",
+    "opts": [
+      "Zespół Gilberta",
+      "Zespół Mirizziego",
+      "Ostre zapalenie dróg żółciowych",
+      "Raka głowy trzustki",
+      "Zespół Budda-Chiariego"
+    ],
+    "pl": "Gilbert oznacza ograniczone sprzęganie bilirubiny; epizody nasilają np. głodzenie lub stres.",
+    "ua": "При Gilbert знижене кон'югування білірубіну; голодування чи стрес можуть посилювати прояви.",
+    "steps": [
+      "Sprzęganie ↓",
+      "Bilirubina niesprzężona",
+      "Gilbert"
+    ],
+    "src": 2
+  },
+  {
+    "id": 41,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Wielotorbielowatość nerek dziedziczona autosomalnie dominująco zwiększa ryzyko:",
+    "opts": [
+      "Tętniaków wewnątrzczaszkowych",
+      "Wyłącznie zaćmy",
+      "Achalazji",
+      "Choroby Hirschsprunga",
+      "Raka szyjki macicy"
+    ],
+    "pl": "ADPKD może współistnieć z tętniakami tętnic mózgowych.",
+    "ua": "ADPKD може поєднуватись з аневризмами мозкових артерій.",
+    "steps": [
+      "ADPKD",
+      "Naczynia mózgowe",
+      "Tętniak"
+    ],
+    "src": 1
+  },
+  {
+    "id": 42,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Krwiomocz, niedosłuch i zmiany oczne sugerują zespół:",
+    "opts": [
+      "Alporta",
+      "Conna",
+      "Gilberta",
+      "Sheehana",
+      "Mallory’ego-Weissa"
+    ],
+    "pl": "Alport wiąże się z nieprawidłowym kolagenem IV w błonach podstawnych.",
+    "ua": "Alport пов'язаний із дефектом колагену IV у базальних мембранах.",
+    "steps": [
+      "Kolagen IV",
+      "Nerki + słuch + oczy",
+      "Alport"
+    ],
+    "src": 2
+  },
+  {
+    "id": 43,
+    "topic": "Nefrologia i elektrolity",
+    "q": "W zespole Alporta zaburzona jest przede wszystkim budowa:",
+    "opts": [
+      "Kolagenu typu IV",
+      "Elastyny",
+      "Hemoglobiny A",
+      "Insuliny",
+      "Albuminy"
+    ],
+    "pl": "Kolagen IV jest składnikiem błon podstawnych, m.in. w kłębuszkach.",
+    "ua": "Колаген IV входить до базальних мембран, зокрема клубочків.",
+    "steps": [
+      "Kolagen IV",
+      "Błona podstawna",
+      "Kłębuszek"
+    ],
+    "src": 2
+  },
+  {
+    "id": 44,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Wrodzony zespół nerczycowy typu fińskiego jest klasycznie związany z genem:",
+    "opts": [
+      "NPHS1",
+      "CFTR",
+      "FBN1",
+      "HBB",
+      "BRCA1"
+    ],
+    "pl": "NPHS1 koduje nefrynę, ważny element bariery filtracyjnej podocytów.",
+    "ua": "NPHS1 кодує нефрин — важливий компонент фільтраційного бар'єра подоцитів.",
+    "steps": [
+      "NPHS1",
+      "Nefryna",
+      "Białkomocz"
+    ],
+    "src": 2
+  },
+  {
+    "id": 45,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który zestaw najbardziej odpowiada zespołowi nerczycowemu?",
+    "opts": [
+      "Znaczny białkomocz, hipoalbuminemia, obrzęki",
+      "Krwioplucie bez białkomoczu",
+      "Hiperglikemia bez zmian w moczu",
+      "Izolowana gorączka",
+      "Wyłącznie leukocytoza"
+    ],
+    "pl": "Utrata białka z moczem obniża albuminę i sprzyja obrzękom.",
+    "ua": "Втрата білка із сечею знижує альбумін і сприяє набрякам.",
+    "steps": [
+      "Białko w moczu",
+      "Albumina ↓",
+      "Obrzęki"
+    ],
+    "src": 1
+  },
+  {
+    "id": 46,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który zestaw najbardziej odpowiada zespołowi nefrytycznemu?",
+    "opts": [
+      "Krwiomocz, nadciśnienie i pogorszenie funkcji nerek",
+      "Wyłącznie glukozuria",
+      "Izolowana hiperlipidemia",
+      "Brak zmian w moczu i świąd",
+      "Niski TSH i drżenie"
+    ],
+    "pl": "Zapalenie kłębuszków daje krwiomocz, retencję płynów i upośledzenie filtracji.",
+    "ua": "Запалення клубочків спричиняє гематурію, затримку рідини й зниження фільтрації.",
+    "steps": [
+      "Zapalenie kłębuszka",
+      "Krwiomocz",
+      "Filtracja ↓"
+    ],
+    "src": 2
+  },
+  {
+    "id": 47,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Przeciwciała przeciw błonie podstawnej kłębuszków z krwawieniem płucnym wskazują na:",
+    "opts": [
+      "Chorobę anty-GBM",
+      "Chorobę Gilberta",
+      "Zespół Conna",
+      "Zespół Taya-Sachsa",
+      "Chorobę Gravesa"
+    ],
+    "pl": "Choroba anty-GBM może uszkadzać jednocześnie kłębuszki i pęcherzyki płucne.",
+    "ua": "Хвороба anti-GBM може одночасно уражати клубочки та легеневі альвеоли.",
+    "steps": [
+      "Anty-GBM",
+      "Nerki",
+      "Płuca"
+    ],
+    "src": 2
+  },
+  {
+    "id": 48,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Która triada jest charakterystyczna dla HUS?",
+    "opts": [
+      "Hemoliza mikroangiopatyczna, małopłytkowość, ostre uszkodzenie nerek",
+      "Leukocytoza, hiperglikemia, kaszel",
+      "Hiperkalcemia, drżenie, wytrzeszcz",
+      "Biegunka, łysienie, bezsenność",
+      "Astma, nieżyt nosa, polipy"
+    ],
+    "pl": "HUS uszkadza mikrokrążenie: erytrocyty rozpadają się, płytki są zużywane, nerki cierpią.",
+    "ua": "При HUS ушкоджується мікроциркуляція: гемоліз, споживання тромбоцитів та гостре ураження нирок.",
+    "steps": [
+      "Mikrokrążenie",
+      "Hemoliza + płytki ↓",
+      "Nerki"
+    ],
+    "src": 3
+  },
+  {
+    "id": 49,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który lek moczopędny może zwiększać stężenie wapnia we krwi?",
+    "opts": [
+      "Hydrochlorotiazyd",
+      "Furosemid",
+      "Torasemid",
+      "Bumetanid",
+      "Kwas etakrynowy"
+    ],
+    "pl": "Tiazydy zmniejszają wydalanie wapnia z moczem; diuretyki pętlowe działają odwrotnie.",
+    "ua": "Тіазиди зменшують виведення кальцію із сечею; петльові діуретики діють навпаки.",
+    "steps": [
+      "Tiazyd",
+      "Wapń w moczu ↓",
+      "Wapń we krwi ↑"
+    ],
+    "src": 6
+  },
+  {
+    "id": 50,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który lek zwiększa wydalanie wapnia z moczem?",
+    "opts": [
+      "Furosemid",
+      "Hydrochlorotiazyd",
+      "Chlortalidon",
+      "Indapamid",
+      "Witamina D"
+    ],
+    "pl": "Diuretyki pętlowe zwiększają kalciurię.",
+    "ua": "Петльові діуретики підвищують виведення кальцію із сечею.",
+    "steps": [
+      "Pętla Henlego",
+      "Furosemid",
+      "Kalciuria ↑"
+    ],
+    "src": 6
+  },
+  {
+    "id": 51,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Które zaburzenie potasu może wywołać osłabienie mięśni i groźne arytmie?",
+    "opts": [
+      "Zarówno hipo-, jak i hiperkaliemia",
+      "Wyłącznie hipokaliemia",
+      "Wyłącznie hiperkaliemia",
+      "Żadne",
+      "Tylko prawidłowy potas"
+    ],
+    "pl": "Oba skrajne stężenia potasu zaburzają pobudliwość mięśni i serca.",
+    "ua": "І низький, і високий калій порушують збудливість м'язів та серця.",
+    "steps": [
+      "K⁺ za mało lub za dużo",
+      "Pobudliwość",
+      "Mięśnie i serce"
+    ],
+    "src": 6
+  },
+  {
+    "id": 52,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który lek wymaga szczególnej ostrożności przy niewydolności nerek z powodu kumulacji?",
+    "opts": [
+      "Digoksyna",
+      "Laktuloza",
+      "Nystatyna miejscowa",
+      "Wazelina",
+      "Simetykon"
+    ],
+    "pl": "Digoksyna jest w dużej mierze eliminowana przez nerki; spadek filtracji zwiększa ryzyko zatrucia.",
+    "ua": "Дигоксин значною мірою виводиться нирками; зниження фільтрації підвищує ризик інтоксикації.",
+    "steps": [
+      "Filtracja ↓",
+      "Digoksyna kumuluje się",
+      "Toksyczność"
+    ],
+    "src": 4
+  },
+  {
+    "id": 53,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Które badanie pomaga ocenić blizny korowe nerek po zakażeniach?",
+    "opts": [
+      "Scyntygrafia DMSA",
+      "EEG",
+      "Gastroskopia",
+      "Spirometria",
+      "Mammografia"
+    ],
+    "pl": "DMSA obrazuje miąższ korowy i może uwidocznić blizny nerkowe.",
+    "ua": "DMSA візуалізує коркову паренхіму та може виявити рубці нирок.",
+    "steps": [
+      "Zakażenie",
+      "Blizna korowa",
+      "DMSA"
+    ],
+    "src": 1
+  },
+  {
+    "id": 54,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Klasyfikacja Bosniaka służy przede wszystkim do oceny:",
+    "opts": [
+      "Torbielowatych zmian nerek",
+      "Nasilenia astmy",
+      "Raków szyjki macicy",
+      "Przepuklin pachwinowych",
+      "Dojrzałości noworodka"
+    ],
+    "pl": "Bosniak porządkuje cechy obrazowe torbielowatych zmian nerek i ryzyko złośliwości.",
+    "ua": "Bosniak описує візуалізаційні ознаки кістозних утворень нирок і ризик злоякісності.",
+    "steps": [
+      "Zmiana torbielowata",
+      "Obrazowanie",
+      "Bosniak"
+    ],
+    "src": 3
+  },
+  {
+    "id": 55,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Odpływ pęcherzowo-moczowodowy oznacza przepływ moczu:",
+    "opts": [
+      "Z pęcherza w kierunku moczowodu",
+      "Z nerki wyłącznie do pęcherza",
+      "Z cewki do pochwy",
+      "Z jelita do nerki",
+      "Z krwi do pęcherza"
+    ],
+    "pl": "Refluks odwraca prawidłowy kierunek przepływu moczu.",
+    "ua": "Рефлюкс змінює нормальний напрямок руху сечі.",
+    "steps": [
+      "Pęcherz",
+      "Przepływ wsteczny",
+      "Moczowód"
+    ],
+    "src": 3
+  },
+  {
+    "id": 56,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Który zestaw leków jest typowym przykładem podtrzymującej immunosupresji po przeszczepieniu nerki?",
+    "opts": [
+      "Takrolimus, mykofenolan, glikokortykosteroid",
+      "Amoksycylina, ibuprofen, metformina",
+      "Insulina, heparyna, nystatyna",
+      "Lewotyroksyna, lit, furosemid",
+      "Wyłącznie paracetamol"
+    ],
+    "pl": "Typowy schemat łączy inhibitor kalcyneuryny, lek antyproliferacyjny i steroid; schematy są indywidualizowane.",
+    "ua": "Типова схема поєднує інгібітор кальциневрину, антипроліферативний засіб і стероїд; лікування індивідуалізують.",
+    "steps": [
+      "Takrolimus",
+      "Mykofenolan",
+      "Steroid"
+    ],
+    "src": 1
+  },
+  {
+    "id": 57,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Która substancja jest rutynowo wykorzystywana do szacowania eGFR?",
+    "opts": [
+      "Kreatynina",
+      "CA-125",
+      "Troponina",
+      "Amylaza",
+      "Gastryna"
+    ],
+    "pl": "Kreatynina jest podstawą wielu wzorów eGFR; wynik zależy też od cech pacjenta.",
+    "ua": "Креатинін є основою багатьох формул eGFR; враховують також характеристики пацієнта.",
+    "steps": [
+      "Kreatynina",
+      "Wzór",
+      "eGFR"
+    ],
+    "src": 1
+  },
+  {
+    "id": 58,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Zwężenie tętnicy nerkowej aktywuje przede wszystkim:",
+    "opts": [
+      "Układ renina–angiotensyna–aldosteron",
+      "Wyłącznie wydzielanie insuliny",
+      "Wyłącznie kalcytoninę",
+      "Produkcję surfaktantu",
+      "Wydzielanie melatoniny"
+    ],
+    "pl": "Nerka odbiera słabszą perfuzję jako niedobór krwi i uruchamia RAA.",
+    "ua": "Нирка сприймає слабшу перфузію як дефіцит кровопостачання й активує РААС.",
+    "steps": [
+      "Perfuzja ↓",
+      "Renina",
+      "RAA"
+    ],
+    "src": 6
+  },
+  {
+    "id": 59,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Które zaburzenie elektrolitowe może towarzyszyć nadmiarowi aldosteronu?",
+    "opts": [
+      "Hipokaliemia",
+      "Hiperkaliemia jako reguła",
+      "Ciężka hiperkalcemia jako reguła",
+      "Hipermagnezemia jako reguła",
+      "Brak wpływu na elektrolity"
+    ],
+    "pl": "Aldosteron zwiększa zatrzymywanie sodu i wydalanie potasu.",
+    "ua": "Альдостерон збільшує затримку натрію та виведення калію.",
+    "steps": [
+      "Aldosteron ↑",
+      "Utrata K⁺",
+      "Hipokaliemia"
+    ],
+    "src": 4
+  },
+  {
+    "id": 60,
+    "topic": "Nefrologia i elektrolity",
+    "q": "Hipernatremia najczęściej wskazuje na:",
+    "opts": [
+      "Niedobór wody względem sodu",
+      "Nadmiar wody względem sodu",
+      "Zawsze nadmiar potasu",
+      "Zawsze niedobór wapnia",
+      "Wyłącznie hemolizę"
+    ],
+    "pl": "Stężenie sodu opisuje relację sodu do wody; hipernatremia zwykle oznacza względny niedobór wody.",
+    "ua": "Концентрація натрію відображає співвідношення натрію й води; гіпернатріємія зазвичай означає відносний дефіцит води.",
+    "steps": [
+      "Woda względnie ↓",
+      "Stężenie Na⁺ ↑",
+      "Hipernatremia"
+    ],
+    "src": 1
+  },
+  {
+    "id": 61,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Niski TSH i podwyższone FT4 sugerują:",
+    "opts": [
+      "Pierwotną nadczynność tarczycy",
+      "Pierwotną niedoczynność tarczycy",
+      "Niedoczynność przysadki z niskim FT4",
+      "Chorobę Addisona",
+      "Zespół Alporta"
+    ],
+    "pl": "Nadmiar hormonów tarczycy hamuje wydzielanie TSH przez sprzężenie zwrotne.",
+    "ua": "Надлишок тиреоїдних гормонів пригнічує TSH через негативний зворотний зв'язок.",
+    "steps": [
+      "FT4 ↑",
+      "Hamowanie przysadki",
+      "TSH ↓"
+    ],
+    "src": 3
+  },
+  {
+    "id": 62,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Wysoki TSH i obniżone FT4 sugerują:",
+    "opts": [
+      "Pierwotną niedoczynność tarczycy",
+      "Pierwotną nadczynność",
+      "Guz wydzielający TSH z wysokim FT4",
+      "Zespół Conna",
+      "Cukrzycę typu 1"
+    ],
+    "pl": "Przysadka zwiększa TSH, próbując pobudzić niewydolną tarczycę.",
+    "ua": "Гіпофіз підвищує TSH, намагаючись стимулювати недостатньо активну щитоподібну залозу.",
+    "steps": [
+      "FT4 ↓",
+      "Pobudzenie przysadki",
+      "TSH ↑"
+    ],
+    "src": 3
+  },
+  {
+    "id": 63,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Bolesna tarczyca po infekcji wirusowej sugeruje:",
+    "opts": [
+      "Podostre zapalenie de Quervaina",
+      "Chorobę Hashimoto zawsze bez bólu",
+      "Zespół Conna",
+      "Akromegalię",
+      "Zespół Alporta"
+    ],
+    "pl": "De Quervain to podostre bolesne zapalenie tarczycy, często po infekcji.",
+    "ua": "De Quervain — підгострий болючий тиреоїдит, часто після інфекції.",
+    "steps": [
+      "Infekcja",
+      "Ból tarczycy",
+      "de Quervain"
+    ],
+    "src": 2
+  },
+  {
+    "id": 64,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Pierwotny hiperaldosteronizm z gruczolakiem nadnercza to zespół:",
+    "opts": [
+      "Conna",
+      "Cushinga",
+      "Sheehana",
+      "Gilberta",
+      "Korsakowa"
+    ],
+    "pl": "Conn oznacza autonomiczne wydzielanie aldosteronu, często z nadciśnieniem i niską reniną.",
+    "ua": "Conn — автономна секреція альдостерону, часто з гіпертензією та низьким реніном.",
+    "steps": [
+      "Gruczolak",
+      "Aldosteron ↑",
+      "Renina ↓"
+    ],
+    "src": 2
+  },
+  {
+    "id": 65,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który zestaw pasuje do pierwotnej niewydolności kory nadnerczy?",
+    "opts": [
+      "Niski kortyzol, wysokie ACTH, hiperpigmentacja",
+      "Wysoki kortyzol i niskie ACTH zawsze",
+      "Niskie ACTH i brak zmian hormonalnych",
+      "Wysoka insulina jako kryterium",
+      "Izolowane wysokie FT4"
+    ],
+    "pl": "W chorobie Addisona niedobór kortyzolu zwiększa ACTH; może wystąpić hiperpigmentacja.",
+    "ua": "При Addison дефіцит кортизолу підвищує ACTH; можлива гіперпігментація.",
+    "steps": [
+      "Kortyzol ↓",
+      "ACTH ↑",
+      "Ciemniejsza skóra"
+    ],
+    "src": 3
+  },
+  {
+    "id": 66,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który objaw pasuje do zespołu Cushinga?",
+    "opts": [
+      "Szerokie purpurowe rozstępy",
+      "Wyłącznie kaszel",
+      "Izolowana głuchota",
+      "Stała hipoglikemia",
+      "Wyłącznie dysfagia"
+    ],
+    "pl": "Nadmiar kortyzolu osłabia skórę i tkankę łączną, sprzyjając szerokim rozstępom.",
+    "ua": "Надлишок кортизолу послаблює шкіру й сполучну тканину, сприяючи широким стріям.",
+    "steps": [
+      "Kortyzol ↑",
+      "Skóra słabnie",
+      "Purpurowe rozstępy"
+    ],
+    "src": 2
+  },
+  {
+    "id": 67,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Brak laktacji po masywnym krwotoku porodowym sugeruje:",
+    "opts": [
+      "Zespół Sheehana",
+      "Zespół Conna",
+      "Zespół Turnera",
+      "Zespół Gilberta",
+      "Zespół Zollingera-Ellisona"
+    ],
+    "pl": "Sheehan to niedokrwienna martwica przysadki po ciężkim krwotoku; niedobór prolaktyny hamuje laktację.",
+    "ua": "Sheehan — ішемічний некроз гіпофіза після тяжкої кровотечі; дефіцит пролактину перешкоджає лактації.",
+    "steps": [
+      "Krwotok",
+      "Uszkodzenie przysadki",
+      "Brak laktacji"
+    ],
+    "src": 2
+  },
+  {
+    "id": 68,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Acanthosis nigricans u osoby z otyłością najczęściej sugeruje:",
+    "opts": [
+      "Insulinooporność",
+      "Niedobór witaminy C",
+      "Niedoczynność przytarczyc",
+      "Chorobę Alporta",
+      "Niedobór żelaza"
+    ],
+    "pl": "Ciemne, aksamitne zgrubienia skóry w fałdach często towarzyszą insulinooporności.",
+    "ua": "Темні оксамитові потовщення шкіри у складках часто супроводжують інсулінорезистентність.",
+    "steps": [
+      "Otyłość",
+      "Insulinooporność",
+      "Acanthosis nigricans"
+    ],
+    "src": 4
+  },
+  {
+    "id": 69,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który lek zmniejsza wątrobową produkcję glukozy i nie pobudza bezpośrednio wydzielania insuliny?",
+    "opts": [
+      "Metformina",
+      "Gliklazyd",
+      "Glimepiryd",
+      "Repaglinid",
+      "Glibenklamid"
+    ],
+    "pl": "Metformina ogranicza glukoneogenezę; nie jest lekiem bezpośrednio uwalniającym insulinę.",
+    "ua": "Метформін зменшує глюконеогенез і безпосередньо не стимулює секрецію інсуліну.",
+    "steps": [
+      "Wątroba",
+      "Glukoneogeneza ↓",
+      "Metformina"
+    ],
+    "src": 4
+  },
+  {
+    "id": 70,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Jakie ciężkie zaburzenie może wystąpić przy kumulacji metforminy, zwłaszcza w niewydolności nerek?",
+    "opts": [
+      "Kwasica mleczanowa",
+      "Zasadowica oddechowa jako jedyny efekt",
+      "Hipertyreoza",
+      "Niedobór prolaktyny",
+      "Hiperkalcemia jako typowy objaw"
+    ],
+    "pl": "Kumulacja metforminy zwiększa ryzyko kwasicy mleczanowej w sprzyjających warunkach.",
+    "ua": "Кумуляція метформіну за несприятливих умов підвищує ризик лактатацидозу.",
+    "steps": [
+      "Nerki niewydolne",
+      "Kumulacja metforminy",
+      "Mleczany ↑"
+    ],
+    "src": 6
+  },
+  {
+    "id": 71,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "W cukrzycowej kwasicy ketonowej podstawowym mechanizmem jest:",
+    "opts": [
+      "Niedobór insuliny i nasilona ketogeneza",
+      "Nadmiar insuliny",
+      "Izolowany niedobór wapnia",
+      "Nadmiar prolaktyny",
+      "Wyłącznie niedobór żelaza"
+    ],
+    "pl": "Brak skutecznej insuliny uruchamia lipolizę i produkcję ciał ketonowych.",
+    "ua": "Недостатність інсуліну активує ліполіз та утворення кетонових тіл.",
+    "steps": [
+      "Insulina ↓",
+      "Lipoliza",
+      "Ketony"
+    ],
+    "src": 3
+  },
+  {
+    "id": 72,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który wynik glikemii na czczo osiąga próg diagnostyczny cukrzycy poza ciążą?",
+    "opts": [
+      "126 mg/dl",
+      "90 mg/dl",
+      "99 mg/dl",
+      "105 mg/dl",
+      "115 mg/dl"
+    ],
+    "pl": "Próg wynosi 126 mg/dl. Bez jednoznacznych objawów rozpoznanie wymaga odpowiedniego potwierdzenia.",
+    "ua": "Поріг — 126 мг/дл. Без однозначних симптомів потрібне належне підтвердження діагнозу.",
+    "steps": [
+      "Na czczo",
+      "126 mg/dl",
+      "Potwierdź rozpoznanie"
+    ],
+    "src": 3
+  },
+  {
+    "id": 73,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "HbA1c odzwierciedla przede wszystkim:",
+    "opts": [
+      "Średnią glikemię z ostatnich około 2–3 miesięcy",
+      "Glikemię tylko z ostatniej godziny",
+      "Wyłącznie insulinę",
+      "Filtrację nerkową",
+      "Stężenie kortyzolu"
+    ],
+    "pl": "HbA1c powstaje przez glikację hemoglobiny i opisuje dłuższą ekspozycję na glukozę.",
+    "ua": "HbA1c утворюється при глікації гемоглобіну й відображає триваліший вплив глюкози.",
+    "steps": [
+      "Glukoza",
+      "Glikacja Hb",
+      "Około 2–3 miesiące"
+    ],
+    "src": 3
+  },
+  {
+    "id": 74,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Kryteria rotterdamskie PCOS obejmują m.in.:",
+    "opts": [
+      "Zaburzenia owulacji, hiperandrogenizm, obraz policystycznych jajników",
+      "Wyłącznie otyłość",
+      "Wyłącznie ból miesiączkowy",
+      "Wyłącznie podwyższony CA-125",
+      "Wyłącznie bezpłodność partnera"
+    ],
+    "pl": "U dorosłych wymagane są 2 z 3 kryteriów po wykluczeniu innych przyczyn.",
+    "ua": "У дорослих потрібні 2 із 3 критеріїв після виключення інших причин.",
+    "steps": [
+      "Owulacja",
+      "Androgeny",
+      "Obraz jajników"
+    ],
+    "src": 3
+  },
+  {
+    "id": 75,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Skala Ferrimana-Gallweya ocenia:",
+    "opts": [
+      "Hirsutyzm",
+      "Stan noworodka",
+      "Świadomość",
+      "Ryzyko krwawienia",
+      "Dojrzałość szyjki"
+    ],
+    "pl": "Skala ocenia terminalne owłosienie w androgenozależnych okolicach ciała.",
+    "ua": "Шкала оцінює термінальне волосся в андрогензалежних ділянках тіла.",
+    "steps": [
+      "Androgeny",
+      "Owłosienie",
+      "Ferriman-Gallwey"
+    ],
+    "src": 3
+  },
+  {
+    "id": 76,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Skala Tannera służy do oceny:",
+    "opts": [
+      "Dojrzewania płciowego",
+      "Nasilenia depresji",
+      "Świadomości",
+      "Ryzyka operacji",
+      "Krwawienia z wrzodu"
+    ],
+    "pl": "Tanner opisuje rozwój wtórnych cech płciowych.",
+    "ua": "Tanner описує розвиток вторинних статевих ознак.",
+    "steps": [
+      "Cechy płciowe",
+      "Etapy rozwoju",
+      "Tanner"
+    ],
+    "src": 3
+  },
+  {
+    "id": 77,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Niedobór 21-hydroksylazy należy do przyczyn:",
+    "opts": [
+      "Wrodzonego przerostu nadnerczy",
+      "Choroby Alporta",
+      "Mukowiscydozy",
+      "Achalazji",
+      "Zespołu Gilberta"
+    ],
+    "pl": "Defekt syntezy steroidów zmniejsza kortyzol i nasila stymulację nadnerczy przez ACTH.",
+    "ua": "Дефект синтезу стероїдів знижує кортизол і посилює стимуляцію наднирників ACTH.",
+    "steps": [
+      "Enzym ↓",
+      "Kortyzol ↓",
+      "ACTH ↑"
+    ],
+    "src": 4
+  },
+  {
+    "id": 78,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który objaw bardziej przemawia za nadczynnością niż niedoczynnością tarczycy?",
+    "opts": [
+      "Nietolerancja ciepła",
+      "Nietolerancja zimna",
+      "Zaparcia",
+      "Spowolnienie ruchowe",
+      "Przyrost masy przy spadku apetytu"
+    ],
+    "pl": "Nadczynność zwiększa tempo metabolizmu i produkcję ciepła.",
+    "ua": "Гіпертиреоз прискорює метаболізм і теплопродукцію.",
+    "steps": [
+      "Hormony tarczycy ↑",
+      "Metabolizm ↑",
+      "Gorąco"
+    ],
+    "src": 1
+  },
+  {
+    "id": 79,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Które zaburzenie potasu jest typowe dla pierwotnej niewydolności nadnerczy?",
+    "opts": [
+      "Hiperkaliemia",
+      "Hipokaliemia zawsze",
+      "Brak możliwych zmian",
+      "Hiperkalcemia zamiast zmian potasu",
+      "Wyłącznie hipofosfatemia"
+    ],
+    "pl": "Niedobór aldosteronu ogranicza nerkowe wydalanie potasu.",
+    "ua": "Дефіцит альдостерону зменшує ниркове виведення калію.",
+    "steps": [
+      "Aldosteron ↓",
+      "Wydalanie K⁺ ↓",
+      "Hiperkaliemia"
+    ],
+    "src": 3
+  },
+  {
+    "id": 80,
+    "topic": "Endokrynologia i metabolizm",
+    "q": "Który związek jest hormonem wydzielanym przez komórki beta trzustki?",
+    "opts": [
+      "Insulina",
+      "Glukagon",
+      "Kortyzol",
+      "Aldosteron",
+      "Tyroksyna"
+    ],
+    "pl": "Komórki beta wydzielają insulinę; alfa — glukagon.",
+    "ua": "Бета-клітини виділяють інсулін, альфа-клітини — глюкагон.",
+    "steps": [
+      "Komórka beta",
+      "Insulina",
+      "Glikemia ↓"
+    ],
+    "src": 3
+  },
+  {
+    "id": 81,
+    "topic": "Pediatria i neonatologia",
+    "q": "Który element należy do skali Apgar?",
+    "opts": [
+      "Częstość czynności serca",
+      "Masa urodzeniowa",
+      "Długość ciała",
+      "Obwód głowy",
+      "Stężenie bilirubiny"
+    ],
+    "pl": "Apgar ocenia serce, oddech, napięcie, odruchy i zabarwienie skóry.",
+    "ua": "Apgar оцінює серцебиття, дихання, тонус, рефлекси й колір шкіри.",
+    "steps": [
+      "Serce i oddech",
+      "Tonus i odruchy",
+      "Kolor skóry"
+    ],
+    "src": 4
+  },
+  {
+    "id": 82,
+    "topic": "Pediatria i neonatologia",
+    "q": "Maksymalny wynik skali Apgar wynosi:",
+    "opts": [
+      "10",
+      "5",
+      "12",
+      "15",
+      "20"
+    ],
+    "pl": "Pięć elementów otrzymuje po 0–2 punkty: 5 × 2 = 10.",
+    "ua": "П'ять компонентів оцінюють від 0 до 2: 5 × 2 = 10.",
+    "steps": [
+      "5 elementów",
+      "Po 2 punkty",
+      "10"
+    ],
+    "src": 3
+  },
+  {
+    "id": 83,
+    "topic": "Pediatria i neonatologia",
+    "q": "Rutynowa wstępna ocena Apgar odbywa się w:",
+    "opts": [
+      "1. i 5. minucie życia",
+      "Wyłącznie 10. minucie",
+      "1. i 5. godzinie",
+      "1. i 5. dobie",
+      "Wyłącznie po wypisie"
+    ],
+    "pl": "Podstawowe oceny są w 1. i 5. minucie; przy niskim wyniku ocenę kontynuuje się.",
+    "ua": "Базові оцінки — на 1-й і 5-й хвилині; при низькому результаті оцінювання продовжують.",
+    "steps": [
+      "Narodziny",
+      "1 minuta",
+      "5 minut"
+    ],
+    "src": 4
+  },
+  {
+    "id": 84,
+    "topic": "Pediatria i neonatologia",
+    "q": "Wcześniak to dziecko urodzone:",
+    "opts": [
+      "Przed ukończeniem 37. tygodnia ciąży",
+      "Zawsze przed 40. tygodniem",
+      "Wyłącznie poniżej 1500 g",
+      "Wyłącznie poniżej 1000 g",
+      "Po 42. tygodniu"
+    ],
+    "pl": "Wcześniactwo określa wiek ciążowy, a nie sama masa urodzeniowa.",
+    "ua": "Недоношеність визначає термін гестації, а не лише маса тіла.",
+    "steps": [
+      "Wiek ciążowy",
+      "Mniej niż 37 tygodni",
+      "Wcześniak"
+    ],
+    "src": 9
+  },
+  {
+    "id": 85,
+    "topic": "Pediatria i neonatologia",
+    "q": "Niedobór surfaktantu u wcześniaka powoduje przede wszystkim:",
+    "opts": [
+      "Zapadanie się pęcherzyków płucnych",
+      "Nadprodukcję insuliny",
+      "Hiperpigmentację",
+      "Przerost śledziony",
+      "Zespół nerczycowy"
+    ],
+    "pl": "Surfaktant zmniejsza napięcie powierzchniowe. Jego brak sprzyja niedodmie.",
+    "ua": "Сурфактант зменшує поверхневий натяг. Його дефіцит сприяє ателектазам.",
+    "steps": [
+      "Surfaktant ↓",
+      "Napięcie ↑",
+      "Pęcherzyki zapadają się"
+    ],
+    "src": 9
+  },
+  {
+    "id": 86,
+    "topic": "Pediatria i neonatologia",
+    "q": "Surfaktant jest wytwarzany głównie przez:",
+    "opts": [
+      "Pneumocyty typu II",
+      "Pneumocyty typu I",
+      "Erytrocyty",
+      "Podocyty",
+      "Komórki beta"
+    ],
+    "pl": "Pneumocyty II produkują surfaktant; pneumocyty I uczestniczą przede wszystkim w wymianie gazowej.",
+    "ua": "Пневмоцити II виробляють сурфактант, I — переважно забезпечують газообмін.",
+    "steps": [
+      "Pneumocyt II",
+      "Surfaktant",
+      "Stabilny pęcherzyk"
+    ],
+    "src": 3
+  },
+  {
+    "id": 87,
+    "topic": "Pediatria i neonatologia",
+    "q": "Mysi zapach moczu u nieleczonego dziecka klasycznie kojarzy się z:",
+    "opts": [
+      "Fenyloketonurią",
+      "Galaktozemią",
+      "Zespołem Alporta",
+      "Niedoczynnością tarczycy",
+      "Chorobą Kawasaki"
+    ],
+    "pl": "Fenyloketonuria prowadzi do nagromadzenia fenyloalaniny i jej metabolitów.",
+    "ua": "При фенілкетонурії накопичуються фенілаланін і його метаболіти.",
+    "steps": [
+      "Fenyloalanina ↑",
+      "Metabolity",
+      "Mysi zapach"
+    ],
+    "src": 6
+  },
+  {
+    "id": 88,
+    "topic": "Pediatria i neonatologia",
+    "q": "Choroba Hirschsprunga wynika z:",
+    "opts": [
+      "Braku zwojów nerwowych w odcinku jelita",
+      "Nadmiaru gastryny",
+      "Niedoboru insuliny",
+      "Zakrzepicy żył wątrobowych",
+      "Pęknięcia śluzówki przełyku"
+    ],
+    "pl": "Odcinek bezzwojowy nie rozluźnia się prawidłowo; jelito powyżej ulega poszerzeniu.",
+    "ua": "Агангліонарний сегмент не розслабляється належно; кишка вище розширюється.",
+    "steps": [
+      "Brak zwojów",
+      "Zwężony odcinek",
+      "Rozdęcie powyżej"
+    ],
+    "src": 2
+  },
+  {
+    "id": 89,
+    "topic": "Pediatria i neonatologia",
+    "q": "Które badanie potwierdza chorobę Hirschsprunga?",
+    "opts": [
+      "Biopsja odbytnicy",
+      "EKG",
+      "Spirometria",
+      "Mammografia",
+      "Oznaczenie troponiny"
+    ],
+    "pl": "Badanie histopatologiczne wykazuje brak komórek zwojowych.",
+    "ua": "Гістологія виявляє відсутність гангліозних клітин.",
+    "steps": [
+      "Biopsja",
+      "Brak zwojów",
+      "Potwierdzenie"
+    ],
+    "src": 2
+  },
+  {
+    "id": 90,
+    "topic": "Pediatria i neonatologia",
+    "q": "Gorączka, obustronne zapalenie spojówek, zmiany śluzówek i kończyn u małego dziecka sugerują:",
+    "opts": [
+      "Chorobę Kawasaki",
+      "Zespół Gilberta",
+      "Zespół Alporta",
+      "Mukowiscydozę bez zaostrzenia",
+      "Chorobę Addisona"
+    ],
+    "pl": "Kawasaki to zapalenie naczyń, w którym szczególnie ważne jest ryzyko zmian wieńcowych.",
+    "ua": "Kawasaki — васкуліт з особливо важливим ризиком ураження коронарних артерій.",
+    "steps": [
+      "Gorączka",
+      "Śluzówki i kończyny",
+      "Tętnice wieńcowe"
+    ],
+    "src": 9
+  },
+  {
+    "id": 91,
+    "topic": "Pediatria i neonatologia",
+    "q": "Najbardziej charakterystycznym powikłaniem sercowym choroby Kawasaki są:",
+    "opts": [
+      "Tętniaki tętnic wieńcowych",
+      "Zwężenie zastawki mitralnej zawsze",
+      "Pęknięcie przegrody zawsze",
+      "Śluzak przedsionka",
+      "Tetralogia Fallota"
+    ],
+    "pl": "Zapalenie może uszkodzić ścianę tętnic wieńcowych i doprowadzić do tętniaków.",
+    "ua": "Запалення може ушкодити стінку коронарних артерій та спричинити аневризми.",
+    "steps": [
+      "Zapalenie naczynia",
+      "Ściana słabnie",
+      "Tętniak"
+    ],
+    "src": 2
+  },
+  {
+    "id": 92,
+    "topic": "Pediatria i neonatologia",
+    "q": "Plamica na kończynach dolnych, bóle brzucha i stawów oraz krwiomocz sugerują:",
+    "opts": [
+      "Zapalenie naczyń związane z IgA",
+      "Chorobę Gilberta",
+      "Zespół Conna",
+      "Zespół Sheehana",
+      "Achalazję"
+    ],
+    "pl": "Dawna plamica Schönleina-Henocha zajmuje skórę, stawy, jelita i nerki.",
+    "ua": "Колишня пурпура Шенлейна—Геноха уражає шкіру, суглоби, кишківник і нирки.",
+    "steps": [
+      "IgA",
+      "Skóra i stawy",
+      "Brzuch i nerki"
+    ],
+    "src": 2
+  },
+  {
+    "id": 93,
+    "topic": "Pediatria i neonatologia",
+    "q": "Zakażenie E. coli wytwarzającą toksynę Shiga może poprzedzać:",
+    "opts": [
+      "Zespół hemolityczno-mocznicowy",
+      "Zespół Sheehana",
+      "Nadczynność tarczycy",
+      "Zespół Conna",
+      "Achalazję"
+    ],
+    "pl": "STEC może uszkadzać śródbłonek i wywołać HUS po biegunce.",
+    "ua": "STEC може ушкоджувати ендотелій і спричиняти HUS після діареї.",
+    "steps": [
+      "STEC",
+      "Biegunka",
+      "HUS"
+    ],
+    "src": 3
+  },
+  {
+    "id": 94,
+    "topic": "Pediatria i neonatologia",
+    "q": "Który objaw przemawia za odwodnieniem niemowlęcia?",
+    "opts": [
+      "Zmniejszona liczba mokrych pieluch",
+      "Obfite łzy",
+      "Stała prawidłowa diureza",
+      "Przyrost masy z obrzękami",
+      "Nadmierne ślinienie jako jedyny objaw"
+    ],
+    "pl": "Mniej moczu, suche śluzówki i pogorszenie perfuzji wspierają rozpoznanie odwodnienia.",
+    "ua": "Менше сечі, сухі слизові й погіршення перфузії свідчать на користь зневоднення.",
+    "steps": [
+      "Płyny ↓",
+      "Diureza ↓",
+      "Mniej mokrych pieluch"
+    ],
+    "src": 0
+  },
+  {
+    "id": 95,
+    "topic": "Pediatria i neonatologia",
+    "q": "Masa urodzeniowa zdrowego niemowlęcia zwykle potraja się około:",
+    "opts": [
+      "12. miesiąca",
+      "1. miesiąca",
+      "2. miesiąca",
+      "3. miesiąca",
+      "24. miesiąca"
+    ],
+    "pl": "Orientacyjnie masa podwaja się około 4–6 miesięcy, a potraja około roku.",
+    "ua": "Орієнтовно маса подвоюється у 4–6 місяців і потроюється приблизно в рік.",
+    "steps": [
+      "Narodziny",
+      "Około pół roku ×2",
+      "Około roku ×3"
+    ],
+    "src": 0
+  },
+  {
+    "id": 96,
+    "topic": "Pediatria i neonatologia",
+    "q": "Która szczepionka chroni przed zakażeniami Haemophilus influenzae typu b?",
+    "opts": [
+      "Hib",
+      "BCG",
+      "MMR",
+      "Szczepionka przeciw WZW A",
+      "Szczepionka przeciw HPV"
+    ],
+    "pl": "Hib zapobiega m.in. inwazyjnym zakażeniom i zapaleniu nagłośni wywołanym przez typ b.",
+    "ua": "Hib запобігає, зокрема, інвазивним інфекціям та епіглотиту, спричиненим типом b.",
+    "steps": [
+      "Hib",
+      "Odporność",
+      "Ochrona przed typem b"
+    ],
+    "src": 4
+  },
+  {
+    "id": 97,
+    "topic": "Pediatria i neonatologia",
+    "q": "Obraz serca typu „jajko na nitce” jest klasycznie kojarzony z:",
+    "opts": [
+      "Przełożeniem wielkich pni tętniczych",
+      "Ubytkiem przegrody międzyprzedsionkowej",
+      "Zwężeniem mitralnym",
+      "Zapaleniem osierdzia zawsze",
+      "Koarktacją aorty zawsze"
+    ],
+    "pl": "To klasyczne skojarzenie radiologiczne z TGA, a nie samodzielne kryterium rozpoznania.",
+    "ua": "Це класична рентгенологічна асоціація з TGA, а не самостійний діагностичний критерій.",
+    "steps": [
+      "Sinica",
+      "Jajko na nitce",
+      "TGA"
+    ],
+    "src": 4
+  },
+  {
+    "id": 98,
+    "topic": "Pediatria i neonatologia",
+    "q": "Wnętrostwo oznacza:",
+    "opts": [
+      "Niezstąpienie jądra do moszny",
+      "Skręt jajnika",
+      "Brak napletka",
+      "Wodniak zawsze",
+      "Odpływ moczu"
+    ],
+    "pl": "Wnętrostwo dotyczy położenia jądra poza prawidłowym miejscem w mosznie.",
+    "ua": "Крипторхізм — неопущення яєчка в нормальне положення у мошонці.",
+    "steps": [
+      "Droga zstępowania",
+      "Zatrzymanie",
+      "Wnętrostwo"
+    ],
+    "src": 3
+  },
+  {
+    "id": 99,
+    "topic": "Pediatria i neonatologia",
+    "q": "Zabieg sprowadzenia i umocowania jądra w mosznie to:",
+    "opts": [
+      "Orchidopeksja",
+      "Orchidektomia",
+      "Cystektomia",
+      "Pyloroplastyka",
+      "Histerektomia"
+    ],
+    "pl": "Orchidopeksja zachowuje i mocuje jądro; orchidektomia oznacza jego usunięcie.",
+    "ua": "Орхідопексія зберігає та фіксує яєчко; орхідектомія — його видалення.",
+    "steps": [
+      "Jądro",
+      "Sprowadzenie",
+      "Umocowanie"
+    ],
+    "src": 3
+  },
+  {
+    "id": 100,
+    "topic": "Pediatria i neonatologia",
+    "q": "Plamy café-au-lait i nerwiakowłókniaki sugerują:",
+    "opts": [
+      "Nerwiakowłókniakowatość typu 1",
+      "Zespół Alporta",
+      "Zespół Gilberta",
+      "Chorobę Kawasaki",
+      "Zespół Conna"
+    ],
+    "pl": "NF1, czyli choroba von Recklinghausena, łączy charakterystyczne zmiany skórne i nerwowe.",
+    "ua": "NF1, хвороба фон Реклінгхаузена, поєднує характерні шкірні та нервові зміни.",
+    "steps": [
+      "Café-au-lait",
+      "Nerwiakowłókniaki",
+      "NF1"
+    ],
+    "src": 2
+  },
+  {
+    "id": 101,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Skala Bishopa służy do oceny:",
+    "opts": [
+      "Dojrzałości szyjki macicy przed indukcją",
+      "Stanu noworodka",
+      "Ryzyka zatorowości",
+      "Stopnia hirsutyzmu",
+      "Świadomości"
+    ],
+    "pl": "Bishop opisuje m.in. rozwarcie, zgładzenie, konsystencję i położenie szyjki oraz wysokość części przodującej.",
+    "ua": "Bishop оцінює готовність шийки та положення передлеглої частини перед індукцією.",
+    "steps": [
+      "Szyjka",
+      "Gotowość do porodu",
+      "Bishop"
+    ],
+    "src": 3
+  },
+  {
+    "id": 102,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Reguła Naegelego przy regularnym 28-dniowym cyklu zakłada:",
+    "opts": [
+      "Pierwszy dzień ostatniej miesiączki + 7 dni − 3 miesiące + 1 rok",
+      "Dzień zapłodnienia + 12 miesięcy",
+      "Ostatni dzień miesiączki + 6 miesięcy",
+      "Pierwszy dzień miesiączki + 20 tygodni",
+      "Dzień testu ciążowego + 40 tygodni"
+    ],
+    "pl": "Punktem wyjścia jest pierwszy dzień ostatniej miesiączki, nie dzień jej zakończenia.",
+    "ua": "Відлік починають від першого дня останньої менструації, а не останнього.",
+    "steps": [
+      "Pierwszy dzień OM",
+      "+7 dni −3 miesiące",
+      "+1 rok"
+    ],
+    "src": 3
+  },
+  {
+    "id": 103,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Najczęstszą przyczyną krwotoku poporodowego jest:",
+    "opts": [
+      "Atonia macicy",
+      "Pęknięcie śledziony",
+      "Wrzód żołądka",
+      "Niedoczynność tarczycy",
+      "Zapalenie ucha"
+    ],
+    "pl": "Nieskurczona macica nie zaciska naczyń w miejscu oddzielenia łożyska.",
+    "ua": "Матка без належного скорочення не стискає судини плацентарного ложа.",
+    "steps": [
+      "Brak skurczu",
+      "Naczynia otwarte",
+      "Krwotok"
+    ],
+    "src": 4
+  },
+  {
+    "id": 104,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Mnemotechnika 4T w krwotoku poporodowym obejmuje:",
+    "opts": [
+      "Tone, trauma, tissue, thrombin",
+      "Temperature, thyroid, teeth, tremor",
+      "Troponin, thymus, tendon, tongue",
+      "Tibia, talus, tarsus, toe",
+      "Tachycardia, thirst, tinnitus, taste"
+    ],
+    "pl": "4T porządkuje atonię, uraz, zatrzymane tkanki i zaburzenia krzepnięcia.",
+    "ua": "4T: атонія, травма, затримані тканини та порушення згортання.",
+    "steps": [
+      "Tone + trauma",
+      "Tissue",
+      "Thrombin"
+    ],
+    "src": 4
+  },
+  {
+    "id": 105,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Nowe nadciśnienie po 20. tygodniu ciąży z uszkodzeniem narządowym może oznaczać:",
+    "opts": [
+      "Stan przedrzucawkowy także bez białkomoczu",
+      "Wyłącznie nadciśnienie przewlekłe",
+      "Zawsze rzucawkę",
+      "Fizjologię ciąży",
+      "Wyłącznie infekcję"
+    ],
+    "pl": "Białkomocz nie jest konieczny, jeśli obecne są odpowiednie cechy dysfunkcji narządowej.",
+    "ua": "Протеїнурія не обов'язкова за наявності відповідної органної дисфункції.",
+    "steps": [
+      "Po 20 tygodniu",
+      "Nadciśnienie",
+      "Narządy: preeklampsja"
+    ],
+    "src": 3
+  },
+  {
+    "id": 106,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Drgawki związane ze stanem przedrzucawkowym, bez innej przyczyny, to:",
+    "opts": [
+      "Rzucawka",
+      "HELLP bez rzucawki z definicji",
+      "Padaczka zawsze",
+      "Hipoglikemia zawsze",
+      "Choroba Addisona"
+    ],
+    "pl": "Rzucawka oznacza napad drgawek w tym kontekście po wykluczeniu innych przyczyn.",
+    "ua": "Еклампсія — судомний напад у цьому контексті після виключення інших причин.",
+    "steps": [
+      "Preeklampsja",
+      "Drgawki",
+      "Eklampsja"
+    ],
+    "src": 9
+  },
+  {
+    "id": 107,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Który zestaw tworzy HELLP?",
+    "opts": [
+      "Hemoliza, wzrost enzymów wątrobowych, małopłytkowość",
+      "Hiperglikemia, leukocytoza, limfopenia",
+      "Niedoczynność tarczycy, anemia, kaszel",
+      "Hiperkalcemia, drżenie, bezsenność",
+      "Wyłącznie nadciśnienie"
+    ],
+    "pl": "HELLP: Hemolysis, Elevated Liver enzymes, Low Platelets.",
+    "ua": "HELLP: гемоліз, підвищені печінкові ферменти та низькі тромбоцити.",
+    "steps": [
+      "H: hemoliza",
+      "EL: enzymy wątroby",
+      "LP: płytki ↓"
+    ],
+    "src": 9
+  },
+  {
+    "id": 108,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Immunoglobulina anty-D zapobiega:",
+    "opts": [
+      "Uczuleniu RhD-ujemnej matki na antygen D",
+      "Wszystkim wadom płodu",
+      "Zakażeniu GBS",
+      "Cukrzycy ciążowej",
+      "Stanowi przedrzucawkowemu"
+    ],
+    "pl": "Profilaktyka anty-D ogranicza alloimmunizację u nieuczulonej kobiety RhD-ujemnej.",
+    "ua": "Анти-D профілактика зменшує ризик алоімунізації в несенсибілізованої RhD-негативної жінки.",
+    "steps": [
+      "RhD− matka",
+      "Kontakt z D",
+      "Anty-D: profilaktyka"
+    ],
+    "src": 4
+  },
+  {
+    "id": 109,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Który wynik na czczo osiąga próg GDM w OGTT 75 g?",
+    "opts": [
+      "92 mg/dl",
+      "70 mg/dl",
+      "80 mg/dl",
+      "85 mg/dl",
+      "90 mg/dl"
+    ],
+    "pl": "Progi OGTT w ciąży to 92 / 180 / 153 mg/dl: na czczo, po 1 i po 2 godzinach. Wystarczy jeden nieprawidłowy wynik.",
+    "ua": "Пороги OGTT у вагітних: 92 / 180 / 153 мг/дл натще, через 1 і 2 години; достатньо одного відхилення.",
+    "steps": [
+      "Na czczo 92",
+      "1 h 180",
+      "2 h 153"
+    ],
+    "src": 3
+  },
+  {
+    "id": 110,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Najważniejszym czynnikiem etiologicznym raka szyjki macicy jest:",
+    "opts": [
+      "Przetrwałe zakażenie onkogennym HPV",
+      "Wyłącznie Candida",
+      "Wyłącznie niedobór żelaza",
+      "Zakażenie rinowirusem",
+      "Niedobór witaminy D jako jedyna przyczyna"
+    ],
+    "pl": "Przetrwała infekcja wysokoonkogennymi typami HPV może prowadzić do zmian przedrakowych.",
+    "ua": "Персистентна інфекція високоонкогенними HPV може призвести до передракових змін.",
+    "steps": [
+      "HPV wysokiego ryzyka",
+      "Przetrwałe zakażenie",
+      "Dysplazja"
+    ],
+    "src": 3
+  },
+  {
+    "id": 111,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Który czynnik zwiększa ryzyko raka endometrium?",
+    "opts": [
+      "Długotrwałe działanie estrogenów bez równoważenia progestagenem",
+      "Każda infekcja dróg oddechowych",
+      "Wyłącznie niska masa ciała",
+      "Krótkowzroczność",
+      "Uraz stawu"
+    ],
+    "pl": "Niezrównoważona stymulacja estrogenowa pobudza proliferację endometrium.",
+    "ua": "Неврівноважена естрогенна стимуляція посилює проліферацію ендометрію.",
+    "steps": [
+      "Estrogeny",
+      "Brak osłony progestagennej",
+      "Rozrost"
+    ],
+    "src": 3
+  },
+  {
+    "id": 112,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Endometrioza oznacza:",
+    "opts": [
+      "Obecność tkanki podobnej do endometrium poza jamą macicy",
+      "Zawsze raka endometrium",
+      "Wyłącznie zapalenie szyjki",
+      "Brak jajników",
+      "Wyłącznie mięśniaki"
+    ],
+    "pl": "Endometrioza może powodować ból, bolesne miesiączki i trudności z płodnością.",
+    "ua": "Ендометріоз може спричиняти біль, болісні менструації та порушення фертильності.",
+    "steps": [
+      "Tkanka endometrialna",
+      "Poza jamą macicy",
+      "Ból"
+    ],
+    "src": 4
+  },
+  {
+    "id": 113,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Adenomioza dotyczy obecności gruczołów i podścieliska endometrium w:",
+    "opts": [
+      "Mięśniu macicy",
+      "Płucu wyłącznie",
+      "Skórze",
+      "Jajniku wyłącznie",
+      "Szyjce bez zajęcia mięśnia"
+    ],
+    "pl": "Adenomioza oznacza zajęcie myometrium.",
+    "ua": "Аденоміоз — наявність ендометріальних залоз і строми в міометрії.",
+    "steps": [
+      "Endometrium",
+      "Myometrium",
+      "Adenomioza"
+    ],
+    "src": 0
+  },
+  {
+    "id": 114,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Która metoda antykoncepcji nie zawiera estrogenu?",
+    "opts": [
+      "Tabletka jednoskładnikowa z progestagenem",
+      "Złożona tabletka estrogenowo-progestagenna",
+      "Złożony plaster",
+      "Złożony krążek dopochwowy",
+      "Wszystkie wymienione zawierają estrogen"
+    ],
+    "pl": "Minipigułka zawiera progestagen. Dobór po porodzie zależy od czasu i indywidualnych przeciwwskazań.",
+    "ua": "Міні-пілі містять прогестаген. Вибір після пологів залежить від терміну та протипоказань.",
+    "steps": [
+      "Minipigułka",
+      "Progestagen",
+      "Bez estrogenu"
+    ],
+    "src": 6
+  },
+  {
+    "id": 115,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Przebyta zakrzepica żylna ma szczególne znaczenie przy kwalifikacji do:",
+    "opts": [
+      "Antykoncepcji zawierającej estrogen",
+      "Prezerwatyw",
+      "Metod barierowych bez hormonów",
+      "Obserwacji cyklu",
+      "Żadnej metody"
+    ],
+    "pl": "Estrogen może zwiększać ryzyko zakrzepowo-zatorowe; wywiad zakrzepicy jest istotnym przeciwwskazaniem lub ograniczeniem.",
+    "ua": "Естроген підвищує тромботичний ризик; перенесений тромбоз суттєво обмежує його застосування.",
+    "steps": [
+      "Estrogen",
+      "Krzepnięcie",
+      "Ryzyko zakrzepicy"
+    ],
+    "src": 1
+  },
+  {
+    "id": 116,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Głównym mechanizmem antykoncepcji awaryjnej z lewonorgestrelem jest:",
+    "opts": [
+      "Hamowanie lub opóźnianie owulacji",
+      "Przerwanie zagnieżdżonej ciąży",
+      "Zniszczenie łożyska",
+      "Wywołanie porodu",
+      "Usunięcie endometrium chirurgicznie"
+    ],
+    "pl": "Lewonorgestrel działa głównie przed owulacją; nie jest lekiem przerywającym istniejącą ciążę.",
+    "ua": "Левоноргестрел переважно діє до овуляції; він не перериває наявну вагітність.",
+    "steps": [
+      "Przed owulacją",
+      "Opóźnienie owulacji",
+      "Mniejsze ryzyko zapłodnienia"
+    ],
+    "src": 1
+  },
+  {
+    "id": 117,
+    "topic": "Ginekologia i położnictwo",
+    "q": "POP-Q służy do oceny:",
+    "opts": [
+      "Obniżenia narządów miednicy",
+      "Niewydolności serca",
+      "Astmy",
+      "Świadomości",
+      "Czynności nerek"
+    ],
+    "pl": "POP-Q standaryzuje opis wypadania narządów względem błony dziewiczej.",
+    "ua": "POP-Q стандартизує опис пролапсу органів відносно гімена.",
+    "steps": [
+      "Narządy miednicy",
+      "Punkty pomiarowe",
+      "POP-Q"
+    ],
+    "src": 0
+  },
+  {
+    "id": 118,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Wskaźnik Pearla opisuje:",
+    "opts": [
+      "Liczbę ciąż na 100 kobietolat stosowania metody",
+      "Masę płodu",
+      "Liczbę pęcherzyków jajnikowych",
+      "Długość szyjki",
+      "Ryzyko nowotworu"
+    ],
+    "pl": "Niższy wskaźnik Pearla oznacza mniej ciąż podczas stosowania metody.",
+    "ua": "Нижчий індекс Перля означає менше вагітностей під час застосування методу.",
+    "steps": [
+      "100 kobietolat",
+      "Liczba ciąż",
+      "Skuteczność metody"
+    ],
+    "src": 3
+  },
+  {
+    "id": 119,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Chwyty Leopolda służą do:",
+    "opts": [
+      "Badania położenia i ułożenia płodu przez powłoki brzuszne",
+      "Oceny świadomości",
+      "Tamowania krwawienia z przełyku",
+      "Rozpoznania odmy",
+      "Pomiaru ciśnienia śródczaszkowego"
+    ],
+    "pl": "Badanie palpacyjne pomaga określić m.in. część przodującą i położenie grzbietu.",
+    "ua": "Пальпація допомагає визначити, зокрема, передлеглу частину й положення спинки плода.",
+    "steps": [
+      "Palpacja brzucha",
+      "Grzbiet i część przodująca",
+      "Leopold"
+    ],
+    "src": 3
+  },
+  {
+    "id": 120,
+    "topic": "Ginekologia i położnictwo",
+    "q": "Obrzęk uogólniony jednego płodu w TTTS odpowiada klasycznie stopniowi Quintero:",
+    "opts": [
+      "IV",
+      "I",
+      "II",
+      "III",
+      "0"
+    ],
+    "pl": "W stopniu IV występuje obrzęk płodu; V oznacza zgon jednego lub obu płodów.",
+    "ua": "IV ступінь — водянка плода; V — загибель одного або обох плодів.",
+    "steps": [
+      "TTTS",
+      "Obrzęk płodu",
+      "Quintero IV"
+    ],
+    "src": 6
+  },
+  {
+    "id": 121,
+    "topic": "Psychiatria i neurologia",
+    "q": "Lęk przed sytuacjami, z których trudno uciec lub uzyskać pomoc, typowo występuje w:",
+    "opts": [
+      "Agorafobii",
+      "Fobii swoistej przed pająkami",
+      "Zespole Korsakowa",
+      "Otępieniu czołowym jako definicja",
+      "Manii jako definicja"
+    ],
+    "pl": "Agorafobia może dotyczyć tłumów, transportu i oddalenia od domu.",
+    "ua": "Агорафобія може стосуватися натовпу, транспорту й віддалення від дому.",
+    "steps": [
+      "Trudno uciec",
+      "Obawa przed brakiem pomocy",
+      "Agorafobia"
+    ],
+    "src": 0
+  },
+  {
+    "id": 122,
+    "topic": "Psychiatria i neurologia",
+    "q": "Nawracające skubanie skóry powodujące uszkodzenia to:",
+    "opts": [
+      "Dermatillomania",
+      "Trichotillomania",
+      "Afazja",
+      "Apraksja",
+      "Katapleksja"
+    ],
+    "pl": "Dermatillomania dotyczy skóry; trichotillomania — wyrywania włosów.",
+    "ua": "Дерматиломанія — колупання шкіри; трихотиломанія — висмикування волосся.",
+    "steps": [
+      "Skóra",
+      "Powtarzane skubanie",
+      "Uszkodzenia"
+    ],
+    "src": 1
+  },
+  {
+    "id": 123,
+    "topic": "Psychiatria i neurologia",
+    "q": "Zespół Korsakowa wiąże się przede wszystkim z niedoborem:",
+    "opts": [
+      "Tiaminy, witaminy B1",
+      "Witaminy C",
+      "Witaminy K",
+      "Witaminy D",
+      "Witaminy A"
+    ],
+    "pl": "Niedobór tiaminy uszkadza struktury pamięci; częste są amnezja i konfabulacje.",
+    "ua": "Дефіцит тіаміну уражає структури пам'яті; типові амнезія та конфабуляції.",
+    "steps": [
+      "B1 ↓",
+      "Pamięć zaburzona",
+      "Korsakow"
+    ],
+    "src": 6
+  },
+  {
+    "id": 124,
+    "topic": "Psychiatria i neurologia",
+    "q": "Która cecha jest typowa dla manii?",
+    "opts": [
+      "Zmniejszona potrzeba snu z podwyższoną aktywnością",
+      "Wyłącznie senność",
+      "Stałe spowolnienie",
+      "Izolowany smutek",
+      "Wyłącznie kaszel"
+    ],
+    "pl": "Mania to m.in. podwyższony lub drażliwy nastrój, wzrost energii i mniejsza potrzeba snu.",
+    "ua": "Манія включає піднесений або дратівливий настрій, більше енергії й меншу потребу у сні.",
+    "steps": [
+      "Energia ↑",
+      "Sen ↓",
+      "Mania"
+    ],
+    "src": 4
+  },
+  {
+    "id": 125,
+    "topic": "Psychiatria i neurologia",
+    "q": "Rozpoznanie epizodu manii powinno skłaniać do oceny w kierunku:",
+    "opts": [
+      "Choroby afektywnej dwubiegunowej",
+      "Wyłącznie depresji jednobiegunowej",
+      "Wyłącznie fobii społecznej",
+      "Wyłącznie bezsenności",
+      "Wyłącznie zaburzenia adaptacyjnego"
+    ],
+    "pl": "Przebyta mania zasadniczo zmienia różnicowanie depresji w kierunku CHAD.",
+    "ua": "Перенесена манія змінює диференційну діагностику депресії в бік біполярного розладу.",
+    "steps": [
+      "Wywiad manii",
+      "Epizody nastroju",
+      "CHAD"
+    ],
+    "src": 0
+  },
+  {
+    "id": 126,
+    "topic": "Psychiatria i neurologia",
+    "q": "Minimalny typowy czas utrzymywania się objawów epizodu depresyjnego to:",
+    "opts": [
+      "Około 2 tygodni",
+      "1 godzina",
+      "1 dzień",
+      "3 dni",
+      "Zawsze 2 lata"
+    ],
+    "pl": "Dla typowego epizodu depresyjnego objawy utrzymują się co najmniej około 2 tygodni; ocena obejmuje też nasilenie i funkcjonowanie.",
+    "ua": "Для типового депресивного епізоду симптоми тривають щонайменше близько 2 тижнів; оцінюють також тяжкість і функціонування.",
+    "steps": [
+      "Objawy",
+      "Co najmniej 2 tygodnie",
+      "Ocena epizodu"
+    ],
+    "src": 4
+  },
+  {
+    "id": 127,
+    "topic": "Psychiatria i neurologia",
+    "q": "Nagłe, falujące zaburzenia uwagi i świadomości u starszej osoby sugerują:",
+    "opts": [
+      "Majaczenie",
+      "Stabilne otępienie bez zaostrzenia",
+      "Fobię swoistą",
+      "Trwałą niepełnosprawność intelektualną",
+      "Zespół Gilberta"
+    ],
+    "pl": "Majaczenie zaczyna się ostro i faluje; trzeba poszukiwać przyczyny somatycznej lub lekowej.",
+    "ua": "Делірій починається гостро й коливається; слід шукати соматичну або медикаментозну причину.",
+    "steps": [
+      "Nagły początek",
+      "Wahania uwagi",
+      "Delirium"
+    ],
+    "src": 0
+  },
+  {
+    "id": 128,
+    "topic": "Psychiatria i neurologia",
+    "q": "Który lek może powodować trądzik jako działanie niepożądane?",
+    "opts": [
+      "Lit",
+      "Paracetamol jako typowy efekt",
+      "Amoksycylina jako typowy efekt",
+      "Insulina jako typowy efekt",
+      "Laktuloza jako typowy efekt"
+    ],
+    "pl": "Zmiany trądzikowe są znanym działaniem niepożądanym litu.",
+    "ua": "Акнеподібні зміни є відомим побічним ефектом літію.",
+    "steps": [
+      "Lit",
+      "Zmiany skórne",
+      "Trądzik"
+    ],
+    "src": 0
+  },
+  {
+    "id": 129,
+    "topic": "Psychiatria i neurologia",
+    "q": "Silna blokada receptorów dopaminowych D2 może powodować:",
+    "opts": [
+      "Objawy pozapiramidowe",
+      "Wyłącznie hiperkalcemię",
+      "Wyłącznie białkomocz",
+      "Wyłącznie nadczynność tarczycy",
+      "Wyłącznie żółtaczkę"
+    ],
+    "pl": "Blokada D2 w szlaku nigrostriatalnym może prowadzić do parkinsonizmu polekowego.",
+    "ua": "Блокада D2 у нігростріарному шляху може спричинити медикаментозний паркінсонізм.",
+    "steps": [
+      "Blokada D2",
+      "Szlak nigrostriatalny",
+      "Parkinsonizm"
+    ],
+    "src": 1
+  },
+  {
+    "id": 130,
+    "topic": "Psychiatria i neurologia",
+    "q": "Która cecha jest typowa dla choroby Parkinsona?",
+    "opts": [
+      "Bradykinezja",
+      "Izolowana wysoka gorączka",
+      "Wyłącznie utrata słuchu",
+      "Wyłącznie biegunka",
+      "Nagły ból brzucha"
+    ],
+    "pl": "Spowolnienie ruchowe jest kluczową cechą parkinsonizmu, często ze sztywnością lub drżeniem spoczynkowym.",
+    "ua": "Брадикінезія — ключова ознака паркінсонізму, часто з ригідністю або тремором спокою.",
+    "steps": [
+      "Ruch wolniejszy",
+      "Sztywność lub drżenie",
+      "Parkinsonizm"
+    ],
+    "src": 0
+  },
+  {
+    "id": 131,
+    "topic": "Psychiatria i neurologia",
+    "q": "Gen APP wiązany z patologią amyloidową w chorobie Alzheimera znajduje się na chromosomie:",
+    "opts": [
+      "21",
+      "7",
+      "9",
+      "13",
+      "X"
+    ],
+    "pl": "Dodatkowa kopia chromosomu 21 zwiększa dawkę genu APP.",
+    "ua": "Додаткова копія 21-ї хромосоми збільшує дозу гена APP.",
+    "steps": [
+      "Chromosom 21",
+      "APP",
+      "Amyloid"
+    ],
+    "src": 1
+  },
+  {
+    "id": 132,
+    "topic": "Psychiatria i neurologia",
+    "q": "Który wynik jest maksymalny w skali Glasgow?",
+    "opts": [
+      "15",
+      "10",
+      "12",
+      "18",
+      "20"
+    ],
+    "pl": "Oczy 4 + mowa 5 + ruch 6 = 15.",
+    "ua": "Очі 4 + мовлення 5 + рух 6 = 15.",
+    "steps": [
+      "E4",
+      "V5",
+      "M6 = 15"
+    ],
+    "src": 3
+  },
+  {
+    "id": 133,
+    "topic": "Psychiatria i neurologia",
+    "q": "Minimalny sumaryczny wynik GCS wynosi:",
+    "opts": [
+      "3",
+      "0",
+      "1",
+      "2",
+      "5"
+    ],
+    "pl": "W każdej z trzech składowych najniższy wynik to 1: 1 + 1 + 1 = 3.",
+    "ua": "Мінімум кожного з трьох компонентів — 1: разом 3.",
+    "steps": [
+      "E1",
+      "V1",
+      "M1 = 3"
+    ],
+    "src": 8
+  },
+  {
+    "id": 134,
+    "topic": "Psychiatria i neurologia",
+    "q": "Pacjent otwiera oczy na głos, mówi chaotycznie, ale prowadzi rozmowę, i wykonuje polecenia. GCS wynosi:",
+    "opts": [
+      "13",
+      "9",
+      "10",
+      "11",
+      "15"
+    ],
+    "pl": "E3 + V4 + M6 = 13. Splątana rozmowa to V4.",
+    "ua": "E3 + V4 + M6 = 13. Сплутана, але зв'язна розмова — V4.",
+    "steps": [
+      "Oczy 3",
+      "Mowa 4",
+      "Ruch 6 = 13"
+    ],
+    "src": 1
+  },
+  {
+    "id": 135,
+    "topic": "Psychiatria i neurologia",
+    "q": "Lokalizowanie bodźca bólowego w GCS otrzymuje:",
+    "opts": [
+      "5 punktów ruchowych",
+      "1 punkt",
+      "2 punkty",
+      "3 punkty",
+      "6 punktów"
+    ],
+    "pl": "Lokalizacja bólu to M5; wykonywanie poleceń — M6, prawidłowe zgięcie/wycofanie — M4.",
+    "ua": "Локалізація болю — M5; виконання команд — M6, нормальне згинання/відсмикування — M4.",
+    "steps": [
+      "Polecenia 6",
+      "Lokalizacja 5",
+      "Wycofanie 4"
+    ],
+    "src": 1
+  },
+  {
+    "id": 136,
+    "topic": "Psychiatria i neurologia",
+    "q": "Triada Cushinga przy wzroście ciśnienia śródczaszkowego obejmuje:",
+    "opts": [
+      "Nadciśnienie, bradykardię, nieregularny oddech",
+      "Hipotensję, tachykardię, biegunkę",
+      "Gorączkę, kaszel, katar",
+      "Żółtaczkę, świąd, ból",
+      "Hipoglikemię, poty, głód"
+    ],
+    "pl": "Nie myl triady Cushinga z zespołem Cushinga, który dotyczy nadmiaru kortyzolu.",
+    "ua": "Не плутайте тріаду Кушинга з синдромом Кушинга — надлишком кортизолу.",
+    "steps": [
+      "Ciśnienie śródczaszkowe ↑",
+      "Ciśnienie tętnicze ↑",
+      "Tętno ↓, oddech nieregularny"
+    ],
+    "src": 1
+  },
+  {
+    "id": 137,
+    "topic": "Psychiatria i neurologia",
+    "q": "NIHSS służy przede wszystkim do oceny:",
+    "opts": [
+      "Nasilenia deficytu neurologicznego w udarze",
+      "Dojrzałości płciowej",
+      "Niewydolności wątroby",
+      "Krwawienia z wrzodu",
+      "Stanu szyjki macicy"
+    ],
+    "pl": "NIHSS porządkuje badanie deficytów neurologicznych w udarze.",
+    "ua": "NIHSS стандартизує оцінку неврологічного дефіциту при інсульті.",
+    "steps": [
+      "Udar",
+      "Deficyt neurologiczny",
+      "NIHSS"
+    ],
+    "src": 3
+  },
+  {
+    "id": 138,
+    "topic": "Psychiatria i neurologia",
+    "q": "Afazja oznacza zaburzenie:",
+    "opts": [
+      "Funkcji językowych",
+      "Siły mięśni jako jedyny objaw",
+      "Słuchu obwodowego zawsze",
+      "Koordynacji wyłącznie",
+      "Połykania wyłącznie"
+    ],
+    "pl": "Afazja dotyczy rozumienia lub tworzenia języka, nie tylko artykulacji.",
+    "ua": "Афазія — порушення розуміння або формування мови, а не лише артикуляції.",
+    "steps": [
+      "Język",
+      "Rozumienie lub tworzenie",
+      "Afazja"
+    ],
+    "src": 9
+  },
+  {
+    "id": 139,
+    "topic": "Psychiatria i neurologia",
+    "q": "Co odróżnia obsesję od kompulsji?",
+    "opts": [
+      "Obsesja jest natrętną myślą, kompulsja powtarzanym działaniem lub czynnością psychiczną",
+      "Obie są zawsze omamami",
+      "Obsesja jest wyłącznie ruchem",
+      "Kompulsja jest zawsze urojeniem",
+      "Nie istnieje różnica"
+    ],
+    "pl": "Obsesja wywołuje napięcie, a kompulsja często ma je zmniejszyć.",
+    "ua": "Обсесія викликає напругу, а компульсія часто спрямована на її зменшення.",
+    "steps": [
+      "Natrętna myśl",
+      "Napięcie",
+      "Rytuał"
+    ],
+    "src": 0
+  },
+  {
+    "id": 140,
+    "topic": "Psychiatria i neurologia",
+    "q": "Które cechy należą do głównych obszarów zaburzeń ze spektrum autyzmu?",
+    "opts": [
+      "Trudności komunikacji społecznej i ograniczone powtarzalne zachowania",
+      "Wyłącznie nadpobudliwość",
+      "Wyłącznie niedosłuch",
+      "Wyłącznie obniżony nastrój",
+      "Wyłącznie drżenie"
+    ],
+    "pl": "Spektrum autyzmu obejmuje oba obszary; pojedyncza cecha nie wystarcza do rozpoznania.",
+    "ua": "РАС охоплює обидва домени; однієї ознаки недостатньо для діагнозу.",
+    "steps": [
+      "Komunikacja społeczna",
+      "Powtarzalność",
+      "Dwa obszary"
+    ],
+    "src": 0
+  },
+  {
+    "id": 141,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Plamki Koplika są charakterystyczne dla:",
+    "opts": [
+      "Odry",
+      "Ospy wietrznej",
+      "Różyczki",
+      "Świnki",
+      "Krztuśca"
+    ],
+    "pl": "Plamki Koplika pojawiają się na błonie śluzowej policzków i są charakterystycznym objawem odry.",
+    "ua": "Плями Копліка з'являються на слизовій щік і характерні для кору.",
+    "steps": [
+      "Śluzówka policzków",
+      "Plamki Koplika",
+      "Odra"
+    ],
+    "src": 4
+  },
+  {
+    "id": 142,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "HBsAg ujemny, anty-HBc dodatnie i anty-HBs dodatnie zwykle oznaczają:",
+    "opts": [
+      "Przebyte zakażenie HBV",
+      "Wyłącznie odporność po szczepieniu",
+      "Ostre zakażenie zawsze",
+      "Brak kontaktu z wirusem",
+      "Brak odporności zawsze"
+    ],
+    "pl": "Anty-HBc świadczą o kontakcie z wirusem; po samym szczepieniu nie powstają.",
+    "ua": "Анти-HBc свідчать про контакт із вірусом; після лише вакцинації їх немає.",
+    "steps": [
+      "Anty-HBc +",
+      "HBsAg −",
+      "Przebyte zakażenie"
+    ],
+    "src": 6
+  },
+  {
+    "id": 143,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Po skutecznym szczepieniu przeciw HBV bez przebytego zakażenia oczekujesz:",
+    "opts": [
+      "Anty-HBs dodatnich i anty-HBc ujemnych",
+      "HBsAg dodatniego",
+      "Anty-HBc IgM dodatnich",
+      "Wszystkich markerów dodatnich",
+      "Anty-HBs zawsze ujemnych"
+    ],
+    "pl": "Szczepionka indukuje przeciwciała przeciw antygenowi powierzchniowemu, a nie rdzeniowemu.",
+    "ua": "Вакцина індукує антитіла до поверхневого, а не до корового антигену.",
+    "steps": [
+      "Szczepionka HBs",
+      "Anty-HBs +",
+      "Anty-HBc −"
+    ],
+    "src": 6
+  },
+  {
+    "id": 144,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Który patogen wywołuje giardiozę?",
+    "opts": [
+      "Giardia intestinalis",
+      "Enterobius vermicularis",
+      "Plasmodium falciparum",
+      "Candida albicans",
+      "Mycobacterium tuberculosis"
+    ],
+    "pl": "Giardia jest pierwotniakiem jelitowym, a nie robakiem ani bakterią.",
+    "ua": "Giardia — кишковий найпростіший, а не гельмінт чи бактерія.",
+    "steps": [
+      "Pierwotniak",
+      "Jelito",
+      "Giardioza"
+    ],
+    "src": 6
+  },
+  {
+    "id": 145,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Metronidazol może być stosowany w leczeniu:",
+    "opts": [
+      "Giardiozy",
+      "Grypy",
+      "Odry",
+      "Ospy wietrznej",
+      "Zakażenia rinowirusem"
+    ],
+    "pl": "Metronidazol działa m.in. na niektóre pierwotniaki i bakterie beztlenowe, nie na wirusy.",
+    "ua": "Метронідазол діє на деякі найпростіші й анаеробні бактерії, а не на віруси.",
+    "steps": [
+      "Metronidazol",
+      "Pierwotniaki",
+      "Giardia"
+    ],
+    "src": 6
+  },
+  {
+    "id": 146,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Klasyczną przyczyną zgorzeli gazowej jest:",
+    "opts": [
+      "Clostridium perfringens",
+      "Streptococcus pneumoniae",
+      "Bordetella pertussis",
+      "Neisseria gonorrhoeae",
+      "Giardia intestinalis"
+    ],
+    "pl": "Clostridia mogą wytwarzać toksyny i gaz w zakażonych tkankach.",
+    "ua": "Клостридії можуть виробляти токсини й газ в інфікованих тканинах.",
+    "steps": [
+      "Beztlenowce",
+      "Toksyny i gaz",
+      "Martwica mięśni"
+    ],
+    "src": 4
+  },
+  {
+    "id": 147,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Dur brzuszny wywołuje:",
+    "opts": [
+      "Salmonella Typhi",
+      "Rickettsia prowazekii",
+      "Borrelia burgdorferi",
+      "Shigella sonnei",
+      "Vibrio cholerae"
+    ],
+    "pl": "Dur brzuszny jest salmonellozą układową; nie myl go z durem plamistym.",
+    "ua": "Черевний тиф спричиняє Salmonella Typhi; не плутайте його з висипним тифом.",
+    "steps": [
+      "Salmonella Typhi",
+      "Dur brzuszny",
+      "Nie dur plamisty"
+    ],
+    "src": 4
+  },
+  {
+    "id": 148,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Epidemiczny dur plamisty jest wywoływany przez:",
+    "opts": [
+      "Rickettsia prowazekii",
+      "Salmonella Typhi",
+      "Giardia intestinalis",
+      "Clostridium tetani",
+      "HPV"
+    ],
+    "pl": "Dur plamisty jest riketsjozą; nazwa „dur” nie oznacza tego samego patogenu.",
+    "ua": "Висипний тиф — рикетсіоз; спільне слово «тиф» не означає спільного збудника.",
+    "steps": [
+      "Rickettsia",
+      "Dur plamisty",
+      "Inny niż brzuszny"
+    ],
+    "src": 0
+  },
+  {
+    "id": 149,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Mięczak zakaźny jest zakażeniem:",
+    "opts": [
+      "Wirusowym",
+      "Grzybiczym",
+      "Prątkowym",
+      "Pierwotniakowym",
+      "Robaczym"
+    ],
+    "pl": "Wywołuje go poxwirus; typowe są grudki z pępkowatym zagłębieniem.",
+    "ua": "Збудник — поксвірус; типові папули з пупкоподібним вдавленням.",
+    "steps": [
+      "Poxwirus",
+      "Grudka",
+      "Zagłębienie centralne"
+    ],
+    "src": 0
+  },
+  {
+    "id": 150,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Do transmisji mięczaka zakaźnego może dojść przez:",
+    "opts": [
+      "Bezpośredni kontakt skóra–skóra",
+      "Wyłącznie komary",
+      "Wyłącznie picie wody",
+      "Wyłącznie krew",
+      "Wyłącznie kontakt z ptakami"
+    ],
+    "pl": "Możliwy jest kontakt bezpośredni, autoinokulacja i przeniesienie przez przedmioty.",
+    "ua": "Можливі прямий контакт, автоінокуляція та передавання через предмети.",
+    "steps": [
+      "Kontakt skóry",
+      "Przeniesienie wirusa",
+      "Nowe grudki"
+    ],
+    "src": 0
+  },
+  {
+    "id": 151,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Szczepionka MMR jest:",
+    "opts": [
+      "Żywą atenuowaną",
+      "Wyłącznie toksoidem",
+      "Inaktywowaną bakteryjną",
+      "Preparatem przeciwciał",
+      "Szczepionką przeciw HBV"
+    ],
+    "pl": "MMR zawiera osłabione wirusy odry, świnki i różyczki.",
+    "ua": "MMR містить ослаблені віруси кору, паротиту й краснухи.",
+    "steps": [
+      "Odra + świnka + różyczka",
+      "Żywe osłabione wirusy",
+      "MMR"
+    ],
+    "src": 0
+  },
+  {
+    "id": 152,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Szczepionka BCG chroni szczególnie małe dzieci przed ciężkimi postaciami:",
+    "opts": [
+      "Gruźlicy",
+      "Odry",
+      "Krztuśca",
+      "WZW B",
+      "Polio"
+    ],
+    "pl": "BCG ogranicza ryzyko m.in. rozsianej gruźlicy i gruźliczego zapalenia opon u dzieci.",
+    "ua": "BCG знижує ризик, зокрема, дисемінованого туберкульозу й туберкульозного менінгіту у дітей.",
+    "steps": [
+      "BCG",
+      "Odporność",
+      "Ciężka gruźlica rzadziej"
+    ],
+    "src": 0
+  },
+  {
+    "id": 153,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Co oznacza dodatni IGRA?",
+    "opts": [
+      "Odpowiedź immunologiczną na antygeny prątków gruźlicy",
+      "Pewną aktywną gruźlicę płuc",
+      "Pewną zakaźność",
+      "Wykluczenie gruźlicy",
+      "Zakażenie HBV"
+    ],
+    "pl": "IGRA nie odróżnia samodzielnie zakażenia utajonego od aktywnej choroby.",
+    "ua": "IGRA самостійно не відрізняє латентну інфекцію від активної хвороби.",
+    "steps": [
+      "Kontakt immunologiczny",
+      "IGRA +",
+      "Aktywność oceń osobno"
+    ],
+    "src": 6
+  },
+  {
+    "id": 154,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Prątki gruźlicy są klasycznie wykrywane w barwieniu:",
+    "opts": [
+      "Ziehla-Neelsena",
+      "Wyłącznie metodą Grama jako typowe Gram-dodatnie ziarniaki",
+      "Giemsy jako pasożyty krwi",
+      "Tuszem jako kryptokoki",
+      "Wyłącznie hematoksyliną bez innych badań"
+    ],
+    "pl": "Barwienie Ziehla-Neelsena wykazuje kwasooporność; dalsza identyfikacja wymaga odpowiednich badań.",
+    "ua": "Фарбування за Цілем—Нільсеном виявляє кислотостійкість; ідентифікація потребує додаткових досліджень.",
+    "steps": [
+      "Prątki",
+      "Kwasooporność",
+      "Ziehl-Neelsen"
+    ],
+    "src": 6
+  },
+  {
+    "id": 155,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Nawracające zakażenia oportunistyczne, np. Pneumocystis, sugerują szczególnie defekt:",
+    "opts": [
+      "Odporności komórkowej",
+      "Wyłącznie metabolizmu bilirubiny",
+      "Wyłącznie płytki nerwowo-mięśniowej",
+      "Wyłącznie syntezy insuliny",
+      "Wyłącznie kolagenu skóry"
+    ],
+    "pl": "Pneumocystis jest klasycznie związany z zaburzeniami odporności zależnej od limfocytów T.",
+    "ua": "Pneumocystis класично пов'язаний із дефектом T-клітинної імунної відповіді.",
+    "steps": [
+      "Limfocyty T ↓",
+      "Odporność komórkowa ↓",
+      "Zakażenia oportunistyczne"
+    ],
+    "src": 1
+  },
+  {
+    "id": 156,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Które zakażenie wrodzone kojarzy się z okołokomorowymi zwapnieniami mózgu?",
+    "opts": [
+      "CMV",
+      "Grypa sezonowa",
+      "Krztusiec",
+      "Giardioza",
+      "Mięczak zakaźny"
+    ],
+    "pl": "Wrodzone CMV może powodować m.in. zwapnienia okołokomorowe i niedosłuch.",
+    "ua": "Вроджений CMV може спричиняти перивентрикулярні кальцифікати та порушення слуху.",
+    "steps": [
+      "CMV wrodzony",
+      "Mózg",
+      "Słuch"
+    ],
+    "src": 4
+  },
+  {
+    "id": 157,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Klasyczna triada toksoplazmozy wrodzonej obejmuje:",
+    "opts": [
+      "Zapalenie siatkówki i naczyniówki, wodogłowie, zwapnienia wewnątrzczaszkowe",
+      "Atonię, krwotok, wstrząs",
+      "Kaszel, katar, ból gardła",
+      "Nadciśnienie, trądzik, otyłość",
+      "Ból stawów, dławicę, świąd"
+    ],
+    "pl": "Toksoplazmoza wrodzona może zajmować oczy i ośrodkowy układ nerwowy.",
+    "ua": "Вроджений токсоплазмоз може уражати очі й центральну нервову систему.",
+    "steps": [
+      "Oczy",
+      "Wodogłowie",
+      "Zwapnienia"
+    ],
+    "src": 1
+  },
+  {
+    "id": 158,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Która bakteria jest celem śródporodowej profilaktyki GBS?",
+    "opts": [
+      "Streptococcus agalactiae",
+      "Streptococcus pyogenes",
+      "Salmonella Typhi",
+      "Clostridium perfringens",
+      "Bordetella pertussis"
+    ],
+    "pl": "GBS to paciorkowiec grupy B, czyli S. agalactiae.",
+    "ua": "GBS — стрептокок групи B, тобто S. agalactiae.",
+    "steps": [
+      "Grupa B",
+      "Streptococcus agalactiae",
+      "GBS"
+    ],
+    "src": 3
+  },
+  {
+    "id": 159,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Krztusiec jest wywoływany przez:",
+    "opts": [
+      "Bordetella pertussis",
+      "Haemophilus influenzae typu b",
+      "Clostridium tetani",
+      "Salmonella Typhi",
+      "Wirus odry"
+    ],
+    "pl": "B. pertussis wywołuje zakażenie dróg oddechowych z napadowym kaszlem.",
+    "ua": "B. pertussis спричиняє інфекцію дихальних шляхів із нападоподібним кашлем.",
+    "steps": [
+      "Bordetella",
+      "Nabłonek oddechowy",
+      "Napadowy kaszel"
+    ],
+    "src": 0
+  },
+  {
+    "id": 160,
+    "topic": "Zakażenia i profilaktyka",
+    "q": "Który element pomaga odróżnić zakażenie od sepsy?",
+    "opts": [
+      "Zagrażająca życiu dysfunkcja narządowa związana z nieprawidłową odpowiedzią na zakażenie",
+      "Każdy katar",
+      "Sama dodatnia temperatura",
+      "Sama leukocytoza",
+      "Sam dodatni wymaz bez objawów"
+    ],
+    "pl": "Sepsa to nie każde zakażenie ani samo spełnienie SIRS; kluczowa jest dysfunkcja narządowa.",
+    "ua": "Сепсис — не будь-яка інфекція чи лише SIRS; ключова ознака — органна дисфункція.",
+    "steps": [
+      "Zakażenie",
+      "Dysregulacja odpowiedzi",
+      "Narządy"
+    ],
+    "src": 6
+  },
+  {
+    "id": 161,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Które przeciwciała są charakterystyczne dla tocznia układowego i mogą wiązać się z zajęciem nerek?",
+    "opts": [
+      "Anty-dsDNA",
+      "Anty-HBs",
+      "Anty-TPO jako swoiste dla SLE",
+      "Anty-HAV",
+      "Anty-D"
+    ],
+    "pl": "Anty-dsDNA są stosunkowo swoiste dla SLE; ich interpretacja wymaga kontekstu klinicznego.",
+    "ua": "Анти-dsDNA відносно специфічні для SLE; їх оцінюють у клінічному контексті.",
+    "steps": [
+      "Anty-dsDNA",
+      "Toczeń",
+      "Nerki"
+    ],
+    "src": 1
+  },
+  {
+    "id": 162,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Które przeciwciała są wysoce swoiste dla SLE?",
+    "opts": [
+      "Anty-Sm",
+      "Anty-HBs",
+      "Anty-HCV",
+      "Anty-D",
+      "Anty-TG"
+    ],
+    "pl": "Anty-Sm są swoiste, ale mają ograniczoną czułość: wynik ujemny nie wyklucza SLE.",
+    "ua": "Анти-Sm специфічні, але недостатньо чутливі: негативний результат не виключає SLE.",
+    "steps": [
+      "Anty-Sm",
+      "Swoistość wysoka",
+      "Czułość ograniczona"
+    ],
+    "src": 1
+  },
+  {
+    "id": 163,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Anty-Scl-70 wiążą się przede wszystkim z:",
+    "opts": [
+      "Twardziną układową",
+      "WZW B",
+      "Chorobą Gilberta",
+      "Zespołem Korsakowa",
+      "Fenyloketonurią"
+    ],
+    "pl": "Anty-Scl-70 to przeciwciała przeciw topoizomerazie I, kojarzone z twardziną.",
+    "ua": "Анти-Scl-70 — антитіла до топоізомерази I, пов'язані із системною склеродермією.",
+    "steps": [
+      "Scl-70",
+      "Topoizomeraza I",
+      "Twardzina"
+    ],
+    "src": 1
+  },
+  {
+    "id": 164,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "PR3-ANCA są szczególnie kojarzone z:",
+    "opts": [
+      "Ziarniniakowatością z zapaleniem naczyń",
+      "Chorobą Gilberta",
+      "Wrodzoną niedoczynnością tarczycy",
+      "Zespołem Sheehana",
+      "Cukrzycą ciążową"
+    ],
+    "pl": "GPA może zajmować górne drogi oddechowe, płuca i nerki.",
+    "ua": "GPA може уражати верхні дихальні шляхи, легені й нирки.",
+    "steps": [
+      "PR3-ANCA",
+      "Drogi oddechowe",
+      "Nerki"
+    ],
+    "src": 9
+  },
+  {
+    "id": 165,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Zapalenie dużych tętnic z osłabieniem tętna u młodej osoby sugeruje:",
+    "opts": [
+      "Chorobę Takayasu",
+      "Chorobę Gilberta",
+      "Zespół Alporta",
+      "Zespół Conna",
+      "Zespół Mallory’ego-Weissa"
+    ],
+    "pl": "Takayasu zajmuje aortę i jej duże odgałęzienia; bywa nazywana chorobą bez tętna.",
+    "ua": "Takayasu уражає аорту та великі гілки; її називають хворобою відсутнього пульсу.",
+    "steps": [
+      "Duże tętnice",
+      "Zwężenie",
+      "Tętno słabnie"
+    ],
+    "src": 2
+  },
+  {
+    "id": 166,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Nawracające owrzodzenia jamy ustnej i narządów płciowych z zapaleniem oka sugerują:",
+    "opts": [
+      "Chorobę Behçeta",
+      "Chorobę Gilberta",
+      "Zespół Sheehana",
+      "Zespół Conna",
+      "Zespół Bouvereta"
+    ],
+    "pl": "Behçet jest zapaleniem naczyń z charakterystycznym zajęciem śluzówek i oczu.",
+    "ua": "Behçet — васкуліт із характерним ураженням слизових та очей.",
+    "steps": [
+      "Jama ustna",
+      "Narządy płciowe",
+      "Oczy"
+    ],
+    "src": 2
+  },
+  {
+    "id": 167,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Zakrzepowo-zarostowe zapalenie naczyń u palacza to choroba:",
+    "opts": [
+      "Buergera",
+      "Addisona",
+      "Hirschsprunga",
+      "Alzheimera",
+      "Gravesa"
+    ],
+    "pl": "Choroba Buergera jest silnie związana z ekspozycją na tytoń.",
+    "ua": "Хвороба Бюргера тісно пов'язана з вживанням тютюну.",
+    "steps": [
+      "Tytoń",
+      "Naczynia kończyn",
+      "Niedokrwienie"
+    ],
+    "src": 2
+  },
+  {
+    "id": 168,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Symetryczne zapalenie drobnych stawów rąk z długą sztywnością poranną sugeruje:",
+    "opts": [
+      "Reumatoidalne zapalenie stawów",
+      "Izolowaną chorobę zwyrodnieniową jako najlepszą odpowiedź",
+      "Zespół Gilberta",
+      "Zespół Alporta",
+      "Ostre zapalenie oskrzeli"
+    ],
+    "pl": "RZS typowo zajmuje symetrycznie drobne stawy; sztywność poranna jest cechą zapalną.",
+    "ua": "РА типово симетрично уражає дрібні суглоби; ранкова скутість свідчить про запалення.",
+    "steps": [
+      "Drobne stawy",
+      "Symetria",
+      "Sztywność poranna"
+    ],
+    "src": 9
+  },
+  {
+    "id": 169,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Który lek jest podstawowym klasycznym lekiem modyfikującym przebieg RZS przy braku przeciwwskazań?",
+    "opts": [
+      "Metotreksat",
+      "Paracetamol",
+      "Omeprazol",
+      "Metformina",
+      "Loratadyna"
+    ],
+    "pl": "Metotreksat modyfikuje przebieg choroby, a nie tylko łagodzi ból.",
+    "ua": "Метотрексат модифікує перебіг хвороби, а не лише зменшує біль.",
+    "steps": [
+      "Zapalenie",
+      "DMARD",
+      "Metotreksat"
+    ],
+    "src": 1
+  },
+  {
+    "id": 170,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Który lek stosowany w chorobach zapalnych zwykle przyjmuje się raz w tygodniu, nie codziennie?",
+    "opts": [
+      "Metotreksat w RZS",
+      "Metformina",
+      "Lewotyroksyna",
+      "Omeprazol",
+      "Amlodypina"
+    ],
+    "pl": "Pomylenie dawkowania tygodniowego metotreksatu z codziennym może być groźne.",
+    "ua": "Плутанина між щотижневим і щоденним прийманням метотрексату може бути небезпечною.",
+    "steps": [
+      "RZS",
+      "Metotreksat",
+      "Tydzień, nie dzień"
+    ],
+    "src": 1
+  },
+  {
+    "id": 171,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Niedokrwistość Addisona-Biermera wynika z upośledzonego wchłaniania:",
+    "opts": [
+      "Witaminy B12",
+      "Witaminy C",
+      "Witaminy K",
+      "Sodu",
+      "Potasu"
+    ],
+    "pl": "Autoimmunologiczne uszkodzenie żołądka i niedobór czynnika wewnętrznego upośledzają wchłanianie B12.",
+    "ua": "Автоімунне ураження шлунка й дефіцит внутрішнього фактора порушують всмоктування B12.",
+    "steps": [
+      "Czynnik wewnętrzny ↓",
+      "B12 ↓",
+      "Niedokrwistość"
+    ],
+    "src": 2
+  },
+  {
+    "id": 172,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Niedobór żelaza typowo prowadzi do niedokrwistości:",
+    "opts": [
+      "Mikrocytowej",
+      "Zawsze makrocytowej",
+      "Zawsze z wysokim MCV",
+      "Wyłącznie hemolitycznej",
+      "Zawsze z nadmiarem ferrytyny"
+    ],
+    "pl": "Niedobór żelaza ogranicza syntezę hemoglobiny i często zmniejsza MCV.",
+    "ua": "Дефіцит заліза обмежує синтез гемоглобіну й часто знижує MCV.",
+    "steps": [
+      "Żelazo ↓",
+      "Hemoglobina ↓",
+      "MCV ↓"
+    ],
+    "src": 0
+  },
+  {
+    "id": 173,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W niedokrwistości zapalnej ferrytyna może być wysoka, ponieważ:",
+    "opts": [
+      "Jest białkiem ostrej fazy",
+      "Zawsze oznacza nadmiar żelaza dostępnego dla szpiku",
+      "Jest hormonem tarczycy",
+      "Jest przeciwciałem",
+      "Nie ma związku z zapaleniem"
+    ],
+    "pl": "Stan zapalny zwiększa ferrytynę i ogranicza dostępność żelaza m.in. przez hepcydynę.",
+    "ua": "Запалення підвищує феритин і через гепсидин обмежує доступність заліза.",
+    "steps": [
+      "Zapalenie",
+      "Hepcydyna ↑",
+      "Żelazo mniej dostępne"
+    ],
+    "src": 1
+  },
+  {
+    "id": 174,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Choroba von Willebranda zaburza przede wszystkim:",
+    "opts": [
+      "Adhezję płytek i stabilizację czynnika VIII",
+      "Syntezę insuliny",
+      "Przewodzenie nerwowe",
+      "Wydzielanie gastryny",
+      "Wytwarzanie surfaktantu"
+    ],
+    "pl": "vWF pomaga płytkom przylegać i chroni czynnik VIII przed rozpadem.",
+    "ua": "vWF забезпечує адгезію тромбоцитів і захищає фактор VIII від розпаду.",
+    "steps": [
+      "vWF",
+      "Adhezja płytek",
+      "Ochrona VIII"
+    ],
+    "src": 2
+  },
+  {
+    "id": 175,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Skrót CRAB w szpiczaku obejmuje:",
+    "opts": [
+      "Hiperkalcemię, uszkodzenie nerek, anemię, zmiany kostne",
+      "Kaszel, katar, gorączkę, wysypkę",
+      "Kortyzol, reninę, aldosteron, bilirubinę",
+      "Skórę, stawy, oczy, jamę ustną",
+      "Wyłącznie powiększone węzły"
+    ],
+    "pl": "CRAB przypomina o typowych uszkodzeniach narządowych w szpiczaku.",
+    "ua": "CRAB нагадує про типові органні ураження при мієломі.",
+    "steps": [
+      "Calcium + Renal",
+      "Anaemia",
+      "Bone"
+    ],
+    "src": 3
+  },
+  {
+    "id": 176,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "W klasyfikacji TNM litera N oznacza:",
+    "opts": [
+      "Regionalne węzły chłonne",
+      "Martwicę guza",
+      "Wiek chorego",
+      "Przerzuty odległe",
+      "Stopień zróżnicowania"
+    ],
+    "pl": "T to guz pierwotny, N — węzły regionalne, M — przerzuty odległe.",
+    "ua": "T — первинна пухлина, N — регіонарні вузли, M — віддалені метастази.",
+    "steps": [
+      "T: guz",
+      "N: węzły",
+      "M: przerzuty"
+    ],
+    "src": 3
+  },
+  {
+    "id": 177,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Skala Gleasona dotyczy przede wszystkim:",
+    "opts": [
+      "Histologicznej oceny raka prostaty",
+      "Raka szyjki macicy",
+      "Nasilenia astmy",
+      "Czynności serca",
+      "Świadomości"
+    ],
+    "pl": "Gleason ocenia architekturę raka prostaty; nie jest skalą jego zasięgu anatomicznego.",
+    "ua": "Gleason оцінює архітектуру раку простати, а не анатомічне поширення.",
+    "steps": [
+      "Prostata",
+      "Architektura histologiczna",
+      "Gleason"
+    ],
+    "src": 3
+  },
+  {
+    "id": 178,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "BI-RADS 6 oznacza:",
+    "opts": [
+      "Nowotwór złośliwy potwierdzony biopsją",
+      "Prawidłowe badanie",
+      "Zmianę łagodną",
+      "Badanie niekompletne",
+      "Zmianę prawdopodobnie łagodną"
+    ],
+    "pl": "BI-RADS 6 to już potwierdzona złośliwość; 5 oznacza duże podejrzenie.",
+    "ua": "BI-RADS 6 — підтверджена біопсією злоякісність; 5 — висока підозра.",
+    "steps": [
+      "Biopsja",
+      "Potwierdzenie",
+      "BI-RADS 6"
+    ],
+    "src": 3
+  },
+  {
+    "id": 179,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Podwyższone CA-125:",
+    "opts": [
+      "Może wystąpić także w endometriozie i innych stanach nienowotworowych",
+      "Zawsze potwierdza raka jajnika",
+      "Wyklucza ciążę",
+      "Jest swoiste wyłącznie dla raka płuca",
+      "Zawsze oznacza przerzuty"
+    ],
+    "pl": "CA-125 nie jest swoisty dla raka jajnika i nie zastępuje pełnej diagnostyki.",
+    "ua": "CA-125 не специфічний для раку яєчника й не замінює повну діагностику.",
+    "steps": [
+      "CA-125 ↑",
+      "Różne przyczyny",
+      "Kontekst kliniczny"
+    ],
+    "src": 0
+  },
+  {
+    "id": 180,
+    "topic": "Reumatologia hematologia i onkologia",
+    "q": "Klasyfikacja Ann Arbor dotyczy przede wszystkim:",
+    "opts": [
+      "Zaawansowania chłoniaków",
+      "Nasilenia POChP",
+      "Dojrzałości szyjki",
+      "Dojrzewania płciowego",
+      "Krwawienia z wrzodu"
+    ],
+    "pl": "Ann Arbor opisuje zasięg chłoniaka, m.in. rozmieszczenie zajętych okolic węzłowych.",
+    "ua": "Ann Arbor описує поширення лімфоми, зокрема розташування уражених лімфатичних зон.",
+    "steps": [
+      "Chłoniak",
+      "Zasięg",
+      "Ann Arbor"
+    ],
+    "src": 3
+  },
+  {
+    "id": 181,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Zalecana częstość uciskania klatki piersiowej dorosłego podczas RKO to:",
+    "opts": [
+      "100–120/min",
+      "40–60/min",
+      "60–80/min",
+      "140–160/min",
+      "180–200/min"
+    ],
+    "pl": "Skuteczne uciski wymagają tempa 100–120/min i minimalizacji przerw.",
+    "ua": "Ефективні компресії: 100–120/хв із мінімальними перервами.",
+    "steps": [
+      "Ucisk",
+      "100–120/min",
+      "Mało przerw"
+    ],
+    "src": 1
+  },
+  {
+    "id": 182,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Zalecana głębokość ucisków klatki piersiowej dorosłego to:",
+    "opts": [
+      "5–6 cm",
+      "1–2 cm",
+      "2–3 cm",
+      "8–10 cm",
+      "Ponad 10 cm"
+    ],
+    "pl": "U dorosłego uciskaj co najmniej 5 cm, ale nie więcej niż 6 cm, z pełnym odciążeniem klatki.",
+    "ua": "У дорослого глибина — щонайменше 5, але не більше 6 см, з повним розправленням грудної клітки.",
+    "steps": [
+      "Dorosły",
+      "5–6 cm",
+      "Pełne odciążenie"
+    ],
+    "src": 1
+  },
+  {
+    "id": 183,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Stosunek ucisków do oddechów w podstawowym RKO dorosłego bez zaawansowanego udrożnienia dróg oddechowych wynosi:",
+    "opts": [
+      "30:2",
+      "15:1",
+      "5:1",
+      "3:1",
+      "10:5"
+    ],
+    "pl": "W standardowym BLS dorosłego stosuje się 30 ucisków i 2 oddechy.",
+    "ua": "У стандартному BLS дорослого — 30 компресій і 2 вдихи.",
+    "steps": [
+      "30 ucisków",
+      "2 oddechy",
+      "Powtórz"
+    ],
+    "src": 1
+  },
+  {
+    "id": 184,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Który rytm zatrzymania krążenia wymaga defibrylacji?",
+    "opts": [
+      "Migotanie komór",
+      "Asystolia",
+      "PEA",
+      "Rytm zatokowy z tętnem",
+      "Blok AV I stopnia"
+    ],
+    "pl": "Rytmy do defibrylacji to VF i częstoskurcz komorowy bez tętna.",
+    "ua": "Дефібриляційні ритми — VF і шлуночкова тахікардія без пульсу.",
+    "steps": [
+      "VF lub pVT",
+      "Defibrylacja",
+      "RKO"
+    ],
+    "src": 1
+  },
+  {
+    "id": 185,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Który rytm NIE jest rytmem do defibrylacji?",
+    "opts": [
+      "Asystolia",
+      "Migotanie komór",
+      "Częstoskurcz komorowy bez tętna",
+      "Grubofaliste VF",
+      "Drobnofaliste VF po potwierdzeniu"
+    ],
+    "pl": "Asystolia i PEA wymagają RKO i leczenia przyczyn, a nie wyładowania jako terapii rytmu.",
+    "ua": "Асистолія та PEA потребують СЛР і лікування причин, а не дефібриляції цього ритму.",
+    "steps": [
+      "Asystolia",
+      "Bez wyładowania",
+      "RKO i przyczyny"
+    ],
+    "src": 1
+  },
+  {
+    "id": 186,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Litera A w schemacie ABCDE oznacza:",
+    "opts": [
+      "Airway — drożność dróg oddechowych",
+      "Anemia",
+      "Antibiotic",
+      "Albumin",
+      "Apgar"
+    ],
+    "pl": "Najpierw oceń drożność dróg oddechowych, następnie oddech i krążenie.",
+    "ua": "Спочатку оцінюють прохідність дихальних шляхів, далі дихання й кровообіг.",
+    "steps": [
+      "A: airway",
+      "B: breathing",
+      "C: circulation"
+    ],
+    "src": 3
+  },
+  {
+    "id": 187,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "W AVPU litera V oznacza:",
+    "opts": [
+      "Reakcję na głos",
+      "Reakcję wyłącznie na ból",
+      "Brak reakcji",
+      "Prawidłową wentylację",
+      "Zaburzenia wzroku"
+    ],
+    "pl": "V to voice; P to pain, U — unresponsive.",
+    "ua": "V — реакція на голос; P — на біль, U — відсутність реакції.",
+    "steps": [
+      "A: przytomny",
+      "V: głos",
+      "P: ból, U: brak"
+    ],
+    "src": 3
+  },
+  {
+    "id": 188,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Lekiem pierwszego wyboru w anafilaksji jest:",
+    "opts": [
+      "Adrenalina domięśniowo",
+      "Doustny antyhistaminik jako jedyne leczenie",
+      "Antybiotyk",
+      "Furosemid",
+      "Insulina"
+    ],
+    "pl": "Adrenalina domięśniowa w przednio-boczną część uda jest leczeniem pierwszego wyboru.",
+    "ua": "Внутрішньом'язовий адреналін у передньобічну поверхню стегна — засіб першого вибору.",
+    "steps": [
+      "Anafilaksja",
+      "Adrenalina i.m.",
+      "Udo"
+    ],
+    "src": 1
+  },
+  {
+    "id": 189,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Nagłe pogorszenie oddechu, hipotensja i jednostronny brak szmeru oddechowego mogą wskazywać na:",
+    "opts": [
+      "Odmę prężną",
+      "Zespół Gilberta",
+      "Niedoczynność tarczycy",
+      "Niepowikłaną migrenę",
+      "Zapalenie ucha"
+    ],
+    "pl": "Odma prężna upośledza wentylację i powrót żylny; u niestabilnego chorego wymaga pilnego leczenia.",
+    "ua": "Напружений пневмоторакс порушує вентиляцію й венозне повернення та потребує термінового лікування.",
+    "steps": [
+      "Ciśnienie w opłucnej",
+      "Powrót żylny ↓",
+      "Wstrząs"
+    ],
+    "src": 6
+  },
+  {
+    "id": 190,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Triada śmierci w urazach obejmuje:",
+    "opts": [
+      "Hipotermię, kwasicę, koagulopatię",
+      "Gorączkę, zasadowicę, nadkrzepliwość",
+      "Hiperglikemię, świąd, kaszel",
+      "Ból, katar, biegunkę",
+      "Niedoczynność tarczycy, anemię, łysienie"
+    ],
+    "pl": "Wychłodzenie, kwasica i zaburzenia krzepnięcia wzajemnie pogarszają stan chorego.",
+    "ua": "Гіпотермія, ацидоз і коагулопатія взаємно погіршують стан травмованого.",
+    "steps": [
+      "Zimno",
+      "Kwasica",
+      "Koagulopatia"
+    ],
+    "src": 0
+  },
+  {
+    "id": 191,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Według reguły dziewiątek oparzenie całych obu kończyn górnych, jednej dolnej i krocza dorosłego obejmuje:",
+    "opts": [
+      "37%",
+      "27%",
+      "36%",
+      "47%",
+      "55%"
+    ],
+    "pl": "2 × 9% + 18% + 1% = 37%. To reguła dla dorosłych.",
+    "ua": "2 × 9% + 18% + 1% = 37%. Це правило для дорослих.",
+    "steps": [
+      "Ręce 18%",
+      "Noga 18%",
+      "Krocze 1% = 37%"
+    ],
+    "src": 0
+  },
+  {
+    "id": 192,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Zatrucie salicylanami typowo może powodować:",
+    "opts": [
+      "Zasadowicę oddechową i kwasicę metaboliczną",
+      "Wyłącznie zasadowicę metaboliczną",
+      "Wyłącznie hiperkalcemię",
+      "Wyłącznie hipotyreozę",
+      "Wyłącznie niedobór żelaza"
+    ],
+    "pl": "Salicylany pobudzają oddychanie i zaburzają metabolizm, dając mieszany obraz kwasowo-zasadowy.",
+    "ua": "Саліцилати стимулюють дихання й порушують метаболізм, створюючи змішаний кислотно-основний розлад.",
+    "steps": [
+      "Hiperwentylacja",
+      "Zasadowica oddechowa",
+      "Kwasica metaboliczna"
+    ],
+    "src": 1
+  },
+  {
+    "id": 193,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Chwyt Esmarcha służy do:",
+    "opts": [
+      "Wysunięcia żuchwy i udrożnienia dróg oddechowych",
+      "Ucisku chrząstki pierścieniowatej",
+      "Masażu serca",
+      "Oceny płodu",
+      "Cewnikowania pęcherza"
+    ],
+    "pl": "Wysunięcie żuchwy pomaga udrożnić drogi oddechowe, ograniczając odginanie głowy.",
+    "ua": "Висування нижньої щелепи допомагає відкрити дихальні шляхи з меншим розгинанням голови.",
+    "steps": [
+      "Żuchwa do przodu",
+      "Język do przodu",
+      "Drożność"
+    ],
+    "src": 6
+  },
+  {
+    "id": 194,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Ucisk chrząstki pierścieniowatej określa się jako:",
+    "opts": [
+      "Manewr Sellicka",
+      "Chwyt Leopolda",
+      "Chwyt Esmarcha",
+      "Próbę Valsalvy",
+      "Próbę Romberga"
+    ],
+    "pl": "Sellick oznacza ucisk chrząstki pierścieniowatej; jego zastosowanie zależy od sytuacji i protokołu.",
+    "ua": "Маневр Селліка — тиск на перснеподібний хрящ; застосування залежить від ситуації та протоколу.",
+    "steps": [
+      "Chrząstka pierścieniowata",
+      "Ucisk",
+      "Sellick"
+    ],
+    "src": 6
+  },
+  {
+    "id": 195,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Konikotomia uzyskuje dostęp przez:",
+    "opts": [
+      "Błonę pierścienno-tarczową",
+      "Błonę bębenkową",
+      "Przegrodę nosową",
+      "Ścianę przełyku",
+      "Więzadło pachwinowe"
+    ],
+    "pl": "Błona pierścienno-tarczowa leży między chrząstkami tarczowatą i pierścieniowatą.",
+    "ua": "Перснещитоподібна мембрана лежить між щитоподібним і перснеподібним хрящами.",
+    "steps": [
+      "Chrząstka tarczowata",
+      "Błona",
+      "Chrząstka pierścieniowata"
+    ],
+    "src": 0
+  },
+  {
+    "id": 196,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Cewnik Fogarty’ego jest stosowany przede wszystkim do:",
+    "opts": [
+      "Usuwania materiału zatorowego z naczynia",
+      "Cewnikowania pęcherza",
+      "Karmienia dojelitowego",
+      "Drenażu komór mózgu",
+      "Tamowania krwawienia z żylaków przełyku"
+    ],
+    "pl": "Balon cewnika Fogarty’ego pomaga wydobyć materiał zatorowy z naczynia.",
+    "ua": "Балон катетера Fogarty допомагає видалити емболічний матеріал із судини.",
+    "steps": [
+      "Naczynie",
+      "Balon Fogarty’ego",
+      "Usunięcie zatoru"
+    ],
+    "src": 7
+  },
+  {
+    "id": 197,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Sonda Sengstakena-Blakemore’a służy do czasowej kontroli:",
+    "opts": [
+      "Krwawienia z żylaków przełyku",
+      "Krwotoku z macicy",
+      "Krwawienia z nosa",
+      "Krwawienia śródczaszkowego",
+      "Krwawienia do stawu"
+    ],
+    "pl": "Tamponada balonowa jest rozwiązaniem pomostowym, a nie docelowym leczeniem żylaków.",
+    "ua": "Балонна тампонада — тимчасове, а не остаточне лікування кровотечі з варикозних вен.",
+    "steps": [
+      "Żylaki",
+      "Kompresja balonem",
+      "Pomost do leczenia"
+    ],
+    "src": 7
+  },
+  {
+    "id": 198,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Skala ASA określa:",
+    "opts": [
+      "Stan fizyczny pacjenta przed znieczuleniem",
+      "Wyłącznie trudność operacji",
+      "Dojrzałość szyjki",
+      "Stan noworodka",
+      "Stopień dławicy"
+    ],
+    "pl": "ASA opisuje stan ogólny i obciążenia chorego; nie jest samodzielnym pełnym kalkulatorem ryzyka operacji.",
+    "ua": "ASA описує фізичний стан і супутні хвороби; це не повний самостійний калькулятор операційного ризику.",
+    "steps": [
+      "Pacjent",
+      "Obciążenia",
+      "ASA"
+    ],
+    "src": 3
+  },
+  {
+    "id": 199,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Która skala wspiera ocenę prawdopodobieństwa zapalenia wyrostka robaczkowego?",
+    "opts": [
+      "Alvarado",
+      "Apgar",
+      "NYHA",
+      "Tannera",
+      "Bishopa"
+    ],
+    "pl": "Alvarado łączy objawy, badanie i wyniki laboratoryjne; nie zastępuje oceny klinicznej.",
+    "ua": "Alvarado поєднує симптоми, огляд і лабораторні дані, але не замінює клінічну оцінку.",
+    "steps": [
+      "Objawy",
+      "Badanie i laboratorium",
+      "Alvarado"
+    ],
+    "src": 7
+  },
+  {
+    "id": 200,
+    "topic": "Stany nagłe i skale kliniczne",
+    "q": "Który parametr NIE jest składową klasycznej skali Childa-Pugha?",
+    "opts": [
+      "Kreatynina",
+      "Bilirubina",
+      "Albumina",
+      "INR lub wydłużenie PT",
+      "Wodobrzusze"
+    ],
+    "pl": "Child-Pugh obejmuje bilirubinę, albuminę, krzepnięcie, wodobrzusze i encefalopatię. Kreatynina występuje w MELD.",
+    "ua": "Child-Pugh включає білірубін, альбумін, згортання, асцит і енцефалопатію. Креатинін входить до MELD.",
+    "steps": [
+      "Wątroba",
+      "5 składowych",
+      "Bez kreatyniny"
+    ],
+    "src": 3
+  }
+]
