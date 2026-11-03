@@ -291,34 +291,31 @@ body { background: #f4f6fb; }
   #lew-app .lw-session-meta { flex-wrap: wrap; }
 }
 
-/* Educational map: authored associations, never hidden behind an animation. */
-#lew-app .lw-visual { margin: 24px 0 8px; padding: 22px; border: 1px solid var(--lw-line); border-radius: 16px; background: var(--lw-bg); }
-#lew-app .lw-visual-heading { display: flex; justify-content: space-between; gap: 14px; align-items: center; }
-#lew-app .lw-visual-heading h3 { margin: 6px 0 0; font-size: 19px; }
-#lew-app .lw-visual-symbol { display: grid; place-items: center; flex-shrink: 0; width: 44px; height: 44px; background: var(--lw-soft); color: var(--lw-green); border-radius: 50%; font-size: 30px; }
-#lew-app .lw-visual-intro { font-size: 13px; color: var(--lw-muted); }
-#lew-app .lw-visual-steps { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; list-style: none; padding: 0; margin: 22px 0; }
-#lew-app .lw-visual-steps li { position: relative; display: flex; min-width: 0; }
-#lew-app .lw-visual-steps li:not(:last-child)::after { content: '→'; position: absolute; right: -18px; top: 50%; transform: translateY(-50%); color: var(--lw-muted); }
-#lew-app .lw-visual-step { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; width: 100%; min-height: 126px; padding: 16px; font-size: 14px; font-weight: 650; transition: background .3s,border-color .3s,box-shadow .3s,transform .3s; }
-#lew-app .lw-visual-number { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--lw-line); color: var(--lw-muted); font-size: 11px; font-weight: 700; flex-shrink: 0; }
-#lew-app .lw-visual-step.is-seen { border-color: var(--lw-teal); }
-#lew-app .lw-visual-step[aria-pressed=true] { border-color: var(--lw-green); box-shadow: 0 0 0 2px var(--lw-green); background: var(--lw-soft); transform: translateY(-3px); }
-#lew-app .lw-visual-step.is-seen .lw-visual-number { background: var(--lw-success); color: var(--lw-teal); border-color: var(--lw-teal); }
-#lew-app .lw-visual-conclusion { border-left: 3px solid var(--lw-line); padding: 14px 16px; background: var(--lw-card); border-radius: 0 10px 10px 0; transition: background .3s,border-color .3s; }
-#lew-app .lw-visual-conclusion strong { display: block; margin-top: 5px; font-size: 16px; }
-#lew-app .lw-visual[data-phase=complete] .lw-visual-conclusion { background: var(--lw-success); border-color: var(--lw-teal); }
-#lew-app .lw-visual-footer { display: flex; gap: 16px; align-items: center; margin-top: 16px; }
-#lew-app .lw-visual-footer small { flex: 1; font-size: 11px; }
-#lew-app .lw-visual-replay { font-size: 12px; flex-shrink: 0; }
-@media (max-width:640px) {
-  #lew-app .lw-visual { padding: 16px; margin-inline: -6px; }
-  #lew-app .lw-visual-steps { grid-template-columns: 1fr; gap: 22px; }
-  #lew-app .lw-visual-step { flex-direction: row; align-items: center; min-height: 66px; padding: 12px; }
-  #lew-app .lw-visual-steps li:not(:last-child)::after { content: '↓'; right: auto; left: 25px; top: auto; bottom: -23px; transform: none; }
-  #lew-app .lw-visual-footer { flex-direction: column; align-items: stretch; gap: 10px; }
-  #lew-app .lw-visual-replay { text-align: center; }
-}
-@media (prefers-reduced-motion:reduce) {
-  #lew-app .lw-visual-step[aria-pressed=true] { transform: none; }
+/* Real anatomical plates with independent, keyboard-accessible annotations. */
+#lew-app .lw-visual { margin-top:24px; padding:20px; background:var(--lw-bg); border:1px solid var(--lw-line); border-radius:16px; min-width:0; }
+#lew-app .lw-atlas-intro,#lew-app .lw-atlas-hint { font-size:13px; color:var(--lw-muted); line-height:1.6; }
+#lew-app .lw-atlas-label { display:grid; gap:8px; font-size:13px; font-weight:650; }
+#lew-app .lw-atlas-select { width:100%; min-width:0; min-height:48px; padding:10px; color:var(--lw-text); background:var(--lw-card); border:1px solid var(--lw-line); border-radius:10px; font:inherit; }
+#lew-app .lw-atlas-toolbar { display:flex; align-items:center; gap:8px; margin-top:16px; }
+#lew-app .lw-atlas-toolbar button { min-width:44px; min-height:44px; }
+#lew-app .lw-atlas-toolbar output { min-width:48px; text-align:center; font-variant-numeric:tabular-nums; }
+#lew-app .lw-atlas-viewport { width:100%; max-width:510px; margin-inline:auto; max-height:510px; overflow:auto; background:white; border:1px solid var(--lw-line); border-radius:12px; overscroll-behavior:contain; }
+#lew-app .lw-atlas-viewport[hidden] { display:none; }
+#lew-app .lw-atlas-stage { position:relative; width:100%; }
+#lew-app .lw-atlas-stage img { display:block; width:100%; max-width:none; height:auto; }
+#lew-app .lw-atlas-pin { position:absolute; transform:translate(-50%,-50%); display:grid; place-items:center; width:44px; height:44px; min-height:44px; padding:0; border:0; background:transparent; border-radius:50%; }
+#lew-app .lw-atlas-pin span { display:grid; place-items:center; width:27px; height:27px; border-radius:50%; background:#154e63; color:white; border:2px solid white; box-shadow:0 2px 8px #0005; font-size:12px; font-weight:800; }
+#lew-app .lw-atlas-pin[aria-pressed=true] span { background:#4338ca; box-shadow:0 0 0 5px #6366f155; }
+#lew-app .lw-atlas-list { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0; }
+#lew-app .lw-atlas-list button { min-height:44px; text-align:left; font-size:12px; }
+#lew-app .lw-atlas-list button[aria-pressed=true] { background:var(--lw-soft); border-color:var(--lw-green); }
+#lew-app .lw-atlas-detail { padding:16px; border-left:3px solid var(--lw-teal); background:var(--lw-card); border-radius:0 10px 10px 0; }
+#lew-app .lw-atlas-detail h4 { margin:8px 0; font-size:18px; }
+#lew-app .lw-atlas-detail p { font-size:14px; line-height:1.6; margin:8px 0; }
+#lew-app .lw-atlas-detail [lang=uk] { border-top:1px solid var(--lw-line); margin-top:12px; padding-top:12px; }
+#lew-app .lw-atlas-credit { font-size:11px; color:var(--lw-muted); overflow-wrap:anywhere; line-height:1.7; }
+@media(max-width:640px) {
+  #lew-app .lw-visual { padding:12px; margin-inline:-6px; }
+  #lew-app .lw-atlas-viewport { max-height:380px; }
+  #lew-app .lw-atlas-list { display:grid; grid-template-columns:1fr; }
 }
