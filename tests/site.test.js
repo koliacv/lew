@@ -18,6 +18,7 @@ test('app loads local data and retains explanation-only Ukrainian support', asyn
     await access(new URL(path, new URL('src/app.js', root)));
   }
   assert.match(app, /lang="uk"/);
-  assert.match(app, /s.mode==='learn'&&s.locked\[id\]/);
-  assert.doesNotMatch(app, /window\.openai|localStorage|sessionStorage/);
+  assert.match(app, /submitAnswer\(s,choice,performance.now\(\)\)/);
+  assert.doesNotMatch(app, /lw-mixed-|lw-flag|lw-play|lw-review-filter|lw-mode/);
+  assert.doesNotMatch(app, /window\.openai|sessionStorage/);
 });

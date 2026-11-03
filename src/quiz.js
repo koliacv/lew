@@ -8,28 +8,96 @@ export function shuffle(items, random = Math.random) {
   return result;
 }
 
-export function createSession(ids, mode, count, now = Date.now(), random = Math.random, previousOrder = '') {
-  if (!['learn', 'test', 'exam'].includes(mode)) throw new Error('Invalid mode');
+// Exhaust unseen questions, then keep a recent portion of the pool out of rotation.
+export function selectQuestions(ids, count, history = {}, random = Math.random) {
+  if (!Number.isInteger(count) || count < 1 || count > ids.length || new Set(ids).size !== ids.length) {
+    throw new Error('Invalid question selection');
+  }
+  const fresh = shuffle(ids.filter(id => !history[id]?.shown), random);
+  if (fresh.length >= count) return shuffle(fresh.slice(0, count), random);
+  const needed = count - fresh.length;
+  const seen = shuffle(ids.filter(id => history[id]?.shown), random)
+    .sort((a, b) => history[b].lastSeen - history[a].lastSeen);
+  // Always leave enough eligible items to fill the requested session.
+  const cooldown = Math.min(seen.length - needed, Math.max(count, Math.floor(ids.length * 0.4)));
+  const ranked = seen.slice(cooldown).sort((a, b) => {
+    const left = history[a], right = history[b];
+    return (left?.shown || 0) - (right?.shown || 0) || (left?.lastSeen || 0) - (right?.lastSeen || 0);
+  });
+  return shuffle([...fresh, ...ranked.slice(0, needed)], random);
+}
+
+export function selectExamQuestions(bank, count = 200, history = {}, random = Math.random) {
+  const groups = [...new Set(bank.map(q => q.topic))].map(topic => bank.filter(q => q.topic === topic).map(q => q.id));
+  if (!groups.length || !Number.isInteger(count) || count < 1 || count % groups.length || groups.some(ids => ids.length < count / groups.length)) throw new Error('Insufficient exam coverage');
+  return shuffle(groups.flatMap(ids => selectQuestions(ids, count / groups.length, history, random)), random);
+}
+
+export const HISTORY_KEY = 'lew-question-history-v1';
+
+export function parseHistory(raw, knownIds) {
+  const allowed = new Set(knownIds);
+  try {
+    const data = JSON.parse(raw);
+    if (data?.version !== 1 || !data.items || typeof data.items !== 'object' || Array.isArray(data.items)) return {};
+    return Object.fromEntries(Object.entries(data.items).filter(([id, value]) =>
+      allowed.has(Number(id)) && String(Number(id)) === id && value &&
+      Number.isSafeInteger(value.shown) && value.shown > 0 && value.shown < Number.MAX_SAFE_INTEGER &&
+      Number.isSafeInteger(value.lastSeen) && value.lastSeen >= 0
+    ).map(([id, value]) => [id, { shown: value.shown, lastSeen: value.lastSeen }]));
+  } catch { return {}; }
+}
+
+export function recordSeen(history, ids, now = Date.now()) {
+  const next = { ...history };
+  const lastSeen = Math.max(now, ...Object.values(history).map(item => item.lastSeen + 1));
+  for (const id of new Set(ids)) next[id] = { shown: (next[id]?.shown || 0) + 1, lastSeen };
+  return next;
+}
+
+export function createSession(ids, mode, count, now = Date.now(), random = Math.random, previousOrder = '', history = {}) {
+  if (!['topic', 'exam'].includes(mode)) throw new Error('Invalid mode');
   if (!Number.isInteger(count) || count < 1 || count > ids.length) throw new Error('Invalid question count');
   if (new Set(ids).size !== ids.length) throw new Error('Duplicate question IDs');
-  const order = shuffle(ids, random).slice(0, count);
+  const order = selectQuestions(ids, count, history, random);
   if (order.length > 1 && order.join(',') === previousOrder) order.push(order.shift());
   return {
     ids: order,
     options: Object.fromEntries(order.map(id => [id, shuffle([0, 1, 2, 3, 4], random)])),
-    answers: {}, locked: {}, flags: {}, index: 0, mode,
-    started: now, deadline: mode === 'learn' ? null : now + count * 72_000,
+    answers: {}, responseTimes: {}, seen: [], index: 0, mode,
+    started: now, questionStarted: now,
     finished: false, elapsed: 0
   };
 }
 
+export const TARGET_RESPONSE_MS = 70_000;
+
+// The clock stops on submission, before the learner reads the explanation.
+export function submitAnswer(session, option, now = Date.now()) {
+  const id = session.ids[session.index];
+  if (session.finished || session.answers[id] !== undefined) return false;
+  if (!Number.isInteger(option) || !session.options[id].includes(option)) throw new Error('Invalid answer');
+  session.answers[id] = option;
+  session.responseTimes[id] = Math.max(0, now - session.questionStarted);
+  return true;
+}
+
+export function nextQuestion(session, now = Date.now()) {
+  if (session.finished || session.answers[session.ids[session.index]] === undefined || session.index >= session.ids.length - 1) return false;
+  session.index++;
+  session.questionStarted = now;
+  return true;
+}
+
 export function summarizeSession(session) {
-  const right = session.ids.filter(id => session.answers[id] === 0).length;
-  const miss = session.ids.filter(id => session.answers[id] !== 0);
-  const blank = session.ids.filter(id => session.answers[id] === undefined).length;
-  const total = session.ids.length;
-  return { right, miss, blank, total, wrong: total - right - blank,
-    pct: Math.round(right / total * 1000) / 10, passed: right / total >= 0.6 };
+  const submitted = session.ids.filter(id => session.answers[id] !== undefined);
+  const right = submitted.filter(id => session.answers[id] === 0).length;
+  const responseTime = submitted.reduce((sum, id) => sum + session.responseTimes[id], 0);
+  return { right, answered: submitted.length, total: session.ids.length,
+    wrong: submitted.length - right, blank: session.ids.length - submitted.length,
+    pct: submitted.length ? Math.round(right / submitted.length * 1000) / 10 : 0,
+    responseTime, averageTime: submitted.length ? responseTime / submitted.length : 0,
+    withinTarget: submitted.filter(id => session.responseTimes[id] <= TARGET_RESPONSE_MS).length };
 }
 
 export function formatDuration(milliseconds) {
@@ -39,7 +107,7 @@ export function formatDuration(milliseconds) {
 }
 
 export function validateBank(bank, sources) {
-  if (!Array.isArray(bank) || bank.length !== 200) throw new Error('Expected 200 questions');
+  if (!Array.isArray(bank) || bank.length < 200) throw new Error('Expected at least 200 questions');
   if (!Array.isArray(sources) || sources.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid sources');
   const ids = new Set(), stems = new Set(), topics = new Map();
   for (const q of bank) {
@@ -53,8 +121,12 @@ export function validateBank(bank, sources) {
     if (!Array.isArray(q.steps) || q.steps.length !== 3 ||
         q.steps.some(s => typeof s !== 'string' || !s.trim())) throw new Error('Invalid memory map');
     if (!Number.isInteger(q.src) || !sources[q.src]) throw new Error('Unknown source');
+    if (q.id > 200 && (typeof q.sourceRef !== 'string' || !q.sourceRef.trim())) throw new Error('Missing source locator');
+    if (q.references !== undefined && (!Array.isArray(q.references) || q.references.some(ref =>
+      typeof ref.title !== 'string' || !ref.title.trim() || typeof ref.url !== 'string' || !/^https:\/\//.test(ref.url)
+    ))) throw new Error('Invalid clinical reference');
     ids.add(q.id); stems.add(q.q); topics.set(q.topic, (topics.get(q.topic) || 0) + 1);
   }
-  if (topics.size !== 10 || [...topics.values()].some(n => n !== 20)) throw new Error('Expected 10 topics with 20 questions each');
+  if (topics.size !== 10 || [...topics.values()].some(n => n < 20)) throw new Error('Expected 10 topics with at least 20 questions each');
   return true;
 }
