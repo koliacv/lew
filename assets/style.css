@@ -343,3 +343,9 @@ body { background: #f4f6fb; }
 #lew-app .lw-scale-points { position:relative; display:flex; justify-content:space-around; gap:8px; }
 #lew-app .lw-scale-points button { border-radius:50%; min-width:52px; min-height:52px; text-align:center; }
 #lew-app .lw-scale-points button[aria-pressed=true] { border:2px solid var(--lw-green); background:var(--lw-soft); }
+
+/* A short, question-specific recall cue is visible with every answer. */
+#lew-app .lw-memory-note { margin:14px 0; padding:16px; border:1px solid var(--lw-teal); border-left:4px solid var(--lw-teal); border-radius:12px; background:var(--lw-soft); }
+#lew-app .lw-memory-note > strong { display:block; font-size:13px; color:var(--lw-text); }
+#lew-app .lw-memory-note p { margin:8px 0; font-size:16px; font-weight:600; line-height:1.6; overflow-wrap:anywhere; }
+#lew-app .lw-memory-note small { display:block; line-height:1.6; }
