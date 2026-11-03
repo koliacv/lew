@@ -1,19 +1,34 @@
 import { ATLAS, selectAtlas } from './atlas-data.js';
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+import { questionIllustration, mountQuestionIllustration, scaleName } from './question-illustration.js';
 export function explanationVisual(question) {
-  const selected = selectAtlas(question);
+  const selected = scaleName(question) ? null : selectAtlas(question);
   return `<section class="lw-visual" aria-labelledby="lw-visual-title">
-    <div class="lw-eyebrow">INTERAKTYWNY ATLAS</div><h3 id="lw-visual-title">Zobacz anatomię</h3>
-    <p class="lw-atlas-intro">${selected ? 'Kontekst anatomiczny do pytania.' : 'Wybierz ilustrację do samodzielnego przeglądania.'} Ilustracje pokazują anatomię, nie rozpoznanie choroby. Dotknij numeru, aby poznać strukturę.</p>
-    <label class="lw-atlas-label" for="lw-atlas-select">Ilustracja</label><select id="lw-atlas-select" class="lw-atlas-select"><option value="">Wybierz z atlasu…</option>${ATLAS.map(a=>`<option value="${a.id}" ${a.id===selected?.id?'selected':''}>${escape(a.title)}</option>`).join('')}</select>
-    <div class="lw-atlas-content"></div></section>`;
+    <div class="lw-eyebrow">ILUSTRACJA DO PYTANIA</div><h3 id="lw-visual-title">Zobacz i zrozum</h3>
+    ${selected ? `<p class="lw-atlas-intro">${escape(selected.title)} — kontekst anatomiczny. Ilustracja przedstawia anatomię, nie obraz choroby tego pacjenta.</p><div class="lw-question-plate" data-atlas="${selected.id}"><div class="lw-atlas-content"></div></div>` : questionIllustration(question)}
+    <details class="lw-atlas-library"><summary>Otwórz atlas medyczny · 13 ilustracji</summary><p class="lw-atlas-intro">Przeglądaj pozostałe ilustracje niezależnie od pytania.</p>
+    <label class="lw-atlas-label" for="lw-atlas-select">Ilustracja w atlasie</label><select id="lw-atlas-select" class="lw-atlas-select"><option value="">Wybierz z atlasu…</option>${ATLAS.map(a=>`<option value="${a.id}">${escape(a.title)}</option>`).join('')}</select>
+    <div class="lw-atlas-content"></div></details></section>`;
 }
-export function mountExplanationVisual(element) {
+export function mountExplanationVisual(element,question) {
   if (!element) return ()=>{};
+  const disposers=[];
+  const plate=element.querySelector('.lw-question-plate');
+  if(plate)disposers.push(mountPlate(plate));
+  const clinical=element.querySelector('.lw-case-illustration');
+  if(clinical&&question)disposers.push(mountQuestionIllustration(clinical,question));
+  const library=element.querySelector('.lw-atlas-library');
+  let mounted=false;
+  const toggle=()=>{if(library.open&&!mounted){disposers.push(mountPlate(library));mounted=true;}};
+  library.addEventListener('toggle',toggle);
+  return()=>{library.removeEventListener('toggle',toggle);disposers.forEach(dispose=>dispose());};
+}
+function mountPlate(element) {
   const select=element.querySelector('select'),content=element.querySelector('.lw-atlas-content');
+  const selectedId=()=>select?.value || element.dataset.atlas;
   let zoom=1;
   function render(){
-    const atlas=ATLAS.find(a=>a.id===select.value);
+    const atlas=ATLAS.find(a=>a.id===selectedId());
     zoom=1;
     if(!atlas){content.innerHTML='';return;}
     const image=new URL(`../assets/atlas/${atlas.id}.png`,import.meta.url).href;
@@ -40,13 +55,13 @@ export function mountExplanationVisual(element) {
       if(!delta)content.querySelector('.lw-atlas-viewport').scrollTo(0,0);
     }
     if(button.hasAttribute('data-point')){
-      const atlas=ATLAS.find(a=>a.id===select.value),index=Number(button.dataset.point),p=atlas.points[index];
+      const atlas=ATLAS.find(a=>a.id===selectedId()),index=Number(button.dataset.point),p=atlas.points[index];
       content.querySelectorAll('[data-point]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.point)===index)));
       content.querySelector('.lw-atlas-detail').innerHTML=`<span class="lw-eyebrow">STRUKTURA ${index+1}</span><h4>${escape(p.pl)}</h4><div class="lw-polish-explanation" lang="pl"><p>${escape(p.description)}</p></div><details class="lw-translation"><summary lang="uk">Пояснення українською</summary><div lang="uk"><strong>${escape(p.ua)}</strong><p>${escape(p.descriptionUa)}</p></div></details>`;
       const viewport=content.querySelector('.lw-atlas-viewport'),stage=content.querySelector('.lw-atlas-stage');
       if(zoom>1)viewport.scrollTo({left:stage.offsetWidth*p.x/100-viewport.clientWidth/2,top:stage.offsetHeight*p.y/100-viewport.clientHeight/2,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     }
   }
-  select.addEventListener('change',render);content.addEventListener('click',clicked);render();
-  return ()=>{select.removeEventListener('change',render);content.removeEventListener('click',clicked);const img=content.querySelector('img');if(img)img.onerror=null;};
+  select?.addEventListener('change',render);content.addEventListener('click',clicked);render();
+  return ()=>{select?.removeEventListener('change',render);content.removeEventListener('click',clicked);const img=content.querySelector('img');if(img)img.onerror=null;};
 }

@@ -20,9 +20,21 @@ test('selection uses the question and correct answer, never distractors or broad
  assert.equal(selectAtlas({q:'Kryteria depresji',topic:'Neurologia',opts:['Czas trwania','Mózg']}),null);
  assert.equal(selectAtlas({}),null);
 });
-test('atlas can be manually selected without inventing a question-specific diagram',()=>{
- const html=explanationVisual({q:'Skala oceny',opts:['II']});
- assert.match(html,/Wybierz ilustrację/);assert.doesNotMatch(html,/data-visual-step|selected/);
- assert.equal((html.match(/<option /g)||[]).length,14);
+test('each question has an open illustration and a separately collapsed atlas',async()=>{
+ const bank=JSON.parse(await readFile(new URL('../data/questions.json',import.meta.url),'utf8'));
+ for(const q of bank){
+  const html=explanationVisual(q);
+  assert.match(html,/lw-question-plate|lw-case-illustration/);
+  assert.match(html,/<details class="lw-atlas-library">/);
+  assert.doesNotMatch(html,/<details[^>]*\bopen(?:[ >])/);
+  assert.equal((html.match(/<option /g)||[]).length,14);
+ }
  assert.equal(typeof mountExplanationVisual(null),'function');
+});
+test('interactive scale examples preserve the authored question and bilingual explanation',async()=>{
+ const {SCALE_EXAMPLES}=await import('../src/scale-examples.js');
+ const bank=JSON.parse(await readFile(new URL('../data/questions.json',import.meta.url),'utf8'));
+ for(const examples of Object.values(SCALE_EXAMPLES))for(const example of examples){
+  assert.ok(bank.some(q=>q.q===example.q&&q.opts[0]===example.label&&q.pl===example.pl&&q.ua===example.ua));
+ }
 });

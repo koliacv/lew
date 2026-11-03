@@ -327,3 +327,19 @@ body { background: #f4f6fb; }
 #lew-app .lw-translation summary { padding:14px 16px; min-height:48px; font-size:14px; color:var(--lw-muted); }
 #lew-app .lw-translation > div[lang=uk] { margin:0; padding:14px 16px; border-top:1px solid var(--lw-line); }
 #lew-app .lw-answer-hint { color:var(--lw-muted); font-size:13px; line-height:1.5; }
+#lew-app .lw-atlas-library { border:1px solid var(--lw-line); border-radius:12px; padding:0 14px 14px; margin-top:24px; }
+#lew-app .lw-atlas-library > summary { min-height:52px; padding:16px 0; }
+#lew-app .lw-atlas-library:not([open]) { padding-bottom:0; }
+#lew-app .lw-clinical-drawing { position:relative; max-width:520px; margin:auto; }
+#lew-app .lw-clinical-drawing svg { display:block; width:100%; height:auto; }
+#lew-app .lw-clinical-point { position:absolute; transform:translate(-50%,-50%); font-size:12px; box-shadow:0 3px 12px #0002; max-width:45%; }
+#lew-app .lw-clinical-point[aria-pressed=true] { background:var(--lw-soft); border-color:var(--lw-green); }
+#lew-app .lw-clinical-keywords { display:flex; flex-wrap:wrap; gap:8px; margin:16px 0; }
+#lew-app .lw-clinical-keywords span { font-size:12px; border:1px solid var(--lw-line); border-radius:20px; padding:6px 12px; }
+#lew-app .lw-clinical-detail > strong { display:block; margin:14px 0; }
+@media(max-width:640px){#lew-app .lw-clinical-point { font-size:10px; padding:7px; } }
+#lew-app .lw-scale-drawing { position:relative; padding:20px 0; }
+#lew-app .lw-scale-drawing svg { position:absolute; inset:0; width:100%; height:100%; }
+#lew-app .lw-scale-points { position:relative; display:flex; justify-content:space-around; gap:8px; }
+#lew-app .lw-scale-points button { border-radius:50%; min-width:52px; min-height:52px; text-align:center; }
+#lew-app .lw-scale-points button[aria-pressed=true] { border:2px solid var(--lw-green); background:var(--lw-soft); }

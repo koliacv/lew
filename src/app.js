@@ -1,4 +1,4 @@
-import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=translations-2';
+import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=illustrations-3';
 import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js';
 
 async function loadJson(url) {
@@ -141,7 +141,7 @@ function renderQuestion(){
     };
     updateClock();tick=setInterval(updateClock,250);
   }else{
-    disposeVisual=mountExplanationVisual(main.querySelector('.lw-visual'));
+    disposeVisual=mountExplanationVisual(main.querySelector('.lw-visual'),q);
     main.querySelector('#lw-next').onclick=()=>{
       if(s.index===s.ids.length-1){finish();return}
       if(nextQuestion(s,performance.now())){renderQuestion();main.scrollIntoView({block:'start'});main.querySelector('h2').focus({preventScroll:true})}

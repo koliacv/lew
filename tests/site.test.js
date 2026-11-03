@@ -8,7 +8,7 @@ test('entrypoint uses local relative assets for the /lew/ Pages subpath', async 
   assert.match(html, /<!doctype html>/i);
   assert.match(html, /<html lang="pl">/);
   assert.match(html, /name="viewport"/);
-  assert.match(html, /type="module" src="\.\/src\/app.js\?v=translations-2"/);
+  assert.match(html, /type="module" src="\.\/src\/app.js\?v=illustrations-3"/);
   for (const [, path] of html.matchAll(/(?:src|href)="(\.\/[^"#]+)"/g)) await access(new URL(path, root));
   assert.doesNotMatch(html, /(?:src|href)="\/(?!\/)/);
 });
