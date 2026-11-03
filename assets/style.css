@@ -319,3 +319,11 @@ body { background: #f4f6fb; }
   #lew-app .lw-atlas-viewport { max-height:380px; }
   #lew-app .lw-atlas-list { display:grid; grid-template-columns:1fr; }
 }
+
+/* Polish first; translations are opt-in for each explanation. */
+#lew-app .lw-polish-explanation { padding:12px 16px; background:var(--lw-bg); border:1px solid var(--lw-line); border-radius:12px; line-height:1.65; }
+#lew-app .lw-polish-explanation p { margin:0; }
+#lew-app details.lw-translation { margin-top:12px; padding:0; border:1px solid var(--lw-line); border-radius:12px; }
+#lew-app .lw-translation summary { padding:14px 16px; min-height:48px; font-size:14px; color:var(--lw-muted); }
+#lew-app .lw-translation > div[lang=uk] { margin:0; padding:14px 16px; border-top:1px solid var(--lw-line); }
+#lew-app .lw-answer-hint { color:var(--lw-muted); font-size:13px; line-height:1.5; }

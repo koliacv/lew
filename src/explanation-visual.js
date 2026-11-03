@@ -5,7 +5,7 @@ export function explanationVisual(question) {
   return `<section class="lw-visual" aria-labelledby="lw-visual-title">
     <div class="lw-eyebrow">INTERAKTYWNY ATLAS</div><h3 id="lw-visual-title">Zobacz anatomię</h3>
     <p class="lw-atlas-intro">${selected ? 'Kontekst anatomiczny do pytania.' : 'Wybierz ilustrację do samodzielnego przeglądania.'} Ilustracje pokazują anatomię, nie rozpoznanie choroby. Dotknij numeru, aby poznać strukturę.</p>
-    <label class="lw-atlas-label" for="lw-atlas-select">Ilustracja</label><select id="lw-atlas-select" class="lw-atlas-select"><option value="">Wybierz z atlasu…</option>${ATLAS.map(a=>`<option value="${a.id}" ${a.id===selected?.id?'selected':''}>${escape(a.title)} / ${escape(a.ua)}</option>`).join('')}</select>
+    <label class="lw-atlas-label" for="lw-atlas-select">Ilustracja</label><select id="lw-atlas-select" class="lw-atlas-select"><option value="">Wybierz z atlasu…</option>${ATLAS.map(a=>`<option value="${a.id}" ${a.id===selected?.id?'selected':''}>${escape(a.title)}</option>`).join('')}</select>
     <div class="lw-atlas-content"></div></section>`;
 }
 export function mountExplanationVisual(element) {
@@ -22,7 +22,7 @@ export function mountExplanationVisual(element) {
       <div class="lw-atlas-viewport" tabindex="0" role="region" aria-label="${escape(atlas.title)} — przewijany obraz"><div class="lw-atlas-stage"><img src="${image}" alt="${escape(atlas.title)} — realistyczna ilustracja anatomiczna" width="${atlas.width}" height="${atlas.height}" loading="lazy" decoding="async">${atlas.points.map((p,i)=>`<button type="button" class="lw-atlas-pin" data-point="${i}" style="left:${p.x}%;top:${p.y}%" aria-label="${i+1}. ${escape(p.pl)}" aria-pressed="false"><span>${i+1}</span></button>`).join('')}</div></div>
       <p class="lw-atlas-error" hidden>Nie udało się wczytać ilustracji. Skorzystaj z odnośnika do oryginału poniżej.</p>
       <div class="lw-atlas-list" role="group" aria-label="Struktury anatomiczne">${atlas.points.map((p,i)=>`<button type="button" data-point="${i}" aria-pressed="false">${i+1}. ${escape(p.pl)}</button>`).join('')}</div>
-      <div class="lw-atlas-detail" aria-live="polite"><strong>Wybierz numer na ilustracji</strong><p lang="uk">Натисніть на позначку, щоб побачити назву й опис.</p></div>
+      <div class="lw-atlas-detail" aria-live="polite"><strong>Wybierz numer na ilustracji</strong><p>Dotknij oznaczenia, aby zobaczyć nazwę i opis.</p></div>
       <p class="lw-atlas-credit">${escape(atlas.author)} · <a href="${atlas.source}" target="_blank" rel="noopener noreferrer">Oryginał</a> · <a href="${atlas.licenseUrl}" target="_blank" rel="noopener noreferrer">${atlas.license}</a><br>Obraz bez zmian; dodano interaktywne oznaczenia PL/UA (CC BY-SA 4.0).</p>`;
     content.querySelector('img').onerror=()=>{content.querySelector('.lw-atlas-error').hidden=false;content.querySelector('.lw-atlas-viewport').hidden=true;};
     updateZoom();
@@ -42,7 +42,7 @@ export function mountExplanationVisual(element) {
     if(button.hasAttribute('data-point')){
       const atlas=ATLAS.find(a=>a.id===select.value),index=Number(button.dataset.point),p=atlas.points[index];
       content.querySelectorAll('[data-point]').forEach(b=>b.setAttribute('aria-pressed',String(Number(b.dataset.point)===index)));
-      content.querySelector('.lw-atlas-detail').innerHTML=`<span class="lw-eyebrow">STRUKTURA ${index+1}</span><h4>${escape(p.pl)}</h4><p>${escape(p.description)}</p><div lang="uk"><strong>${escape(p.ua)}</strong><p>${escape(p.descriptionUa)}</p></div>`;
+      content.querySelector('.lw-atlas-detail').innerHTML=`<span class="lw-eyebrow">STRUKTURA ${index+1}</span><h4>${escape(p.pl)}</h4><div class="lw-polish-explanation" lang="pl"><p>${escape(p.description)}</p></div><details class="lw-translation"><summary lang="uk">Пояснення українською</summary><div lang="uk"><strong>${escape(p.ua)}</strong><p>${escape(p.descriptionUa)}</p></div></details>`;
       const viewport=content.querySelector('.lw-atlas-viewport'),stage=content.querySelector('.lw-atlas-stage');
       if(zoom>1)viewport.scrollTo({left:stage.offsetWidth*p.x/100-viewport.clientWidth/2,top:stage.offsetHeight*p.y/100-viewport.clientHeight/2,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     }
