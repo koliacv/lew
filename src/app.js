@@ -1,4 +1,4 @@
-import { explanationVisual, mountExplanationVisual } from './explanation-visual.js';
+import { explanationVisual, mountExplanationVisual } from './explanation-visual.js?v=atlas-1';
 import { createSession, summarizeSession, formatDuration as clock, validateBank, selectExamQuestions, HISTORY_KEY, parseHistory, recordSeen, submitAnswer, nextQuestion, TARGET_RESPONSE_MS } from './quiz.js';
 
 async function loadJson(url) {
