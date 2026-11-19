@@ -17,4 +17,4 @@ self.addEventListener('fetch',event=>{
  })());
 });
 
-// Build fd48f239bccb094d7409680c78931b4893aa38e184123864831f943a3d36cd8e
+// Build 1faad19563fdd4d5b47ebbceeb8955d20621b2350c5496cfcf333c48fb7733c8
